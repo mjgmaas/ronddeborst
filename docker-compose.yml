@@ -1,0 +1,53 @@
+services:
+    app:
+        build:
+            context: ./vendor/laravel/sail/runtimes/8.4
+            dockerfile: Dockerfile
+            args:
+                WWWGROUP: '${WWWGROUP-1000}'
+        image: sail-8.4/app
+        extra_hosts:
+            - 'host.docker.internal:host-gateway'
+        ports:
+            - '${APP_PORT:-8000}:80'
+        environment:
+            WWWUSER: '${WWWUSER:-1000}'
+            LARAVEL_SAIL: 1
+            XDEBUG_MODE: '${SAIL_XDEBUG_MODE:-off}'
+            XDEBUG_CONFIG: '${SAIL_XDEBUG_CONFIG:-client_host=host.docker.internal}'
+        volumes:
+            - './:/var/www/html/'
+        networks:
+            - sail
+        depends_on:
+            - mailpit
+
+    vite:
+        image: sail-8.4/app
+        extra_hosts:
+            - 'host.docker.internal:host-gateway'
+        ports:
+            - '${VITE_PORT:-5173}:${VITE_PORT:-5173}'
+        environment:
+            VITE_PORT: '${VITE_PORT:-5173}'
+            HMR_HOST: '${HMR_HOST:-host.docker.internal}'
+            WWWUSER: '${WWWUSER:-1000}'
+        working_dir: /var/www/html
+        command: bash -lc "npm ci || npm install && npm run dev -- --host 0.0.0.0 --port ${VITE_PORT:-5173} --strictPort"
+        volumes:
+            - './:/var/www/html/'
+        networks:
+            - sail
+        depends_on:
+            - app
+
+    mailpit:
+        image: 'axllent/mailpit:latest'
+        ports:
+            - '${FORWARD_MAILPIT_PORT:-1025}:1025'
+            - '${FORWARD_MAILPIT_DASHBOARD_PORT:-8025}:8025'
+        networks:
+            - sail
+networks:
+    sail:
+        driver: bridge
