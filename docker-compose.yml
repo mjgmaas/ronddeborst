@@ -1,5 +1,5 @@
 services:
-    app:
+    laravel.test:
         build:
             context: ./vendor/laravel/sail/runtimes/8.4
             dockerfile: Dockerfile
@@ -39,7 +39,7 @@ services:
         networks:
             - sail
         depends_on:
-            - app
+            - laravel.test
 
     mailpit:
         image: 'axllent/mailpit:latest'
