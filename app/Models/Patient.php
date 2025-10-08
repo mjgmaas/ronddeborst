@@ -25,5 +25,6 @@ class Patient extends Model
         'partner_firstname',
         'partner_lastname',
         'partner_phone',
+        'last_viewed_at',
     ];
 }

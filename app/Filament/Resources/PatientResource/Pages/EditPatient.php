@@ -8,4 +8,10 @@ use Filament\Resources\Pages\EditRecord;
 class EditPatient extends EditRecord
 {
     protected static string $resource = PatientResource::class;
+
+    public function mount($record): void
+    {
+        parent::mount($record);
+        $this->record->update(['last_viewed_at' => now()]);
+    }
 }
