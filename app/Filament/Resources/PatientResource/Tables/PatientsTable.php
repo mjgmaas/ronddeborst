@@ -17,9 +17,10 @@ class PatientsTable
                 TextColumn::make('birthdate')
                     ->label('Geboortedatum')
                     ->formatStateUsing(fn ($state) => $state ? \Carbon\Carbon::parse($state)->format('d-m-Y') : null),
-                TextColumn::make('last_viewed_at')
-                    ->label('Laatst bekeken')
-                    ->formatStateUsing(fn ($state) => $state ? \Carbon\Carbon::parse($state)->format('d-m-Y H:i') : null),
+                TextColumn::make('phone')
+                    ->label('Telefoon')
+                    ->url(fn ($record) => $record->phone ? 'tel:' . preg_replace('/[^\d+]/', '', $record->phone) : null, true)
+                    ->openUrlInNewTab(false),
             ])
             ->filters([
                 // Add filters if needed

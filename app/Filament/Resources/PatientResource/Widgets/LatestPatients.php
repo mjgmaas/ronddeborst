@@ -20,7 +20,10 @@ class LatestPatients extends TableWidget
                 TextColumn::make('firstname')->label('Voornaam'),
                 TextColumn::make('lastname')->label('Achternaam'),
                 TextColumn::make('city')->label('Plaats')->visibleFrom('md'),
-                TextColumn::make('phone')->label('Telefoon'),
+                TextColumn::make('phone')
+                    ->label('Telefoon')
+                    ->url(fn ($record) => $record->phone ? 'tel:' . preg_replace('/[^\d+]/', '', $record->phone) : null, true)
+                    ->openUrlInNewTab(false),
                 TextColumn::make('email')->label('E-mailadres'),
             ])
             ->filters([

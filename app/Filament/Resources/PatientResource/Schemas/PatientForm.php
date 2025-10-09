@@ -73,6 +73,12 @@ class PatientForm
                             ->columnSpanFull()
                             ->collapsible()
                             ->collapsed(),
+                        TextInput::make('general_practitioner')
+                            ->label('Huisarts'),
+                        TextInput::make('midwife')
+                            ->label('Verloskundige'),
+                        TextInput::make('maternity_care_provider')
+                            ->label('Kraamzorg'),
                         Textarea::make('notes')
                             ->label('Notities')
                             ->columnSpanFull(),

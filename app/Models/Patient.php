@@ -26,5 +26,8 @@ class Patient extends Model
         'partner_lastname',
         'partner_phone',
         'last_viewed_at',
+        'general_practitioner',
+        'midwife',
+        'maternity_care_provider',
     ];
 }
