@@ -30,4 +30,9 @@ class Patient extends Model
         'midwife',
         'maternity_care_provider',
     ];
+
+    public function pregnancies()
+    {
+        return $this->hasMany(Pregnancy::class);
+    }
 }

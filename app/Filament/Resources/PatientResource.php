@@ -9,6 +9,7 @@ use Filament\Schemas\Schema;
 use Filament\Tables\Table;
 use App\Filament\Resources\PatientResource\Schemas\PatientForm;
 use App\Filament\Resources\PatientResource\Tables\PatientsTable;
+use App\Filament\Resources\PatientResource\RelationManagers\PregnanciesRelationManager;
 use BackedEnum;
 use Filament\Support\Icons\Heroicon;
 

@@ -6,7 +6,14 @@ use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Schemas\Components\Section;
+use Filament\Forms\Components\Tabs;
+use Filament\Forms\Components\Tab;
+use App\Filament\Resources\Pregnancies\Schemas\PregnancyForm;
 use Filament\Schemas\Schema;
+use Filament\Tables\Table;
+use App\Filament\Resources\Pregnancies\Tables\PregnanciesTable;
+use App\Models\Pregnancy;
+use Filament\Forms\Form;
 
 class PatientForm
 {
@@ -25,7 +32,6 @@ class PatientForm
                         TextInput::make('street')
                             ->label('Straat')
                             ->required(),
-                        // Housenumber and suffix side by side in right column, no border or padding
                         Section::make()
                             ->schema([
                                 TextInput::make('housenumber')
@@ -39,7 +45,6 @@ class PatientForm
                             ->columns(2)
                             ->contained(false)
                             ->compact(),
-                        // ...existing code...
                         TextInput::make('postal_code')
                             ->label('Postcode')
                             ->required(),
