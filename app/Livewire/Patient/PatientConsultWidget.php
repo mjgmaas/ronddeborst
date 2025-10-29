@@ -60,6 +60,10 @@ class PatientConsultWidget extends Widget implements HasForms
                             ->required()
                             ->reactive()
                             ->afterStateUpdated(fn($state) => $this->autoSave('type', $state)),
+                        \Filament\Forms\Components\Toggle::make('is_invoicable')
+                            ->label('Factureerbaar')
+                            ->reactive()
+                            ->afterStateUpdated(fn($state) => $this->autoSave('is_invoicable', $state)),
                         Textarea::make('notes')
                             ->label('Notes')
                             ->rows(3)
@@ -77,6 +81,7 @@ class PatientConsultWidget extends Widget implements HasForms
     {
         $this->consult->update([$field => $value]);
         $this->dispatch('saved', message: 'Saved');
+        $this->dispatch('consultUpdated');
     }
 
     protected function getFormModel(): Consult

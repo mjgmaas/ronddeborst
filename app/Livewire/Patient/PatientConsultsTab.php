@@ -24,7 +24,7 @@ class PatientConsultsTab extends Component
     public $showDuplicateWarning = false;
     public $pendingForm = null;
 
-    protected $listeners = ['consultCreated' => 'refreshConsults'];
+    protected $listeners = ['consultCreated' => 'refreshConsults', 'consultUpdated' => 'refreshConsults'];
 
     public function mount(Patient $patient)
     {

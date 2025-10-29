@@ -15,6 +15,7 @@ class Consult extends Model
         'duration',
         'type',
         'notes',
+        'is_invoicable',
         'patient_id',
         'user_id',
     ];
@@ -22,6 +23,7 @@ class Consult extends Model
     protected $casts = [
         'consulted_at' => 'datetime',
         'type' => ConsultType::class,
+        'is_invoicable' => 'boolean',
     ];
 
     public function patient()

@@ -38,6 +38,8 @@ class ConsultForm
                     ->label('Type')
                     ->options(collect(ConsultType::cases())->mapWithKeys(fn($case) => [$case->value => $case->label()]))
                     ->required(),
+                \Filament\Forms\Components\Toggle::make('is_invoicable')
+                    ->label('Factureerbaar'),
                 Textarea::make('notes')
                     ->label('Notes')
                     ->rows(3),
