@@ -35,4 +35,9 @@ class Patient extends Model
     {
         return $this->hasMany(Pregnancy::class);
     }
+
+    public function consults()
+    {
+        return $this->hasMany(Consult::class);
+    }
 }

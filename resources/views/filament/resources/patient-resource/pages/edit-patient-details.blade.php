@@ -26,6 +26,16 @@
             >
                 Zwangerschap
             </button>
+            <button
+                type="button"
+                class="px-4 py-2 rounded-t-lg border-b-2 focus:outline-none transition"
+                :class="tab === 'consults'
+                    ? 'border-primary-600 text-primary-600 bg-white font-bold'
+                    : 'border-transparent text-gray-500 bg-gray-50 hover:text-primary-600 hover:bg-white'"
+                @click="tab = 'consults'"
+            >
+                Consults
+            </button>
         </div>
             <div class="p-8">
                 <div x-show="tab === 'patient'">
@@ -33,6 +43,9 @@
                 </div>
                 <div x-show="tab === 'pregnancy'">
                     <livewire:patient.patient-pregnancy-widget :pregnancy="$pregnancy" />
+                </div>
+                <div x-show="tab === 'consults'">
+                    <livewire:patient.patient-consults-tab :patient="$patient" />
                 </div>
             </div>
     </div>
