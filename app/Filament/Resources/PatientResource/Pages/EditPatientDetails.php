@@ -39,8 +39,11 @@ class EditPatientDetails extends Page implements HasForms
     public function mount(Patient $record): void
     {
         $this->patient = $record;
-        $this->pregnancy = $record->pregnancies()->latest()->first();
-    // $this->consults = $record->consults()->get();
+        $pregnancy = $record->pregnancies()->latest()->first();
+        if (!$pregnancy) {
+            $pregnancy = $record->pregnancies()->create();
+        }
+        $this->pregnancy = $pregnancy;
     }
 
     public static function shouldRegisterNavigation(array $parameters = []): bool
