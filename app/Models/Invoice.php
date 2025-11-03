@@ -6,12 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Invoice extends Model
 {
+    // 'invoice_number' is the unique title/identifier for the invoice
     protected $fillable = [
         'created_by',
         'patient_id',
         'send_to',
         'send_at',
         'is_payed',
+        'invoice_number',
     ];
 
     protected $casts = [

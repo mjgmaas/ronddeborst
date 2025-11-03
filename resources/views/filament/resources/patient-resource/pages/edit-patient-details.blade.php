@@ -1,4 +1,3 @@
-
 @vite(['resources/css/app.css', 'resources/js/app.js'])
 <div class="border-b-2 rounded-xl mt-4 bg-white shadow-lg">
     <div class="mt-8 mb-6 ml-10 pl-10">

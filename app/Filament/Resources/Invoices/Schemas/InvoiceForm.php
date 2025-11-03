@@ -10,6 +10,9 @@ class InvoiceForm
     {
         return $schema
             ->components([
+                \Filament\Forms\Components\TextInput::make('invoice_number')
+                    ->label('Factuurnummer')
+                    ->readOnly(),
                 \Filament\Forms\Components\Select::make('created_by')
                     ->relationship('user', 'name')
                     ->required(),
@@ -23,6 +26,14 @@ class InvoiceForm
                     ->required(),
                 \Filament\Forms\Components\DateTimePicker::make('send_at'),
                 \Filament\Forms\Components\Toggle::make('is_payed'),
+                \Filament\Forms\Components\Select::make('vat')
+                    ->label('BTW')
+                    ->options([
+                        \App\Enums\VatType::No->value => 'Vrijgesteld van btw',
+                        \App\Enums\VatType::Low->value => 'Laag tarief',
+                        \App\Enums\VatType::High->value => 'Hoog tarief',
+                    ])
+                    ->default(\App\Enums\VatType::No->value),
             ]);
     }
 }

@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
+use App\Enums\VatType;
+
 class InvoiceLine extends Model
 {
     protected $fillable = [
@@ -12,6 +14,10 @@ class InvoiceLine extends Model
         'price',
         'vat',
         'line_text',
+    ];
+
+    protected $casts = [
+        'vat' => VatType::class,
     ];
 
     public function invoice()

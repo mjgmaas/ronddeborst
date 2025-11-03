@@ -10,6 +10,10 @@ use App\Models\User;
 
 class Consult extends Model
 {
+    public function invoiceLine()
+    {
+        return $this->hasOne(\App\Models\InvoiceLine::class, 'consult_id');
+    }
     protected $fillable = [
         'consulted_at',
         'duration',

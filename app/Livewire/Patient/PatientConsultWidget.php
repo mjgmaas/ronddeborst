@@ -39,10 +39,12 @@ class PatientConsultWidget extends Widget implements HasForms
             $title .= $this->consult->consulted_at->format('d-m-Y H:i') . ' - ';
         }
         $title .= $this->consult->type?->label() ?? '';
+        $isLinkedToInvoice = $this->consult->invoiceLine && $this->consult->invoiceLine->invoice;
+        $invoiceNumber = $isLinkedToInvoice ? ($this->consult->invoiceLine->invoice->invoice_number ?? $this->consult->invoiceLine->invoice->id) : null;
         return $schema
             ->components([
                 Section::make($title)
-                    ->schema([
+                    ->schema(array_filter([
                         DateTimePicker::make('consulted_at')
                             ->label('Consulted at')
                             ->required()
@@ -60,16 +62,21 @@ class PatientConsultWidget extends Widget implements HasForms
                             ->required()
                             ->reactive()
                             ->afterStateUpdated(fn($state) => $this->autoSave('type', $state)),
-                        \Filament\Forms\Components\Toggle::make('is_invoicable')
-                            ->label('Factureerbaar')
-                            ->reactive()
-                            ->afterStateUpdated(fn($state) => $this->autoSave('is_invoicable', $state)),
                         Textarea::make('notes')
                             ->label('Notes')
                             ->rows(3)
                             ->reactive()
                             ->afterStateUpdated(fn($state) => $this->autoSave('notes', $state)),
-                    ])
+                        !$isLinkedToInvoice ? (
+                            \Filament\Forms\Components\Toggle::make('is_invoicable')
+                                ->label('Factureerbaar')
+                                ->reactive()
+                                ->afterStateUpdated(fn($state) => $this->autoSave('is_invoicable', $state))
+                        ) : null,
+                        $isLinkedToInvoice ? \Filament\Forms\Components\Placeholder::make('invoice_number')
+                            ->label('Factuurnummer')
+                            ->content($invoiceNumber) : null,
+                    ]))
                     ->collapsible()
                     ->collapsed(!$this->expanded)
                     ->columns(2),

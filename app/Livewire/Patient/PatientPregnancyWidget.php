@@ -85,10 +85,6 @@ class PatientPregnancyWidget extends Widget implements HasForms
                             ->reactive()
                             ->afterStateUpdated(fn($state) => $this->autoSave('remarks', $state)),
 
-                        Toggle::make('is_current')
-                            ->label('Huidige zwangerschap')
-                            ->reactive()
-                            ->afterStateUpdated(fn($state) => $this->autoSave('is_current', $state)),
                     ])
                     ->columns(2),
             ])

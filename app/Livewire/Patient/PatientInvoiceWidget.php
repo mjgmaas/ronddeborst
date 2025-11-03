@@ -5,7 +5,7 @@ namespace App\Livewire\Patient;
 use Livewire\Component;
 use App\Models\Invoice;
 
-class InvoiceWidget extends Component
+class PatientInvoiceWidget extends Component
 {
     public Invoice $invoice;
 
@@ -16,8 +16,6 @@ class InvoiceWidget extends Component
 
     public function render()
     {
-        return view('livewire.patient.invoice-widget', [
-            'invoice' => $this->invoice,
-        ]);
+        return view('livewire.patient.patient-invoice-widget');
     }
 }

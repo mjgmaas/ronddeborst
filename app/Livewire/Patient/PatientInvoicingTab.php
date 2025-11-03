@@ -2,8 +2,10 @@
 
 namespace App\Livewire\Patient;
 
+
 use Livewire\Component;
 use App\Models\Patient;
+use App\Support\ConsultPrice;
 
 
 class PatientInvoicingTab extends Component
@@ -43,12 +45,22 @@ class PatientInvoicingTab extends Component
             return;
         }
 
+        // Generate invoice_number: YYMMNN
+        $now = now();
+        $year = $now->format('y');
+        $month = $now->format('m');
+        $count = \App\Models\Invoice::whereYear('created_at', $now->year)
+            ->whereMonth('created_at', $now->month)
+            ->count() + 1;
+        $number = str_pad($count, 2, '0', STR_PAD_LEFT);
+        $invoiceNumber = $year . $month . $number;
+
         $invoice = \App\Models\Invoice::create([
             'created_by' => $user->id,
             'patient_id' => $this->patient->id,
             'send_to' => $this->patient->email ?? '',
-            'send_at' => now(),
             'is_payed' => false,
+            'invoice_number' => $invoiceNumber,
         ]);
 
         $consults = \App\Models\Consult::whereIn('id', $this->selectedConsults)->get();
@@ -56,7 +68,7 @@ class PatientInvoicingTab extends Component
             \App\Models\InvoiceLine::create([
                 'invoice_id' => $invoice->id,
                 'consult_id' => $consult->id,
-                'price' => 0,
+                'price' => ConsultPrice::forType($consult->type),
                 'vat' => 'no',
                 'line_text' => $consult->type?->label() . ' op ' . $consult->consulted_at?->format('d-m-Y'),
             ]);
