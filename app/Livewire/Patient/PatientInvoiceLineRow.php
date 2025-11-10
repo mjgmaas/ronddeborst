@@ -19,6 +19,7 @@ class PatientInvoiceLineRow extends Component
 
     public function mount(InvoiceLine $line)
     {
+        $this->line = $line;
         $this->editText = $line->line_text;
         $this->editPrice = $line->price;
     }
