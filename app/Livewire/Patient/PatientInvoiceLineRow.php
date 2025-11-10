@@ -23,7 +23,7 @@ class PatientInvoiceLineRow extends Component
         $this->editPrice = $line->price;
     }
 
-    public function startEdit()
+    public function startInlineRowEdit()
     {
         $this->editing = true;
     }
@@ -56,6 +56,6 @@ class PatientInvoiceLineRow extends Component
 
     public function render()
     {
-        return view('livewire.components.patient-invoice-line-row');
+        return view('livewire.patient.patient-invoice-line-row');
     }
 }

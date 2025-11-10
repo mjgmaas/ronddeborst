@@ -3,7 +3,7 @@
     if ($line->vat instanceof \App\Enums\VatType) {
         $vatLabel = $line->vat->label();
     } elseif ($line->vat === 'no') {
-        $vatLabel = 'Vrijgesteld van btw';
+        $vatLabel = 'Vrijgesteld';
     } else {
         $vatLabel = ucfirst($line->vat);
     }
@@ -15,7 +15,7 @@
         <td class="px-4 py-2 border-b text-left">€ {{ number_format($line->price, 2, ',', '.') }}</td>
         <td class="px-4 py-2 border-b text-left">{{ $vatLabel }}</td>
         <td class="px-4 py-2 border-b text-left">
-            <button wire:click="startEdit" class="text-blue-600 hover:text-blue-800" title="Bewerk regel">
+            <button wire:click="startInlineRowEdit" class="text-blue-600 hover:text-blue-800" title="Bewerk regel">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536M9 13h3l8-8a2.828 2.828 0 00-4-4l-8 8v3z" /></svg>
             </button>
         </td>

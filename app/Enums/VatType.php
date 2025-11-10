@@ -12,7 +12,7 @@ enum VatType: string
     public function label(): string
     {
         return match($this) {
-            self::No => 'Vrijgesteld van btw',
+            self::No => 'Vrijgesteld',
             self::Low => 'Laag tarief',
             self::High => 'Hoog tarief',
         };
