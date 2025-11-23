@@ -12,18 +12,20 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
-    server: {
-        host: true, // 0.0.0.0 inside container
-        port: Number(process.env.VITE_PORT) || 5173,
-        strictPort: true,
-        cors: true,
-        hmr: {
-            host: process.env.HMR_HOST || 'host.docker.internal',
+    ...(process.env.NODE_ENV === 'development' ? {
+        server: {
+            host: true, // 0.0.0.0 inside container
             port: Number(process.env.VITE_PORT) || 5173,
-            protocol: 'ws',
-        },
-        watch: {
-            usePolling: true,
-        },
-    },
+            strictPort: true,
+            cors: true,
+            hmr: {
+                host: process.env.VITE_HMR_HOST || 'host.docker.internal',
+                port: Number(process.env.VITE_PORT) || 5173,
+                protocol: 'ws',
+            },
+            watch: {
+                usePolling: true,
+            },
+        }
+    } : {})
 });
