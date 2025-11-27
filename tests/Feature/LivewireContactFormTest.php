@@ -50,3 +50,19 @@ it('submits Livewire form and only sends confirmation when recipient is not conf
         return $mail->hasTo('john@example.com');
     });
 });
+
+it('validates input for Livewire contact form', function () {
+    Livewire::test(ContactForm::class)
+        ->set('name', '')
+        ->set('email', '')
+        ->set('remarks', '')
+        ->call('submit')
+        ->assertHasErrors(['name' => 'required', 'email' => 'required', 'remarks' => 'required']);
+
+    Livewire::test(ContactForm::class)
+        ->set('name', 'Test User')
+        ->set('email', 'not-an-email')
+        ->set('remarks', 'Test')
+        ->call('submit')
+        ->assertHasErrors(['email' => 'email']);
+});
