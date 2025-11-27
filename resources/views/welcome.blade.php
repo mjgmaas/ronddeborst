@@ -22,7 +22,7 @@
                 <div class="w-full md:w-[600px] bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Chantal Mulkens</h2>
                     <p class="text-chantal leading-relaxed mb-6">
-                        Als lactatiekundige begeleid ik (Chantal Mulkens) ouders in de bijzondere periode van voeding, hechting en groei. Of het nu gaat om de eerste weken na de bevalling, terugkerende vragen over borstvoeding of onzekerheid bij het combineren van werk en voeden – je hoeft het niet alleen te doen. Met aandacht, deskundigheid en respect voor jouw situatie zoeken we samen naar wat werkt voor jou, je baby en jullie gezin. Naast individuele consulten bied ik ook Centering Feeding aan: een workshopreeks tijdens de zwangerschap die helpt om je voor te bereiden op een ontspannen start met borstvoeding.
+                        Als lactatiekundige begeleid ik ouders in de bijzondere periode van voeding, hechting en groei. Of het nu gaat om de eerste weken na de bevalling, terugkerende vragen over borstvoeding of onzekerheid bij het combineren van werk en voeden – je hoeft het niet alleen te doen. Met aandacht, deskundigheid en respect voor jouw situatie zoeken we samen naar wat werkt voor jou, je baby en jullie gezin. Naast individuele consulten bied ik ook Centering Feeding aan: een workshopreeks tijdens de zwangerschap die helpt om je voor te bereiden op een ontspannen start met borstvoeding.
                     </p>
                     <a href="{{ url('/over-mij') }}"
                         class="inline-block text-white px-6 py-3 rounded-full transition"
@@ -40,9 +40,16 @@
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-4 md:px-0">
                 <div class="w-full md:w-[600px] bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Centering feeding</h2>
-                    <p class="text-chantal leading-relaxed mb-6">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut ornare metus. Suspendisse rutrum consectetur quam, at cursus leo cursus et. Maecenas facilisis egestas felis, non auctor mauris fermentum quis. Etiam odio nunc, fringilla nec justo sit amet, volutpat convallis risus. Nulla facilisi.
+                    <p class="text-chantal leading-relaxed mb-2">
+                        In kleine groepen ouders bespreken we thema’s rondom voeding, hechting en ouder-zijn.
+                        Iedereen brengt eigen ervaringen in, waardoor er herkenning en steun ontstaat. Je leert
+                        niet alleen van mij, maar vooral ook van elkaar.
                     </p>
+                    <ul class="cf-list">
+                        <li>Kleine groep ouders met baby’s van vergelijkbare leeftijd</li>
+                        <li>Thema’s zoals groei, slaap, borstvoeding, zelfvertrouwen</li>
+                        <li>Begeleid door lactatiekundige</li>
+                    </ul>
                     <a href="{{ url('/centering-feeding') }}"
                         class="inline-block text-white px-6 py-3 rounded-full transition"
                         style="background-color: #295331;">

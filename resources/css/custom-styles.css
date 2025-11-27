@@ -125,16 +125,10 @@ margin: 0 auto;
     max-width: 1920px;
 }
 
-
-
 .max-500{
     max-width: 500px;
     margin: 0 auto;
 }
-
-
-
-
 
 .max-1420{
     max-width: 1200px;
@@ -406,3 +400,12 @@ a[class*="px-"][class*="py-"][class*="rounded"]:hover {
   padding-left: 0;
 }
 
+/* Centering Feeding custom list style */
+.cf-list {
+  padding-left: 2em;
+  padding-top: 0;
+  margin-bottom: 1em;
+}
+.cf-list li {
+  border-bottom: none;
+}
