@@ -1,0 +1,411 @@
+/* Custom designer styles migrated from stylesheet.css (original: rond-de-borst-v2-27-11-25/stylesheet.css) */
+
+body{
+    --color-beige-100: rgb(185, 125, 103, 1);
+    --color-beige-15: rgb(185, 125, 103, 0.15);
+    --color-green-100: rgb(41, 83, 49, 1);
+    --color-green-15: rgb(41, 83, 49, 0.15);
+    background-color: #FAFAFA;
+    font-family: "Lato", sans-serif;
+}
+
+.max-1440{
+  max-width: 1440px;
+}
+
+ul{
+  list-style-type: disc;
+  font-weight: 400;
+  color: #606074;
+}
+
+li{
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid #3332;
+}
+
+.logo-ronddeborst{
+position: absolute;
+bottom: -60px;
+top: 20px;
+left: 0px;
+right: 0px;
+z-index: 999!important;
+height: 150px;
+z-index: 1;
+width: 150px;
+background: none;
+pointer-events: none;
+margin: 0 auto;
+}
+
+@media (max-width: 980px){
+
+.logo-ronddeborst{
+  top: 100px;
+  width: 125px;
+  height: 125px;
+}
+
+}
+
+@media (max-width: 480px){
+
+
+
+.logo-split{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start!important;
+  text-align: left;
+  align-content: start;
+}
+
+.logo-split h1{
+  font-size: 30px!important;
+  margin-bottom: -20px!important;
+}
+}
+
+#contact a{
+  background: #E9EDEA;
+}
+
+#contact{
+  position: relative;
+}
+
+#contact .shadow-sm{
+  z-index: 5;
+  position: relative;
+}
+
+#contact:before{
+  content: '';
+  z-index: 0;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 200px;
+  background: #C0D0C7;
+}
+
+.padding-20{
+  padding: 20px;
+}
+
+.logo-split h1{
+  font-size: 60px;
+  line-height: 1;
+  font-family: 'Sansita';
+  font-weight: 700;
+  margin: 0px;
+  color: var(--color-green-100);
+}
+
+.logo-split p{
+  margin-top: 10px;
+  color: var(--color-green-100);
+}
+
+.logo-split{
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.max-1920{
+    max-width: 1920px;
+}
+
+.max-500{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.max-1420{
+    max-width: 1200px;
+}
+
+html{
+     background-color: #FAFAFA;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    padding: 20px;
+    background-color: #fafafa;
+    display: block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    z-index: 999;
+    width: 100%;
+    max-width: 100%;
+}
+
+.nav a:link,
+.nav a:visited {
+  color: inherit;       /* of kies je kleur */
+  text-decoration: none; /* geen underline */
+}
+
+.nav a:hover,
+.nav a:active {
+  text-decoration: underline; /* Of wat je maar wilt */
+}
+
+.nav .inner{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.nav img {
+  position: absolute;
+  top: 20px;          /* of waar je ’m wilt */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+}
+
+h1{
+  font-family: 'Sansita';
+}
+
+h2{
+    font-family: 'Sansita';
+}
+
+
+.nav .inner .left{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .inner .branding{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--color-beige-100);
+}
+
+.nav .inner .right{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav h3{
+    line-height: 1;
+    margin: 0px;
+}
+
+@media (max-width: 900px){
+
+.nav .inner .right{
+    display: none;
+}
+
+}
+
+.nav .title-logo{
+    font-size: 30px;
+    font-family: 'Sansita';
+}
+
+.nav .menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.nav li{
+    list-style: none;
+    line-height: 1;
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(185, 125, 103, 0.15);
+    color: var(--color-beige-100);
+}
+
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav .whatsapp{
+    padding-left: 30px;
+}
+
+.nav .whatsapp li{
+    background-color: var(--color-green-15);
+    color: var(--color-green-100);
+}
+
+
+.max-1000{
+    max-width: 1000px;
+}
+
+.margin-0{
+    margin: 0 auto;
+}
+
+/* Verberg logo als mobiele menu open is (dus NIET hidden) */
+header:has(#mobile-menu:not(.hidden)) .logo-ronddeborst {
+  display: none;
+}
+
+
+.padding-50{
+    padding: 50px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+}
+
+h3{
+    font-size: 30px;
+    font-family: 'Sansita';
+    color: var(--color-beige-100);
+    font-weight: 500;
+    margin: 0px;
+}
+
+button.primary{
+    padding: 12.5px;
+    font-family: "Lato", sans-serif;
+    border: 0px solid;
+    border-radius: 200px;
+    font-size: 16px;
+    color: #fff;
+    background-color: var(--color-beige-100);
+    cursor: pointer;
+}
+
+/* Page content */
+
+.section-img-content{
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.section-img-content .inner{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.text-chantal{
+    color: #606074;
+    font-weight: 400;
+}
+
+.nav-item-chantal{
+    background: #E9EDEA;
+}
+
+.margin-0{
+    margin: 0 auto;
+}
+
+.section-img-content .content{
+    padding: 50px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+/*
+.first-content{
+    margin-top: -250px;
+}
+*/
+
+.background-green{
+    background: #EAEEEB;
+}
+
+.background-green h3{
+    color: var(--color-green-100);
+}
+
+.background-green button{
+    background: var(--color-green-100);
+}
+
+.section-img-content.img-content .inner{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+
+.section-img-content.img-content .inner > *:first-child {
+  order: 2; /* gaat naar rechts */
+}
+
+.section-img-content.img-content .inner > *:last-child {
+  order: 1; /* gaat naar links */
+}
+
+.text-center{
+    text-align: center;
+}
+
+.width-100{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+a.button,
+a[class*="px-"][class*="py-"][class*="rounded"] {
+  transition: all .25s ease-in-out;
+}
+
+a.button:hover,
+a[class*="px-"][class*="py-"][class*="rounded"]:hover {
+  filter: brightness(0.9);
+  transform: translateY(-2px);
+}
+
+/* Hide bullets for lists with .no-bullets class */
+.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Centering Feeding custom list style */
+.cf-list {
+  padding-left: 2em;
+  padding-top: 0;
+  margin-bottom: 1em;
+}
+.cf-list li {
+  border-bottom: none;
+}

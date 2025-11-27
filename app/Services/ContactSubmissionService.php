@@ -1,24 +1,16 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Services;
 
-use App\Http\Requests\ContactFormRequest;
-use App\Mail\ContactSubmissionReceived;
 use App\Mail\ContactSubmissionConfirmation;
+use App\Mail\ContactSubmissionReceived;
 use App\Models\ContactSubmission;
 use Illuminate\Support\Facades\Mail;
 
-class ContactController extends Controller
+class ContactSubmissionService
 {
-    public function show()
+    public function handle(array $validated): ContactSubmission
     {
-        return view('contact');
-    }
-
-    public function submit(ContactFormRequest $request)
-    {
-        $validated = $request->validated();
-
         $submission = ContactSubmission::create([
             'name' => $validated['name'],
             'email' => $validated['email'],
@@ -29,14 +21,14 @@ class ContactController extends Controller
         ]);
 
         $recipient = config('contact.recipient');
-        if (! empty($recipient)) {
+        if (!empty($recipient)) {
             Mail::to($recipient)->send(new ContactSubmissionReceived($submission));
         }
 
-        if (! empty($submission->email)) {
+        if (!empty($submission->email)) {
             Mail::to($submission->email)->send(new ContactSubmissionConfirmation($submission));
         }
 
-        return redirect()->route('contact.show')->with('status', 'Bedankt! Jouw bericht is verstuurd.');
+        return $submission;
     }
 }
