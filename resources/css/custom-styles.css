@@ -195,7 +195,7 @@ h1{
 }
 
 h2{
-     font-family: 'Sansita';
+    font-family: 'Sansita';
 }
 
 
@@ -398,5 +398,11 @@ a.button:hover,
 a[class*="px-"][class*="py-"][class*="rounded"]:hover {
   filter: brightness(0.9);
   transform: translateY(-2px);
+}
+
+/* Hide bullets for lists with .no-bullets class */
+.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
 }
 

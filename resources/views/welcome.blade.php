@@ -63,7 +63,7 @@
                         Borstvoeding verloopt niet altijd vanzelf. Soms heb je vragen, twijfels of praktische hulp nodig om verder te kunnen. Je kunt bij mij terecht tijdens de zwangerschap, in de kraamtijd of op elk moment daarna.
                     </p>
                     <h2 class="text-chantal leading-relaxed mb-3">Hulp bij:</h2>
-                    <ul class="mb-6">
+                    <ul class="mb-6 no-bullets">
                         <li>Moeite met aanleggen of pijn tijdens het voeden</li>
                         <li>Stuwing, tepelkloven of (beginnende) borstontsteking</li>
                         <li>Te weinig of juist te veel melk</li>
