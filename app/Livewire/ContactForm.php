@@ -10,6 +10,7 @@ class ContactForm extends Component
     public $email = '';
     public $phone = '';
     public $remarks = '';
+    public $status = null;
 
     protected $rules = [
         'name' => 'required|string|max:255',
@@ -20,12 +21,9 @@ class ContactForm extends Component
 
     public function submit()
     {
-        $this->validate();
-
-        // Here you can handle the form submission, e.g. send mail or save to DB
-        // For now, just show a success message
-        session()->flash('status', 'Bedankt voor je bericht! We nemen zo snel mogelijk contact op.');
-
+        $validated = $this->validate();
+        app(\App\Services\ContactSubmissionService::class)->handle($validated);
+        $this->status = 'Bedankt! Jouw bericht is verstuurd.';
         $this->reset(['name', 'email', 'phone', 'remarks']);
     }
 

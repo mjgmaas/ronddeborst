@@ -2,7 +2,11 @@
 <section id="contact" class="py-20" style="background-color:#F7F7F7;">
     <div class="max-w-[1000px] mx-auto px-4">
         <div class="bg-white rounded-2xl shadow-sm px-6 md:px-12 py-12 md:py-16">
-            @if (session('status'))
+            @if ($status ?? false)
+                <div class="mb-4 rounded-lg bg-green-50 text-green-800 px-4 py-3 text-center">
+                    {{ $status }}
+                </div>
+            @elseif (session('status'))
                 <div class="mb-4 rounded-lg bg-green-50 text-green-800 px-4 py-3 text-center">
                     {{ session('status') }}
                 </div>

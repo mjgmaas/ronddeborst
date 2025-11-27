@@ -18,25 +18,7 @@ class ContactController extends Controller
     public function submit(ContactFormRequest $request)
     {
         $validated = $request->validated();
-
-        $submission = ContactSubmission::create([
-            'name' => $validated['name'],
-            'email' => $validated['email'],
-            'phone' => $validated['phone'] ?? null,
-            'remarks' => $validated['remarks'],
-            'ip_address' => (string) ($_SERVER['REMOTE_ADDR'] ?? ''),
-            'submitted_at' => now(),
-        ]);
-
-        $recipient = config('contact.recipient');
-        if (! empty($recipient)) {
-            Mail::to($recipient)->send(new ContactSubmissionReceived($submission));
-        }
-
-        if (! empty($submission->email)) {
-            Mail::to($submission->email)->send(new ContactSubmissionConfirmation($submission));
-        }
-
+        app(\App\Services\ContactSubmissionService::class)->handle($validated);
         return redirect()->route('contact.show')->with('status', 'Bedankt! Jouw bericht is verstuurd.');
     }
 }
