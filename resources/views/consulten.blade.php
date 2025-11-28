@@ -18,8 +18,8 @@
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
                 <div class="w-full md:w-[600px] bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Consulten</h2>
-                    <p class="text-chantal leading-relaxed mb-6">Chantal Mulkens is een ervaren verloskundige en gecertificeerd lactatiedeskundige. Met haar brede kennis en warme, persoonlijke benadering begeleidt zij (aanstaande) ouders in een van de meest bijzondere periodes van hun leven. Van zwangerschap en bevalling tot de eerste periode met de baby en de borstvoeding: Chantal biedt deskundig advies, praktische tips en een luisterend oor. Haar doel is om ouders te ondersteunen bij het maken van keuzes die bij hén passen, zodat zij met vertrouwen en rust kunnen genieten van deze bijzondere tijd.</p>
-                    <a href="{{ url('/consulten-aanbod') }}" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Soorten consulten Rond de Borst</a>
+                    <p class="text-chantal leading-relaxed mb-6">Iedere situatie is anders. Daarom bied ik verschillende vormen van begeleiding aan – altijd met aandacht, kennis en tijd voor jouw verhaal. Samen zoeken we naar wat werkt voor jou, je baby en jullie gezin.</p>
+                    <a href="{{ url('/consulten-aanbod') }}" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Aanbod consulten</a>
                 </div>
                 <div class="w-full md:w-[400px] h-full overflow-hidden">
                     <img src="{{ asset('assets/chantal-overhandigd-boekje.png') }}" class="w-full h-full object-cover object-center" alt="">
@@ -31,12 +31,20 @@
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-4 md:px-0">
                 <div class="w-full md:w-[600px] bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Praktisch</h2>
-                    <p class="text-chantal leading-relaxed mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut ornare metus. Suspendisse rutrum consectetur quam, at cursus leo cursus et. Maecenas facilisis egestas felis, non auctor mauris fermentum quis. Etiam odio nunc, fringilla nec justo sit amet, volutpat convallis risus. Nulla facilisi.</p>
-                    <a href="#" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #295331;">Praktisch</a>
+                    <p class="leading-relaxed mb-6">
+                        Gelukkig erkennen veel zorgverzekeraars het belang van borstvoeding en de ondersteuning van een IBCLC-lactatiekundige. Daarom worden consulten vaak volledig of deels vergoed wanneer je aanvullend verzekerd bent. Check vooraf altijd even hoe dit bij jouw verzekering geregeld is. Via deze link kun je dit makkelijk nakijken:<br>
+                        <a href="https://www.zorgwijzer.nl/vergoeding/lactatiekundige" class="hover:underline" target="_blank" rel="noopener">https://zorgwijzer.nl/vergoeding/lactatiekundige</a>
+                    </p>
+                    <p class="mb-6">
+                        Na afloop van het consult ontvang je de factuur per e-mail. Je betaalt deze rechtstreeks aan mij binnen 14 dagen. Daarna kun je de factuur zelf indienen bij jouw zorgverzekeraar.
+                    </p>
+                    <p>
+                        Let op: sommige verzekeraars vragen om een verwijzing van je huisarts of verloskundige.
+                    </p>
                 </div>
                 <div class="w-full md:w-[400px] bg-white flex flex-col">
                     <div class="aspect-square w-full overflow-hidden">
-                        <img src="{{ asset('assets/chantal-overhandigd-boekje.png') }}" class="w-full h-full object-cover object-center" alt="">
+                        <img src="{{ asset('assets/boekje-cf.png') }}" class="w-full h-full object-cover object-center" alt="">
                     </div>
                     <div class="flex-1 bg-white"></div>
                 </div>

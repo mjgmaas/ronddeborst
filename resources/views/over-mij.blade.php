@@ -7,18 +7,38 @@
     <main>
         <!-- HERO -->
         <section id="hero"
-            class="w-full h-[80vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
-            style="background-image: url('{{ asset('assets/chantal-detail.png') }}');">
+            class="w-full h-[30vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
+            style="background-image: url('{{ asset('assets/header-home.png') }}');">
             <div class="relative z-10 text-center px-6 pb-20 md:pb-24">
                 <h1 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">Over mij</h1>
             </div>
         </section>
 
         <section class="py-20" style="background-color: #FAFAFA;" id="over-mij">
-            <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-start px-4 md:px-0">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
                 <div class="w-full bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Chantal Mulkens</h2>
-                    <p class="text-chantal leading-relaxed mb-6">Ik ben Chantal Mulkens, lactatiekundige (IBCLC) met een achtergrond als verloskundige. Na jaren in de verloskunde ontdekte ik dat mijn hart vooral ligt bij het ondersteunen van ouders en in het bijzonder tijdens de borstvoedingsperiode. Mijn werkwijze is warm, open en zonder oordeel. Ik combineer medische kennis met aandacht voor de emotionele kant van voeding en ouderschap.</p>
+                    <p class="text-chantal leading-relaxed mb-6">
+                        Ik ben Chantal Mulkens, lactatiekundige met een achtergrond als verloskundige. Na jaren
+                        in de verloskunde ontdekte ik dat mijn hart vooral ligt bij het ondersteunen van ouders
+                        en in het bijzonder tijdens de borstvoedingsperiode. Mijn werkwijze is warm, open en
+                        zonder oordeel. Ik combineer medische kennis met aandacht voor de emotionele kant
+                        van voeding en ouderschap.</p>
+                </div>
+                <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
+                    style="background-image: url('{{ asset('assets/chantal-blauw.png') }}');">
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20" style="background-color: #EAEEEB;" id="persoonlijk">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
+                <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
+                    style="background-image: url('{{ asset('assets/chantal-home.png') }}');">
+                </div>
+                <div class="w-full bg-white p-10">
+
+                {{-- <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Chantal Mulkens</h2> --}}
                     <p class="text-chantal leading-relaxed">Ik ben getrouwd met Maurice en woon in Sittard. We zijn de trotse ouders van inmiddels 3 puberende dochters: Jikke, Gitte en Isis. Na 24 jaar een eigen verloskundige praktijk in Sittard te hebben gerund met mijn collega’s heb ik de opleiding tot lactatiekundige gedaan. Naast mijn werk als lactatiekundige begeleid ik ook Centering Pregnancy groepen in de verloskundige praktijk. Ik ben erg blij met deze leuke uitdagingen. In mijn vrije tijd ontspan ik graag met wandelen, een bezoekje aan de sauna of met een goed boek. "Deze liefde” voor lezen inspireerde mij om een selectie aan waardevolle boekentips te verzamelen voor aanstaande en jonge ouders, en natuurlijk over borstvoeding."</p>
                 </div>
             </div>

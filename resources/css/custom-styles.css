@@ -16,6 +16,7 @@ body{
 ul{
   list-style-type: disc;
   font-weight: 400;
+  font-size: 18px;
   color: #606074;
 }
 
@@ -118,8 +119,6 @@ margin: 0 auto;
   justify-content: center;
   align-items: center;
 }
-
-
 
 .max-1920{
     max-width: 1920px;
@@ -287,6 +286,7 @@ p{
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
+    font-size: 18px;
     font-family: "Lato", sans-serif;
 }
 
@@ -325,6 +325,7 @@ button.primary{
 .text-chantal{
     color: #606074;
     font-weight: 400;
+    font-size: 18px;
 }
 
 .nav-item-chantal{

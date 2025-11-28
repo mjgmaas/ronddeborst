@@ -40,16 +40,16 @@
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-4 md:px-0">
                 <div class="w-full md:w-[600px] bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Centering feeding</h2>
-                    <p class="text-chantal leading-relaxed mb-2">
-                        In kleine groepen ouders bespreken we thema’s rondom voeding, hechting en ouder-zijn.
-                        Iedereen brengt eigen ervaringen in, waardoor er herkenning en steun ontstaat. Je leert
-                        niet alleen van mij, maar vooral ook van elkaar.
-                    </p>
-                    <ul class="cf-list">
-                        <li>Kleine groep ouders met baby’s van vergelijkbare leeftijd</li>
-                        <li>Thema’s zoals groei, slaap, borstvoeding, zelfvertrouwen</li>
-                        <li>Begeleid door lactatiekundige</li>
-                    </ul>
+                        <p class="text-chantal leading-relaxed mb-2">
+                            Door al tijdens de zwangerschap een goede basiskennis te krijgen over het voeden,
+                            houd je na de geboorte meer tijd en energie over om te genieten van je 
+                            baby. Een goede voorbereiding voorkomt zorgen, stress en problemen.
+                        </p>
+                        <ul class="cf-list">
+                            <li>Drie interactieve sessies van 2 uur</li>
+                            <li>Samen met je partner en 4 andere koppels die in dezelfde fase zitten</li>
+                            <li>Met cursusboek en toegang tot e-learning modules</li>
+                        </ul>
                     <a href="{{ url('/centering-feeding') }}"
                         class="inline-block text-white px-6 py-3 rounded-full transition"
                         style="background-color: #295331;">
