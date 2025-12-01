@@ -39,10 +39,10 @@
         <section class="py-20" style="background-color: #EAEEEB;" id="centering-feeding">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-4 md:px-0">
                 <div class="w-full md:w-[600px] bg-white p-10">
-                    <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Centering feeding</h2>
+                    <h2 class="header-dark-green text-4xl font-semibold mb-4">Centering feeding</h2>
                         <p class="text-chantal leading-relaxed mb-2">
                             Door al tijdens de zwangerschap een goede basiskennis te krijgen over het voeden,
-                            houd je na de geboorte meer tijd en energie over om te genieten van je 
+                            houd je na de geboorte meer tijd en energie over om te genieten van je
                             baby. Een goede voorbereiding voorkomt zorgen, stress en problemen.
                         </p>
                         <ul class="cf-list">
@@ -69,8 +69,8 @@
                     <p class="text-chantal leading-relaxed mb-6">
                         Borstvoeding verloopt niet altijd vanzelf. Soms heb je vragen, twijfels of praktische hulp nodig om verder te kunnen. Je kunt bij mij terecht tijdens de zwangerschap, in de kraamtijd of op elk moment daarna.
                     </p>
-                    <h2 class="text-chantal leading-relaxed mb-3">Hulp bij:</h2>
-                    <ul class="mb-6 no-bullets">
+                    <h3 class="leading-relaxed mb-3">Hulp bij:</h3>
+                    <ul class="mb-6">
                         <li>Moeite met aanleggen of pijn tijdens het voeden</li>
                         <li>Stuwing, tepelkloven of (beginnende) borstontsteking</li>
                         <li>Te weinig of juist te veel melk</li>

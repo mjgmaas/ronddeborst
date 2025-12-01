@@ -22,7 +22,7 @@
                         <div class="max-w-2xl">
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Centering Feeding</h2>
                             <p class="text-chantal leading-relaxed">Door al tijdens de zwangerschap een goede basiskennis te krijgen over het voeden, ...</p>
-                            <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-1" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Uitklappen">Uitklappen</button>
+                            <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-1" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
                         <div class="flex-shrink-0 md:w-1/4">
                             <div class="aspect-square w-full rounded-full overflow-hidden">
@@ -44,18 +44,34 @@
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
                     <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
                         <div>
-                            <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Observatie voedingsmoment</h2>
-                            <p class="text-chantal leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                            <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-2" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Uitklappen">Uitklappen</button>
+                            <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Observatie van een voedingsmoment</h2>
+                            <p class="text-chantal leading-relaxed">
+                                Tijdens een voedingsmoment kijk ik mee naar het aanleggen, drinkgedrag, houding en samenspel tussen jou en je baby.<br>
+                                We bespreken wat goed gaat en waar verbetering mogelijk is, zodat voeden weer comfortabel en ontspannen wordt.
+                            </p>
+                            <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-2" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
                     </div>
                     <div id="panel-2" class="px-6 md:px-10 py-10 hidden">
-                        <p class="text-chantal leading-relaxed py-4">Vestibulum ante ipsum primis in faucibus orci luctus...</p>
-                        <img src="{{ asset('assets/thema/placeholder-bar.png') }}" class="w-full h-full rounded-lg object-cover">
-                        <p class="text-chantal leading-relaxed py-4 flex items-center gap-2">
-                            <img src="{{ asset('assets/thema/heart.svg') }}" class="w-[15px]">
-                            Prijs: €0,00 – Duur: 1,5 uur
-                        </p>
+                        <table class="consult-table mb-4">
+                            <tr>
+                                <td>Duur:</td>
+                                <td>1-1,5 uur</td>
+                            </tr>
+                            <tr>
+                                <td>Kosten:</td>
+                                <td>€ 135</td>
+                            </tr>
+                        </table>
+                        <h3>Wat mag je verwachten:</h3>
+                        <ul class="default-list mb-4">
+                            <li>Huisbezoek tijdens voedingsmoment</li>
+                            <li>Mondonderzoek (indien nodig)</li>
+                            <li>Borstonderzoek (indien nodig)</li>
+                            <li>Uitgebreid consult verslag (digitaal)</li>
+                            <li>Nazorg per WhatsApp</li>
+                            <li>Inclusief 1x telefonische follow-up</li>
+                        </ul>
                         <a href="#contact" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Afspraak maken</a>
                     </div>
                 </div>
@@ -65,7 +81,7 @@
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Observatie voedingsmoment</h2>
                             <p class="text-chantal leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                            <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-3" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Uitklappen">Uitklappen</button>
+                            <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-3" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
                     </div>
                     <div id="panel-3" class="px-6 md:px-10 py-10 hidden">
@@ -120,5 +136,22 @@
         </footer>
 
         @include('components.footer')
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    // Selecteer alleen de Afspraak maken knop in panel-2
+                    var afspraakBtn = document.querySelector('#panel-2 a[href="#contact"]');
+                    if (afspraakBtn) {
+                        afspraakBtn.addEventListener('click', function() {
+                            // Wacht even tot de pagina naar het formulier is gesprongen
+                            setTimeout(function() {
+                                var omschrijving = document.querySelector('#contact textarea[name="omschrijving"]');
+                                if (omschrijving) {
+                                    omschrijving.value = "Hallo Chantal,\n\nIk wil graag een consult afspraak maken voor een 'Observatie van een voedingsmoment'.";
+                                }
+                            }, 300);
+                        });
+                    }
+                });
+            </script>
     </main>
 @endsection

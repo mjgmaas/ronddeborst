@@ -18,12 +18,13 @@ ul{
   font-weight: 400;
   font-size: 18px;
   color: #606074;
+  padding-left: 1em;
 }
 
 li{
   padding-bottom: 5px;
   padding-top: 5px;
-  border-bottom: 1px solid #3332;
+  /* border-bottom: 1px solid #3332; */
 }
 
 .logo-ronddeborst{
@@ -52,8 +53,6 @@ margin: 0 auto;
 }
 
 @media (max-width: 480px){
-
-
 
 .logo-split{
   display: flex;
@@ -293,9 +292,14 @@ p{
 h3{
     font-size: 30px;
     font-family: 'Sansita';
-    color: var(--color-beige-100);
+    color: var(--color-green-100);
+    /* color: #295331; */
     font-weight: 500;
     margin: 0px;
+}
+
+section#consulten h3{
+    font-size: 26px;
 }
 
 button.primary{
@@ -408,5 +412,29 @@ a[class*="px-"][class*="py-"][class*="rounded"]:hover {
   margin-bottom: 1em;
 }
 .cf-list li {
-  border-bottom: none;
+    border-bottom: none;
 }
+
+/* Centering Feeding custom list style */
+.default-list {
+  padding-left: 2em;
+  padding-top: 0;
+  margin-bottom: 1em;
+}
+
+.header-dark-green {
+  color: #295331;
+}
+
+/* Tabel voor consult details */
+.consult-table {
+  border-collapse: separate;
+  font-size: 18px;
+  color: var(--color-beige-100);
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+.consult-table td {
+    padding-right: 20px;
+}
+

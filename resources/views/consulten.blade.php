@@ -19,7 +19,7 @@
                 <div class="w-full md:w-[600px] bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Consulten</h2>
                     <p class="text-chantal leading-relaxed mb-6">Iedere situatie is anders. Daarom bied ik verschillende vormen van begeleiding aan – altijd met aandacht, kennis en tijd voor jouw verhaal. Samen zoeken we naar wat werkt voor jou, je baby en jullie gezin.</p>
-                    <a href="{{ url('/consulten-aanbod') }}" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Aanbod consulten</a>
+                    <a href="{{ url('/consulten-aanbod') }}" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Bekijk aanbod</a>
                 </div>
                 <div class="w-full md:w-[400px] h-full overflow-hidden">
                     <img src="{{ asset('assets/chantal-overhandigd-boekje.png') }}" class="w-full h-full object-cover object-center" alt="">
