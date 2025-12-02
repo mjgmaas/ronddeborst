@@ -45,7 +45,7 @@
                         </p>
                 </div>
                 <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto"
-                    style="background-image: url('{{ asset('assets/cf-banner.png') }}');">
+                    style="background-image: url('{{ asset('assets/cf-bordjes.jpg') }}');">
                 </div>
             </div>
         </section>
@@ -111,6 +111,7 @@
                                 <th class="border-b-2 border-gray-300 pb-2">Groep</th>
                                 <th class="border-b-2 border-gray-300 pb-2">Lokatie</th>
                                 <th class="border-b-2 border-gray-300 pb-2">Datums</th>
+                                <th class="border-b-2 border-gray-300 pb-2">Tijd</th>
                                 <th class="border-b-2 border-gray-300 pb-2">Beschikbaarheid</th>
                             </tr>
                         </thead>
@@ -119,22 +120,32 @@
                                 <td class="border-b border-gray-300 py-2">Groep 2</td>
                                 <td class="border-b border-gray-300 py-2">Baexem</td>
                                 <td class="border-b border-gray-300 py-2">20 nov, 12 dec, 3e sessie ntb</td>
+                                <td class="border-b border-gray-300 py-2">18:30</td>
                                 <td class="border-b border-gray-300 py-2">Volgeboekt</td>
                             </tr>
                             <tr>
                                 <td class="border-b border-gray-300 py-2">Groep 3</td>
-                                <td class="border-b border-gray-300 py-2">Nederweert</td>
-                                <td class="border-b border-gray-300 py-2">4 dec, 18 dec, 3e sessie ntb</td>
+                                <td class="border-b border-gray-300 py-2">Baexem</td>
+                                <td class="border-b border-gray-300 py-2">11 dec, 8 jan, 3e sessie ntb</td>
+                                <td class="border-b border-gray-300 py-2">18:30</td>
                                 <td class="border-b border-gray-300 py-2">Volgeboekt</td>
                             </tr>
                             <tr>
                                 <td class="border-b border-gray-300 py-2">Groep 4</td>
                                 <td class="border-b border-gray-300 py-2">Baexem</td>
-                                <td class="border-b border-gray-300 py-2">8 jan, 22 jan, 3e sessie ntb</td>
+                                <td class="border-b border-gray-300 py-2">12 jan, 5 feb, 3e sessie ntb</td>
+                                <td class="border-b border-gray-300 py-2">18:30</td>
+                                <td class="border-b border-gray-300 py-2">Plaatsen beschikbaar</td>
+                            </tr>
+                            <tr>
+                                <td class="border-b border-gray-300 py-2">Groep 5</td>
+                                <td class="border-b border-gray-300 py-2">Baexem</td>
+                                <td class="border-b border-gray-300 py-2">9 feb, 2 maart, 3e sessie ntb</td>
+                                <td class="border-b border-gray-300 py-2">18:30</td>
                                 <td class="border-b border-gray-300 py-2">Plaatsen beschikbaar</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table
                     <p class="mb-4">
                         <a href="#contact" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Inschrijven</a>
                     </p>

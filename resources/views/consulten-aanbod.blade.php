@@ -58,6 +58,11 @@
                             </p>
                             <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-2" data-toggle-label-open="Meer hierover" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
+                        <div class="flex-shrink-0 md:w-1/4">
+                            <div class="aspect-square w-full rounded-full overflow-hidden">
+                                <img src="{{ asset('assets/koppel-met-baby.png') }}" alt="Centering Feeding" class="w-full h-full object-cover object-center">
+                            </div>
+                        </div>
                     </div>
                     <div id="panel-2" class="px-6 md:px-10 py-10 hidden">
                         <table class="consult-table mb-4">
@@ -82,11 +87,11 @@
                         <a href="#contact" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Afspraak maken</a>
                     </div>
                 </div>
-                <!-- Individueel consult tijdens zwangerschap -->
+                <!-- Zwangerschapsconsult -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
                     <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
                         <div>
-                            <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Individueel consult tijdens zwangerschap</h2>
+                            <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Zwangerschapsconsult</h2>
                             <p class="text-chantal leading-relaxed mb-2">
                                 In dit individuele consult is er volop aandacht voor jouw persoonlijke situatie – of het nu gaat om een geplande keizersnede, een tweeling, medicijngebruik of eerdere ervaringen met borstvoeding die niet vanzelf gingen.
                             </p>
@@ -119,6 +124,50 @@
                     </div>
                 </div>
 
+                <!-- Kolf consult -->
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                        <div>
+                            <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Kolf consult</h2>
+                            <p class="text-chantal leading-relaxed mb-2">
+                                Er zijn veel verschillende kolven verkrijgbaar, maar welke past echt bij jóu? Er bestaat geen ‘beste kolf’, wel een kolf die aansluit bij jouw lichaam, jouw wensen en jouw situatie.
+                            </p>
+                            <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-kolf" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
+                        </div>
+                        <div class="flex-shrink-0 md:w-1/4">
+                            <div class="aspect-square w-full rounded-full overflow-hidden">
+                                <img src="{{ asset('assets/kolf-consult.png') }}" alt="Kolf consult" class="w-full h-full object-cover object-center">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="panel-kolf" class="px-6 md:px-10 py-10 hidden">
+                        <h3>Aan huis</h3>
+                        <p class="mb-4">Bij een consult aan huis neem ik 5–6 verschillende kolven mee, zodat je uitgebreid kunt testen welke het beste bij je past.</p>
+                        <table class="consult-table mb-4">
+                            <tr>
+                                <td>Duur:</td>
+                                <td>1-1,5 uur</td>
+                            </tr>
+                            <tr>
+                                <td>Kosten:</td>
+                                <td>€ 100,-</td>
+                            </tr>
+                        </table>
+                        <h3>Spreekuur</h3>
+                        <p class="mb-4">Kom je op het spreekuur? Dan nemen we een half uur de tijd en kun je kiezen uit drie zorgvuldig geselecteerde modellen.</p>
+                        <table class="consult-table mb-4">
+                            <tr>
+                                <td>Duur:</td>
+                                <td>30 minuten</td>
+                            </tr>
+                            <tr>
+                                <td>Kosten:</td>
+                                <td>€ 45,-</td>
+                            </tr>
+                        </table>
+                        <a href="#contact" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Afspraak maken</a>
+                    </div>
+                </div>
                 <!-- Telefonisch consult -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
                     <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
@@ -172,13 +221,14 @@
                             <li>Kleine onduidelijkheden waar je graag schriftelijk advies bij wilt</li>
                             <li>Handig wanneer je je vraag op je eigen moment wilt stellen en een duidelijk, rustig antwoord wilt ontvangen.</li>
                         </ul>
+                        <a href="#contact" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Afspraak maken</a>
                     </div>
                 </div>
-                <!-- Behandeling borstontsteking met ultrageluid -->
+                <!-- Behandeling met ultrasound -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
                     <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
                         <div>
-                            <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Behandeling borstontsteking met ultrageluid</h2>
+                            <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Behandeling met ultrasound</h2>
                             <p class="text-chantal leading-relaxed mb-2">
                                 Bij pijnlijke, verharde borsten of een (beginnende) ontsteking kan een behandeling met ultrageluid helpen om de stuwing sneller te verlichten en de doorstroming te verbeteren.
                             </p>
@@ -188,17 +238,14 @@
                     <div id="panel-ultrageluid" class="px-6 md:px-10 py-10 hidden">
                         <table class="consult-table mb-4">
                             <tr>
-                                <td>Duur:</td>
-                                <td></td>
-                            </tr>
-                            <tr>
                                 <td>Kosten:</td>
                                 <td>Aan huis €100 , Spreekuur €45</td>
                             </tr>
                         </table>
                         <p class="text-chantal leading-relaxed mb-4">
-                            Deze behandeling wordt altijd gecombineerd met praktische, haalbare adviezen over aanleggen, rust en herstel — zodat je lichaam optimaal kan meekomen in het genezingsproces.
+                            Deze behandeling wordt altijd gecombineerd met praktische, haalbare adviezen over aanleggen, rust en herstel, zodat je lichaam optimaal kan meekomen in het genezingsproces.
                         </p>
+                        <a href="#contact" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Afspraak maken</a>
                     </div>
                 </div>
                 <!-- Vervolgconsult -->
@@ -226,6 +273,7 @@
                         <p class="text-chantal leading-relaxed mb-4">
                             Voor alle vragen die je nog hebt of als je dieper op onderwerpen in wilt gaan.
                         </p>
+                        <a href="#contact" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Afspraak maken</a>
                     </div>
                 </div>
                 <!-- Spreekuur -->
@@ -240,13 +288,6 @@
                         </div>
                     </div>
                     <div id="panel-spreekuur" class="px-6 md:px-10 py-10 hidden">
-                        <div class="mb-2 font-semibold">Bijvoorbeeld over:</div>
-                        <ul class="list-disc pl-6 mb-4">
-                            <li>Kolven</li>
-                            <li>Flesvoeding combineren met borstvoeding</li>
-                            <li>Afbouwen</li>
-                            <li>Of als je gewoon wilt laten checken of alles goed verloopt</li>
-                        </ul>
                         <table class="consult-table mb-4">
                             <tr>
                                 <td>Duur:</td>
@@ -254,12 +295,26 @@
                             </tr>
                             <tr>
                                 <td>Kosten:</td>
-                                <td>€ 50</td>
+                                <td>€ 45</td>
                             </tr>
                         </table>
+                        <div class="mb-2 font-semibold">Bijvoorbeeld bij:</div>
+                        <ul class="list-disc pl-6 mb-4">
+                            <li>Kolven</li>
+                            <li>Flesvoeding combineren met borstvoeding</li>
+                            <li>Afbouwen</li>
+                            <li>Of als je gewoon wilt laten checken of alles goed verloopt</li>
+                        </ul>
+                        <p>Spreekuur locaties: </p>
+                        <ul class="mb-4">
+                            <li>Baexem</li>
+                            <li>Nederweert</li>
+                            <li>Sittard</li>
+                        </ul>
                         <p class="text-chantal leading-relaxed mb-2">
-                            Gericht op gerichte vragen of praktische handelingen. Dit consult vindt in de praktijk of online plaats.
+                            Dit consult vindt in de praktijk of online plaats.
                         </p>
+                        <a href="#contact" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Afspraak maken</a>
                     </div>
                 </div>
                     </div>
@@ -309,8 +364,8 @@
                     // Definieer consulttypes en bijbehorende tekst
                     var consults = {
                         'panel-1': "Hallo Chantal,\n\nIk wil graag een consult afspraak maken voor 'Centering Feeding (zwangerschapscursus)'.",
-                        'panel-2': "Hallo Chantal,\n\nIk wil graag een consult afspraak maken voor een 'Observatie van een voedingsmoment'.",
-                        'panel-3': "Hallo Chantal,\n\nIk wil graag een consult afspraak maken voor een 'Individueel consult tijdens zwangerschap'."
+                        'panel-2': "Hallo Chantal,\n\nIk wil graag een consult afspraak maken voor een 'Observatie voedingsmoment'.",
+                        'panel-3': "Hallo Chantal,\n\nIk wil graag een consult afspraak maken voor een 'Zwangerschapsconsult'."
                     };
 
                     // Selecteer alle Afspraak maken knoppen binnen panels

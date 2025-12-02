@@ -7,7 +7,7 @@
     <main>
         <!-- HERO -->
         <section id="hero"
-            class="w-full h-[35vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
+            class="w-full h-[30vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
             style="background-image: url('{{ asset('assets/header-home.png') }}');">
             <div class="relative z-10 text-center px-6 pb-20 md:pb-24">
                 <h1 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">Consulten</h1>
@@ -18,7 +18,12 @@
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
                 <div class="w-full md:w-[600px] bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Consulten</h2>
-                    <p class="text-chantal leading-relaxed mb-6">Iedere situatie is anders. Daarom bied ik verschillende vormen van begeleiding aan – altijd met aandacht, kennis en tijd voor jouw verhaal. Samen zoeken we naar wat werkt voor jou, je baby en jullie gezin.</p>
+                    <p class="text-chantal leading-relaxed mb-6">
+                        Iedere situatie is anders. Daarom bied ik verschillende vormen van begeleiding
+                        aan – altijd met aandacht, kennis en tijd voor jouw verhaal.
+                    </p>
+                    <p class="text-chantal leading-relaxed mb-6">
+                        Samen zoeken we naar wat werkt voor jou, je baby en jullie gezin.</p>
                     <a href="{{ url('/consulten-aanbod') }}" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Bekijk aanbod</a>
                 </div>
                 <div class="w-full md:w-[400px] h-full overflow-hidden">
@@ -44,7 +49,7 @@
                 </div>
                 <div class="w-full md:w-[400px] bg-white flex flex-col">
                     <div class="aspect-square w-full overflow-hidden">
-                        <img src="{{ asset('assets/boekje-cf.png') }}" class="w-full h-full object-cover object-center" alt="">
+                        <img src="{{ asset('assets/consulten-praktisch.png') }}" class="w-full h-full object-cover object-center" alt="">
                     </div>
                     <div class="flex-1 bg-white"></div>
                 </div>

@@ -22,7 +22,17 @@
                 <div class="w-full md:w-[600px] bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Chantal Mulkens</h2>
                     <p class="text-chantal leading-relaxed mb-6">
-                        Als lactatiekundige begeleid ik ouders in de bijzondere periode van voeding, hechting en groei. Of het nu gaat om de eerste weken na de bevalling, terugkerende vragen over borstvoeding of onzekerheid bij het combineren van werk en voeden – je hoeft het niet alleen te doen. Met aandacht, deskundigheid en respect voor jouw situatie zoeken we samen naar wat werkt voor jou, je baby en jullie gezin. Naast individuele consulten bied ik ook Centering Feeding aan: een workshopreeks tijdens de zwangerschap die helpt om je voor te bereiden op een ontspannen start met borstvoeding.
+                        Als lactatiekundige begeleid ik ouders in de bijzondere periode van voeding,
+                        hechting en groei. Of het nu gaat om de eerste weken na de bevalling,
+                        terugkerende vragen over borstvoeding of onzekerheid bij het combineren van
+                        werk en voeden.
+                    </p>
+                    <p class="text-chantal leading-relaxed mb-6">
+                        Je hoeft het niet alleen te doen. Met aandacht, deskundigheid en respect
+                        voor jouw situatie zoeken we samen naar wat werkt voor jou, je baby en
+                        jullie gezin. Naast individuele consulten bied ik ook Centering Feeding
+                        aan: een workshopreeks tijdens de zwangerschap, die helpt om je voor te
+                        bereiden op een ontspannen start met borstvoeding.
                     </p>
                     <a href="{{ url('/over-mij') }}"
                         class="inline-block text-white px-6 py-3 rounded-full transition"
@@ -75,7 +85,7 @@
                         <li>Stuwing, tepelkloven of (beginnende) borstontsteking</li>
                         <li>Te weinig of juist te veel melk</li>
                         <li>Een slaperige baby of een baby die onrustig drinkt</li>
-                        <li>Onvoldoende groei of vaak/lang aan de borst drinken</li>
+                        <li>Onvoldoende groei</li>
                         <li>Weigeren van de borst</li>
                         <li>Combinatie van borst- en flesvoeding</li>
                         <li>Kolven, melkproductie opbouwen of afbouwen</li>
@@ -84,7 +94,8 @@
                         <li>Ziekte of handicap bij moeder of baby</li>
                     </ul>
                     <p class="text-chantal leading-relaxed mb-6">
-                        Ook als je gewoon even wilt checken of je goed bezig bent. Geen vraag is te klein.
+                        Ook als je gewoon even wilt checken of je goed bezig bent.<br>
+                        Geen vraag is te klein.
                     </p>
                     <a href="{{ url('/consulten') }}"
                         class="inline-block text-white px-6 py-3 rounded-full transition"
@@ -99,7 +110,7 @@
                 </div>
                 <div class="w-full md:w-[400px] bg-white flex flex-col">
                     <div class="aspect-square w-full overflow-hidden">
-                        <img src="{{ asset('assets/koppel-met-baby.png') }}" class="w-full h-full object-cover object-center" alt="">
+                        <img src="{{ asset('assets/homepage-consult.jpg') }}" class="w-full h-full object-cover object-center" alt="">
                     </div>
                     <div class="flex-1 bg-white"></div>
                 </div>
@@ -120,8 +131,9 @@
                             <h2 class="text-2xl md:text-3xl font-semibold mb-4" style="color:#295331;">Rond de Borst</h2>
                             <div class="h-px w-24 bg-gray-200 mb-6"></div>
                             <ul class="space-y-2 text-sm md:text-base" style="color:#5E626E;">
-                                <li><a href="{{ url('/privacyverklaring') }}" class="hover:underline">Privacyverklaring</a></li>
+                                <li><a href="{{ url('/privacy-avg') }}" class="hover:underline">Privacy & AVG</a></li>
                                 <li><a href="{{ url('/algemene-voorwaarden') }}" class="hover:underline">Algemene voorwaarden</a></li>
+                                <li><a href="{{ url('/kwaliteit') }}" class="hover:underline">Kwaliteit</a></li>
                             </ul>
                         </div>
                         <div>
@@ -138,11 +150,11 @@
             <div class="bg-[#F8F8F8] py-4">
                 <div class="max-w-5xl mx-auto px-4">
                     <div class="flex flex-wrap items-center justify-center gap-4 text-[13px]" style="color:#5E626E;">
-                        <span>KvK nummer: 57483218</span>
+                        <span>KvK nummer: 93018509</span>
                         <span class="hidden sm:inline">•</span>
-                        <a href="{{ url('/algemene-voorwaarden') }}" class="hover:underline">Algemene Voorwaarden</a>
+                        <a href="https://anneverhoeven.com" class="hover:underline">Anne Verhoeven Fotografie</a>
                         <span class="hidden sm:inline">•</span>
-                        <a href="{{ url('/privacyverklaring') }}" class="hover:underline">Privacy Statement</a>
+                        <a href="https://mprins.nl" class="hover:underline">Mprins Creative Design</a>
                     </div>
                 </div>
             </div>

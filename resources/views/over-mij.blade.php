@@ -33,13 +33,80 @@
 
         <section class="py-20" style="background-color: #EAEEEB;" id="persoonlijk">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
-                <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
+                {{-- <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
                     style="background-image: url('{{ asset('assets/chantal-home.png') }}');">
-                </div>
+                </div> --}}
                 <div class="w-full bg-white p-10">
 
                 {{-- <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Chantal Mulkens</h2> --}}
                     <p class="text-chantal leading-relaxed">Ik ben getrouwd met Maurice en woon in Sittard. We zijn de trotse ouders van inmiddels 3 puberende dochters: Jikke, Gitte en Isis. Na 24 jaar een eigen verloskundige praktijk in Sittard te hebben gerund met mijn collega’s heb ik de opleiding tot lactatiekundige gedaan. Naast mijn werk als lactatiekundige begeleid ik ook Centering Pregnancy groepen in de verloskundige praktijk. Ik ben erg blij met deze leuke uitdagingen. In mijn vrije tijd ontspan ik graag met wandelen, een bezoekje aan de sauna of met een goed boek. "Deze liefde” voor lezen inspireerde mij om een selectie aan waardevolle boekentips te verzamelen voor aanstaande en jonge ouders, en natuurlijk over borstvoeding."</p>
+                </div>
+            </div>
+        </section>
+
+                <section class="py-20" style="background-color: #FAFAFA;" id="boeken-tips">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
+                <div class="w-full bg-white p-10">
+                    <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Boeken tips</h2>
+                    <ul>
+                        <li>
+                            <strong>Borstvoeding handboek voor ouders</strong><br>
+                            <em>La Leche League</em><br>
+
+                        </li>
+                        <li>
+                            <strong>Positief over borstvoeding</strong><br>
+                            <em>Amy Brown</em><br>
+                        </li>
+                        <li>
+                            <strong>De melkfabriek</strong><br>
+                            <em>Sofie van den Enk</em>
+                        </li>
+                        <li>
+                            <strong>Perfecte moeders bestaan niet</strong><br>
+                            <em>Diana Koster</em>
+                        </li>
+                        <li>
+                            <strong>Jouw baby's eerste hapje Rapley-methode boek</strong><br>
+                            <em>Babley</em>
+                        </li>
+                        <li>
+                            <strong>Woman: Gedachtes over de liefde, de dood, ouder worden en de kracht van sisterhood</strong><br>
+                            <em>Lucy Woesthoff</em>
+                        </li>
+                        <li>
+                            <strong>Master in happiness</strong><br>
+                            <em>Maartje Derksen</em>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center"
+                    style="background-image: url('{{ asset('assets/boeken.png') }}');">
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20" style="background-color: #EAEEEB;" id="podcast-borstvoedingsbabbel">
+            <div class="max-w-5xl mx-auto flex flex-col px-4 md:px-0">
+                <div class="w-full bg-white p-10">
+                    <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Podcast</h2>
+                    <h3 class="text-4xl font-semibold mb-4" >Borstvoedingsbabbel</h3>
+                    <p class="text-chantal leading-relaxed mb-6">
+                        Borstvoedingsbabbel is een toegankelijke en gezellige podcast over borstvoeding en alles wat daarbij komt kijken.
+                        In elke aflevering delen ervaringsdeskundigen en professionals hun kennis, tips en verhalen, zodat luisteraars
+                        praktische handvatten krijgen en zich gesteund voelen tijdens hun borstvoedingsreis.
+                        Perfect voor ouders én zorgverleners die meer willen weten, geïnspireerd willen raken of gewoon graag luisteren naar herkenbare ervaringen.
+                    </p>
+                    <a href="https://centeringfeeding.com/podcast" target="_blank" class="inline-block px-6 py-3 bg-[#295331] text-white rounded shadow hover:bg-[#295331cc] transition">Beluister de podcast</a>
+                </div>
+                <div class="w-full bg-white p-10">
+                    <h3 class="text-4xl font-semibold mb-4" >Machtige Melk</h3>
+                    <p class="text-chantal leading-relaxed mb-6">
+                        Machtige Melk is een inspirerende podcast voor (aanstaande) ouders én professionals die meer willen begrijpen
+                        over borstvoeding, moeder-kindzorg en de wetenschap erachter. In elke aflevering nemen deskundigen je mee in
+                        herkenbare verhalen, actuele inzichten en praktische handvatten die je meteen kunt toepassen.
+                    </p>
+                    <a href="https://centeringfeeding.com/podcast" target="_blank" class="inline-block px-6 py-3 bg-[#295331] text-white rounded shadow hover:bg-[#295331cc] transition">Beluister de podcast</a>
                 </div>
             </div>
         </section>
@@ -83,5 +150,6 @@
         </footer>
 
         @include('components.footer')
+
     </main>
 @endsection
