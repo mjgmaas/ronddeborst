@@ -22,7 +22,17 @@
                 <div class="w-full md:w-[600px] bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Chantal Mulkens</h2>
                     <p class="text-chantal leading-relaxed mb-6">
-                        Als lactatiekundige begeleid ik ouders in de bijzondere periode van voeding, hechting en groei. Of het nu gaat om de eerste weken na de bevalling, terugkerende vragen over borstvoeding of onzekerheid bij het combineren van werk en voeden – je hoeft het niet alleen te doen. Met aandacht, deskundigheid en respect voor jouw situatie zoeken we samen naar wat werkt voor jou, je baby en jullie gezin. Naast individuele consulten bied ik ook Centering Feeding aan: een workshopreeks tijdens de zwangerschap die helpt om je voor te bereiden op een ontspannen start met borstvoeding.
+                        Als lactatiekundige begeleid ik ouders in de bijzondere periode van voeding,
+                        hechting en groei. Of het nu gaat om de eerste weken na de bevalling,
+                        terugkerende vragen over borstvoeding of onzekerheid bij het combineren van
+                        werk en voeden.
+                    </p>
+                    <p class="text-chantal leading-relaxed mb-6">
+                        Je hoeft het niet alleen te doen. Met aandacht, deskundigheid en respect
+                        voor jouw situatie zoeken we samen naar wat werkt voor jou, je baby en
+                        jullie gezin. Naast individuele consulten bied ik ook Centering Feeding
+                        aan: een workshopreeks tijdens de zwangerschap, die helpt om je voor te
+                        bereiden op een ontspannen start met borstvoeding.
                     </p>
                     <a href="{{ url('/over-mij') }}"
                         class="inline-block text-white px-6 py-3 rounded-full transition"
@@ -39,17 +49,17 @@
         <section class="py-20" style="background-color: #EAEEEB;" id="centering-feeding">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-4 md:px-0">
                 <div class="w-full md:w-[600px] bg-white p-10">
-                    <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Centering feeding</h2>
-                    <p class="text-chantal leading-relaxed mb-2">
-                        In kleine groepen ouders bespreken we thema’s rondom voeding, hechting en ouder-zijn.
-                        Iedereen brengt eigen ervaringen in, waardoor er herkenning en steun ontstaat. Je leert
-                        niet alleen van mij, maar vooral ook van elkaar.
-                    </p>
-                    <ul class="cf-list">
-                        <li>Kleine groep ouders met baby’s van vergelijkbare leeftijd</li>
-                        <li>Thema’s zoals groei, slaap, borstvoeding, zelfvertrouwen</li>
-                        <li>Begeleid door lactatiekundige</li>
-                    </ul>
+                    <h2 class="header-dark-green text-4xl font-semibold mb-4">Centering feeding</h2>
+                        <p class="text-chantal leading-relaxed mb-2">
+                            Door al tijdens de zwangerschap een goede basiskennis te krijgen over het voeden,
+                            houd je na de geboorte meer tijd en energie over om te genieten van je
+                            baby. Een goede voorbereiding voorkomt zorgen, stress en problemen.
+                        </p>
+                        <ul class="cf-list">
+                            <li>Drie interactieve sessies van 2 uur</li>
+                            <li>Samen met je partner en 4 andere koppels die in dezelfde fase zitten</li>
+                            <li>Met cursusboek en toegang tot e-learning modules</li>
+                        </ul>
                     <a href="{{ url('/centering-feeding') }}"
                         class="inline-block text-white px-6 py-3 rounded-full transition"
                         style="background-color: #295331;">
@@ -69,13 +79,13 @@
                     <p class="text-chantal leading-relaxed mb-6">
                         Borstvoeding verloopt niet altijd vanzelf. Soms heb je vragen, twijfels of praktische hulp nodig om verder te kunnen. Je kunt bij mij terecht tijdens de zwangerschap, in de kraamtijd of op elk moment daarna.
                     </p>
-                    <h2 class="text-chantal leading-relaxed mb-3">Hulp bij:</h2>
-                    <ul class="mb-6 no-bullets">
+                    <h3 class="leading-relaxed mb-3">Hulp bij:</h3>
+                    <ul class="mb-6">
                         <li>Moeite met aanleggen of pijn tijdens het voeden</li>
                         <li>Stuwing, tepelkloven of (beginnende) borstontsteking</li>
                         <li>Te weinig of juist te veel melk</li>
                         <li>Een slaperige baby of een baby die onrustig drinkt</li>
-                        <li>Onvoldoende groei of vaak/lang aan de borst drinken</li>
+                        <li>Onvoldoende groei</li>
                         <li>Weigeren van de borst</li>
                         <li>Combinatie van borst- en flesvoeding</li>
                         <li>Kolven, melkproductie opbouwen of afbouwen</li>
@@ -84,7 +94,8 @@
                         <li>Ziekte of handicap bij moeder of baby</li>
                     </ul>
                     <p class="text-chantal leading-relaxed mb-6">
-                        Ook als je gewoon even wilt checken of je goed bezig bent. Geen vraag is te klein.
+                        Ook als je gewoon even wilt checken of je goed bezig bent.<br>
+                        Geen vraag is te klein.
                     </p>
                     <a href="{{ url('/consulten') }}"
                         class="inline-block text-white px-6 py-3 rounded-full transition"
@@ -99,56 +110,17 @@
                 </div>
                 <div class="w-full md:w-[400px] bg-white flex flex-col">
                     <div class="aspect-square w-full overflow-hidden">
-                        <img src="{{ asset('assets/koppel-met-baby.png') }}" class="w-full h-full object-cover object-center" alt="">
+                        <img src="{{ asset('assets/homepage-consult.jpg') }}" class="w-full h-full object-cover object-center" alt="">
                     </div>
                     <div class="flex-1 bg-white"></div>
                 </div>
             </div>
         </section>
 
-        {{-- Reviews section --}}
         @include('components.reviews')
 
-        {{-- Contact form section --}}
         @include('components.contact-form-section')
 
-        <footer class="pt-16" style="background-color:#C0D0C7;">
-            <div class="max-1920 mx-auto px-4">
-                <div class="bg-white rounded-t-3xl px-8 py-10 md:px-16 md:py-14">
-                    <div class="max-500 grid gap-12 md:grid-cols-2">
-                        <div>
-                            <h2 class="text-2xl md:text-3xl font-semibold mb-4" style="color:#295331;">Rond de Borst</h2>
-                            <div class="h-px w-24 bg-gray-200 mb-6"></div>
-                            <ul class="space-y-2 text-sm md:text-base" style="color:#5E626E;">
-                                <li><a href="{{ url('/privacyverklaring') }}" class="hover:underline">Privacyverklaring</a></li>
-                                <li><a href="{{ url('/algemene-voorwaarden') }}" class="hover:underline">Algemene voorwaarden</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h2 class="text-2xl md:text-3xl font-semibold mb-4" style="color:#295331;">Contact</h2>
-                            <div class="h-px w-24 bg-gray-200 mb-6"></div>
-                            <div class="space-y-2 text-sm md:text-base" style="color:#5E626E;">
-                                <p>06 34 81 69 26</p>
-                                <p><a href="mailto:chantal@ronddeborst.nl" class="hover:underline">chantal@ronddeborst.nl</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-[#F8F8F8] py-4">
-                <div class="max-w-5xl mx-auto px-4">
-                    <div class="flex flex-wrap items-center justify-center gap-4 text-[13px]" style="color:#5E626E;">
-                        <span>KvK nummer: 57483218</span>
-                        <span class="hidden sm:inline">•</span>
-                        <a href="{{ url('/algemene-voorwaarden') }}" class="hover:underline">Algemene Voorwaarden</a>
-                        <span class="hidden sm:inline">•</span>
-                        <a href="{{ url('/privacyverklaring') }}" class="hover:underline">Privacy Statement</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        {{-- Designer's footer partial (if needed) --}}
         @include('components.footer')
     </main>
 @endsection

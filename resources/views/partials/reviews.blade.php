@@ -10,7 +10,7 @@
             <div class="w-20 h-20 mx-auto mb-6 rounded-full flex items-center justify-center" style="background-color:#F3F5F3;">
               <img src="{{ asset('assets/thema/heart.svg') }}" class="w-8 h-8" alt="">
             </div>
-            <h3 class="text-xl font-semibold mb-3" style="color:#295331;">
+            <h3 class="text-xl font-semibold mb-3"">
               Voornaam Achternaam
             </h3>
             <p class="text-sm leading-relaxed text-gray-700">
@@ -23,7 +23,7 @@
             <div class="w-20 h-20 mx-auto mb-6 rounded-full flex items-center justify-center" style="background-color:#F3F5F3;">
               <img src="{{ asset('assets/thema/heart.svg') }}" class="w-8 h-8" alt="">
             </div>
-            <h3 class="text-xl font-semibold mb-3" style="color:#295331;">
+            <h3 class="text-xl font-semibold mb-3">
               Voornaam Achternaam
             </h3>
             <p class="text-sm leading-relaxed text-gray-700">
