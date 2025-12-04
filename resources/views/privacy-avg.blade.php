@@ -51,7 +51,7 @@ Lactatiekundigen IBCLC zijn volgens de Code of Personal Conduct verplicht dit be
 
         @include('components.contact-form-section')
 
-        <footer class="pt-16" style="background-color:#C0D0C7;">
+        @include('components.main-footer')
             <div class="max-1920 mx-auto px-4">
                 <div class="bg-white rounded-t-3xl px-8 py-10 md:px-16 md:py-14">
                     <div class="max-500 grid gap-12 md:grid-cols-2">
@@ -87,6 +87,5 @@ Lactatiekundigen IBCLC zijn volgens de Code of Personal Conduct verplicht dit be
             </div>
         </footer>
 
-        @include('components.footer')
     </main>
 @endsection
