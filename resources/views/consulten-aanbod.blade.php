@@ -24,7 +24,7 @@
                             <p class="text-chantal leading-relaxed mb-2">
                                 Door al tijdens de zwangerschap een goede basiskennis te krijgen over het voeden, houd je na de geboorte meer tijd en energie over om te genieten van je baby. Een goede voorbereiding voorkomt zorgen, stress en problemen.
                             </p>
-                            <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-1" data-toggle-label-open="Meer hierover" data-toggle-label-closed="Meer hierover">Meer hierover</button>
+                            <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-1" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
                         <div class="flex-shrink-0 md:w-1/4">
                             <div class="aspect-square w-full rounded-full overflow-hidden">
@@ -44,7 +44,7 @@
                             <li>Samen met je partner en 4 andere koppels die in dezelfde fase zitten</li>
                             <li>Met cursusboek en toegang tot e-learning modules</li>
                         </ul>
-                        <a href="{{ url('/centering-feeding#inschrijven') }}" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Inschrijven</a>
+                        <a href="{{ url('/centering-feeding#centering-feeding-inschrijven') }}" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Inschrijven</a>
                     </div>
                 </div>
                 <!-- Oberservatie voedingsmoment -->
@@ -56,7 +56,7 @@
                                 Tijdens een voedingsmoment kijk ik mee naar het aanleggen, drinkgedrag, houding en samenspel tussen jou en je baby.
                                 We bespreken wat goed gaat en waar verbetering mogelijk is, zodat voeden weer comfortabel en ontspannen wordt.
                             </p>
-                            <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-2" data-toggle-label-open="Meer hierover" data-toggle-label-closed="Meer hierover">Meer hierover</button>
+                            <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-2" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
                         <div class="flex-shrink-0 md:w-1/4">
                             <div class="aspect-square w-full rounded-full overflow-hidden">
@@ -72,7 +72,7 @@
                             </tr>
                             <tr>
                                 <td>Kosten:</td>
-                                <td>€ 135</td>
+                                <td>€ 135,-</td>
                             </tr>
                         </table>
                         <h3>Wat mag je verwachten:</h3>
@@ -95,7 +95,7 @@
                             <p class="text-chantal leading-relaxed mb-2">
                                 In dit individuele consult is er volop aandacht voor jouw persoonlijke situatie – of het nu gaat om een geplande keizersnede, een tweeling, medicijngebruik of eerdere ervaringen met borstvoeding die niet vanzelf gingen.
                             </p>
-                            <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-3" data-toggle-label-open="Meer hierover" data-toggle-label-closed="Meer hierover">Meer hierover</button>
+                            <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-3" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
                     </div>
                     <div id="panel-3" class="px-6 md:px-10 py-10 hidden">
@@ -206,12 +206,17 @@
                             </p>
                             <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-mail" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
+                        <div class="flex-shrink-0 md:w-1/4">
+                            <div class="aspect-square w-full rounded-full overflow-hidden">
+                                <img src="{{ asset('assets/mailconsult.jpg') }}" alt="Kolf consult" class="w-full h-full object-cover object-center">
+                            </div>
+                        </div>
                     </div>
                     <div id="panel-mail" class="px-6 md:px-10 py-10 hidden">
                         <table class="consult-table mb-4">
                             <tr>
                                 <td>Kosten:</td>
-                                <td>€ 20</td>
+                                <td>€ 20,-</td>
                             </tr>
                         </table>
                         <div class="mb-2 font-semibold">Denk bijvoorbeeld aan:</div>
@@ -238,8 +243,12 @@
                     <div id="panel-ultrageluid" class="px-6 md:px-10 py-10 hidden">
                         <table class="consult-table mb-4">
                             <tr>
-                                <td>Kosten:</td>
-                                <td>Aan huis €100 , Spreekuur €45</td>
+                                <td>Aan huis</td>
+                                <td> €100,-</td>
+                            </tr>
+                            <tr>
+                                <td>Spreekuur</td>
+                                <td>€45,-</td>
                             </tr>
                         </table>
                         <p class="text-chantal leading-relaxed mb-4">
@@ -267,7 +276,7 @@
                             </tr>
                             <tr>
                                 <td>Kosten:</td>
-                                <td>€ 85</td>
+                                <td>€ 85,-</td>
                             </tr>
                         </table>
                         <p class="text-chantal leading-relaxed mb-4">
@@ -295,7 +304,7 @@
                             </tr>
                             <tr>
                                 <td>Kosten:</td>
-                                <td>€ 45</td>
+                                <td>€ 45,-</td>
                             </tr>
                         </table>
                         <div class="mb-2 font-semibold">Bijvoorbeeld bij:</div>
@@ -311,7 +320,7 @@
                             <li>Nederweert</li>
                             <li>Sittard</li>
                         </ul>
-                        <p class="text-chantal leading-relaxed mb-2">
+                        <p class="text-chantal leading-relaxed mb-6">
                             Dit consult vindt in de praktijk of online plaats.
                         </p>
                         <a href="#contact" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Afspraak maken</a>

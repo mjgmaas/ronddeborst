@@ -37,8 +37,10 @@
                 <div class="w-full md:w-[600px] bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Praktisch</h2>
                     <p class="leading-relaxed mb-6">
-                        Gelukkig erkennen veel zorgverzekeraars het belang van borstvoeding en de ondersteuning van een IBCLC-lactatiekundige. Daarom worden consulten vaak volledig of deels vergoed wanneer je aanvullend verzekerd bent. Check vooraf altijd even hoe dit bij jouw verzekering geregeld is. Via deze link kun je dit makkelijk nakijken:<br>
-                        <a href="https://www.zorgwijzer.nl/vergoeding/lactatiekundige" class="hover:underline" target="_blank" rel="noopener">https://zorgwijzer.nl/vergoeding/lactatiekundige</a>
+                        Gelukkig erkennen veel zorgverzekeraars het belang van borstvoeding en de ondersteuning van een
+                        IBCLC-lactatiekundige. Daarom worden consulten vaak volledig of deels vergoed wanneer je aanvullend
+                        verzekerd bent. Check vooraf altijd even hoe dit bij jouw verzekering geregeld is:<br>
+                        <a href="https://www.zorgwijzer.nl/vergoeding/lactatiekundige" target="_blank" target="_blank" rel="noopener" class="underline text-[#295331]">https://zorgwijzer.nl</a>
                     </p>
                     <p class="mb-6">
                         Na afloop van het consult ontvang je de factuur per e-mail. Je betaalt deze rechtstreeks aan mij binnen 14 dagen. Daarna kun je de factuur zelf indienen bij jouw zorgverzekeraar.
@@ -47,11 +49,8 @@
                         Let op: sommige verzekeraars vragen om een verwijzing van je huisarts of verloskundige.
                     </p>
                 </div>
-                <div class="w-full md:w-[400px] bg-white flex flex-col">
-                    <div class="aspect-square w-full overflow-hidden">
-                        <img src="{{ asset('assets/consulten-praktisch.png') }}" class="w-full h-full object-cover object-center" alt="">
-                    </div>
-                    <div class="flex-1 bg-white"></div>
+                <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto"
+                    style="background-image: url('{{ asset('assets/consult-laptop-papieren.png') }}');">
                 </div>
             </div>
         </section>

@@ -20,7 +20,7 @@
                     <p class="text-chantal leading-relaxed mb-6">
                         De WHO-code is de internationale gedragscode voor het op de markt brengen van vervangingsmiddelen voor moedermelk. Het doel is dat ouders zélf, zonder commerciële beïnvloeding, kunnen kiezen hoe ze hun baby voeden.<br>
                         In Nederland beperkt de WHO-code onder meer de reclame voor zuigelingenvoeding onder de zes maanden. De richtlijnen uit de WHO-code zijn strenger dan de Nederlandse of Europese wetgeving.<br>
-                        Ik onderschrijf deze code volledig.<br>
+                        Ik volg de principes van deze code in mijn praktijk.<br>
                         Daarom werk ik uitsluitend met merken en producten van bedrijven die zich óók aan de WHO-code houden. Dit betekent dat ik voor bepaalde merken geen reclame maak.
                     </p>
                     <ul class="list-disc pl-6 mb-6">
@@ -47,7 +47,7 @@
                         in de Zorg. Zij zijn onpartijdig, werken onafhankelijk en helpen je graag verder met ondersteuning en advies.
                         Meer informatie?<br> Kijk op <a href="https://www.klachtverloskunde.nl" target="_blank" rel="noopener" class="underline text-[#295331]">www.klachtverloskunde.nl</a>.<br>
                     </p>
-                    <p>
+                    <p class="text-chantal leading-relaxed mb-6">
                         Ook de NVL biedt informatie over de klachtenprocedure.<br>
                         <a href="https://www.nvlborstvoeding.nl/ouders/klachtenprocedure" target="_blank" rel="noopener" class="underline text-[#295331]">https://www.nvlborstvoeding.nl</a>
                     </p>

@@ -25,7 +25,7 @@
                         de zorg de WGBO, met extra regels voor vertrouwelijkheid en dossierbeheer.
                     </p>
                     <p>
-                        <a href="https://www.nvlborstvoeding.nl/privacyverklaring" target="_blank" rel="noopener" class="underline text-[#295331]">Meer informatie over Centering Feeding</a>
+                        <a href="https://www.nvlborstvoeding.nl/privacyverklaring" target="_blank" rel="noopener" class="underline text-[#295331]">https://www.nvlborstvoeding.nl/privacyverklaring</a>
                     </p>
                 </div>
                 {{-- <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"

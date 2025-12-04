@@ -33,9 +33,9 @@
 
         <section class="py-20" style="background-color: #EAEEEB;" id="persoonlijk">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
-                {{-- <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
-                    style="background-image: url('{{ asset('assets/chantal-home.png') }}');">
-                </div> --}}
+                <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
+                    style="background-image: url('{{ asset('assets/petruskerk.jpg') }}');">
+                </div>
                 <div class="w-full bg-white p-10">
 
                 {{-- <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Chantal Mulkens</h2> --}}
@@ -44,7 +44,7 @@
             </div>
         </section>
 
-                <section class="py-20" style="background-color: #FAFAFA;" id="boeken-tips">
+        <section class="py-20" style="background-color: #FAFAFA;" id="boeken-tips">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
                 <div class="w-full bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Boeken tips</h2>
@@ -80,15 +80,15 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center"
-                    style="background-image: url('{{ asset('assets/boeken.png') }}');">
+                <div class="w-full h-64 md:w-[500px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
+                    style="background-image: url('{{ asset('assets/boeken-large.png') }}');">
                 </div>
             </div>
         </section>
 
         <section class="py-20" style="background-color: #EAEEEB;" id="podcast-borstvoedingsbabbel">
             <div class="max-w-5xl mx-auto flex flex-col px-4 md:px-0">
-                <div class="w-full bg-white p-10">
+                <div class="w-full bg-white pl-10 pt-10 pr-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Podcast</h2>
                     <h3 class="text-4xl font-semibold mb-4" >Borstvoedingsbabbel</h3>
                     <p class="text-chantal leading-relaxed mb-6">
@@ -97,7 +97,11 @@
                         praktische handvatten krijgen en zich gesteund voelen tijdens hun borstvoedingsreis.
                         Perfect voor ouders én zorgverleners die meer willen weten, geïnspireerd willen raken of gewoon graag luisteren naar herkenbare ervaringen.
                     </p>
-                    <a href="https://centeringfeeding.com/podcast" target="_blank" class="inline-block px-6 py-3 bg-[#295331] text-white rounded shadow hover:bg-[#295331cc] transition">Beluister de podcast</a>
+                    <a href="https://centeringfeeding.com/podcast" target="_blank"
+                        class="inline-block text-white px-6 py-3 rounded-full transition ml-2"
+                        style="background-color: #295331;">
+                        Beluister de podcast
+                    </a>
                 </div>
                 <div class="w-full bg-white p-10">
                     <h3 class="text-4xl font-semibold mb-4" >Machtige Melk</h3>
@@ -106,7 +110,11 @@
                         over borstvoeding, moeder-kindzorg en de wetenschap erachter. In elke aflevering nemen deskundigen je mee in
                         herkenbare verhalen, actuele inzichten en praktische handvatten die je meteen kunt toepassen.
                     </p>
-                    <a href="https://centeringfeeding.com/podcast" target="_blank" class="inline-block px-6 py-3 bg-[#295331] text-white rounded shadow hover:bg-[#295331cc] transition">Beluister de podcast</a>
+                    <a href="https://centeringfeeding.com/podcast" target="_blank"
+                        class="inline-block text-white px-6 py-3 rounded-full transition ml-2"
+                        style="background-color: #295331;">
+                        Beluister de podcast
+                    </a>
                 </div>
             </div>
         </section>
