@@ -1,5 +1,9 @@
 /* Custom designer styles migrated from stylesheet.css (original: rond-de-borst-v2-27-11-25/stylesheet.css) */
 
+.hidden {
+  display: none !important;
+}
+
 body{
     --color-beige-100: rgb(185, 125, 103, 1);
     --color-beige-15: rgb(185, 125, 103, 0.15);
