@@ -59,3 +59,19 @@ document.addEventListener('DOMContentLoaded', function () {
 		}
 	});
 });
+
+// TOGGLE PANEL BUTTONS
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('button[data-toggle-panel]').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var panelId = btn.getAttribute('data-toggle-panel');
+            var panel = document.getElementById(panelId);
+            if (!panel) return;
+            var openLabel = btn.getAttribute('data-toggle-label-open') || 'Dichtklappen';
+            var closedLabel = btn.getAttribute('data-toggle-label-closed') || 'Uitklappen';
+            var isOpen = !panel.classList.contains('hidden');
+            panel.classList.toggle('hidden');
+            btn.textContent = isOpen ? closedLabel : openLabel;
+        });
+    });
+});

@@ -121,8 +121,6 @@
 
         @include('components.contact-form-section')
 
-        @include('components.main-footer')
-
         @include('components.footer')
     </main>
 @endsection

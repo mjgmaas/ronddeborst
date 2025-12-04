@@ -7,6 +7,5 @@
         <a href="{{ route('home') }}" class="inline-block px-6 py-3 rounded-full text-white font-semibold" style="background-color: #295331;">Terug naar home</a>
     </div>
     @include('components.contact-form-section')
-    @include('components.main-footer')
     @include('components.footer')
 @endsection
