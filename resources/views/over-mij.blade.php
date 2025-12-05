@@ -26,7 +26,7 @@
                         van voeding en ouderschap.</p>
                 </div>
                 <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
-                    style="background-image: url('{{ asset('assets/chantal-blauw.png') }}');">
+                    style="background-image: url('{{ asset('assets/chantal-zit-buiten.png') }}');">
                 </div>
             </div>
         </section>
@@ -122,6 +122,6 @@
         @include('components.contact-form-section')
 
         @include('components.footer')
-         
+
     </main>
 @endsection
