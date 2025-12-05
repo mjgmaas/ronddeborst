@@ -7,7 +7,7 @@
     <main>
         <!-- HERO -->
         <section id="hero"
-            class="w-full h-[30vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
+            class="w-full h-[35vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
             style="background-image: url('{{ asset('assets/header-home.png') }}');">
             <div class="relative z-10 text-center px-6 pb-20 md:pb-24">
                 <h1 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">Consulten</h1>
