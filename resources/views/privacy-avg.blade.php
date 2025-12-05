@@ -43,8 +43,13 @@
 
                 <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Beroepsgeheim</h2>
                     <p class="text-chantal leading-relaxed">
-Alle informatie die je met mij deelt valt onder het medisch beroepsgeheim. Ik verstrek nooit gegevens aan derden zonder jouw toestemming — ook niet aan familie.
-Lactatiekundigen IBCLC zijn volgens de Code of Personal Conduct verplicht dit beroepsgeheim te respecteren. Alleen in uitzonderlijke situaties, of wanneer de veiligheid in het geding is, kan overwogen worden om het beroepsgeheim deels op te heffen. Dit gebeurt altijd zorgvuldig en pas nadat andere opties zijn bekeken.</p>
+                        Alle informatie die je met mij deelt valt onder het medisch beroepsgeheim. Ik
+                        verstrek nooit gegevens aan derden zonder jouw toestemming — ook niet aan familie.
+                        Lactatiekundigen zijn volgens de Code of Personal Conduct verplicht dit beroepsgeheim
+                        te respecteren. Alleen in uitzonderlijke situaties, of wanneer de veiligheid in het
+                        geding is, kan overwogen worden om het beroepsgeheim deels op te heffen. Dit gebeurt
+                        altijd zorgvuldig en pas nadat andere opties zijn bekeken.
+                    </p>
                 </div>
             </div>
         </section>

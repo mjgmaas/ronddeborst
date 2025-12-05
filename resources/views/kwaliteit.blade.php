@@ -41,7 +41,7 @@
                 <div class="w-full bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Klachtenregeling</h2>
                     <p class="text-chantal leading-relaxed mb-6">
-                        Ben je ergens niet tevreden over? Laat het me vooral weten — we zoeken samen naar een passende oplossing.<br>
+                        Ben je ergens niet tevreden over? Laat het me vooral weten; we zoeken samen naar een passende oplossing.<br>
                         Voel je niet de ruimte om je klacht bij mij kenbaar te maken of wil je hulp bij het indienen
                         van een klacht? Neem dan contact op met de klachtenfunctionaris van het CBKZ: Centraal Bureau Klachtenmanagement
                         in de Zorg. Zij zijn onpartijdig, werken onafhankelijk en helpen je graag verder met ondersteuning en advies.
