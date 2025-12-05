@@ -108,9 +108,10 @@
                         Afspraak maken
                     </a>
                 </div>
-                <div class="w-full md:w-[400px] bg-white flex flex-col">
+                <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto"
+                {{-- <div class="w-full md:w-[400px] bg-white flex flex-col bg-cover bg-center md:h-auto"> --}}
                     <div class="aspect-square w-full overflow-hidden">
-                        <img src="{{ asset('assets/homepage-consult.jpg') }}" class="w-full h-full object-cover object-center" alt="">
+                        <img src="{{ asset('assets/hp-chantal-overhandigd-papieren.jpg') }}" class="w-full h-full object-cover object-center" alt="">
                     </div>
                     <div class="flex-1 bg-white"></div>
                 </div>
