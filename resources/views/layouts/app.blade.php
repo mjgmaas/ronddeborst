@@ -11,10 +11,13 @@
     <link rel="icon" href="{{ asset('favicon.svg') }}" type="image/svg+xml">
     <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
 
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href="{{ url()->current() }}" />
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="@yield('title', $title ?? 'Rond de Borst - Lactatiekundige Chantal Mulkens')" />
+    <meta property="og:description" content="@yield('meta_description', 'Lactatiekundige Chantal Mulkens begeleidt ouders bij borstvoeding, hechting en groei. Persoonlijke consulten, Centering Feeding workshops en deskundig advies voor een ontspannen start met voeden.')" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ url()->current() }}" />
+    <meta property="og:image" content="{{ asset('assets/thema/logo-chantal.png') }}" />
 
     <meta name="theme-color" content="#111827">
     @stack('head')
