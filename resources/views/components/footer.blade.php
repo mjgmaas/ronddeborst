@@ -4,7 +4,7 @@
             <div class="max-500 grid gap-12 md:grid-cols-2">
                 <div>
                     <h2 class="text-2xl md:text-3xl font-semibold mb-4" style="color:#295331;">Rond de Borst</h2>
-                    <div class="h-px w-24 bg-gray-200 mb-6"></div>
+                    <div class="h-px w-45 bg-gray-200 mb-6"></div>
                     <ul class="text-sm md:text-base no-bullets" style="color:#5E626E;">
                         <li><a href="{{ url('/privacy-avg') }}" class="hover:underline">Privacy & AVG</a></li>
                         <li><a href="{{ url('/algemene-voorwaarden') }}" class="hover:underline">Algemene voorwaarden</a></li>
@@ -13,7 +13,7 @@
                 </div>
                 <div>
                     <h2 class="text-2xl md:text-3xl font-semibold mb-4" style="color:#295331;">Contact</h2>
-                    <div class="h-px w-24 bg-gray-200 mb-6"></div>
+                    <div class="h-px w-25 bg-gray-200 mb-6"></div>
                     <div class="space-y-2 text-sm md:text-base" style="color:#5E626E;">
                         <ul class="text-sm md:text-base no-bullets" style="color:#5E626E;">
                             <li><a href="tel:+31634816926" class="hover:underline">+31 6 34 81 69 26</a></li>

@@ -1,3 +1,4 @@
+@section('title', 'Kwaliteit: professionele lactatiekundige zorg en begeleiding')
 @extends('layouts.app')
 
 @section('content')
@@ -6,7 +7,7 @@
     <main>
         <!-- HERO -->
         <section id="hero"
-            class="w-full h-[30vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
+            class="w-full h-[35vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
             style="background-image: url('{{ asset('assets/header-home.png') }}');">
             <div class="relative z-10 text-center px-6 pb-20 md:pb-24">
                 <h1 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">Kwaliteit</h1>
@@ -41,7 +42,7 @@
                 <div class="w-full bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Klachtenregeling</h2>
                     <p class="text-chantal leading-relaxed mb-6">
-                        Ben je ergens niet tevreden over? Laat het me vooral weten — we zoeken samen naar een passende oplossing.<br>
+                        Ben je ergens niet tevreden over? Laat het me vooral weten; we zoeken samen naar een passende oplossing.<br>
                         Voel je niet de ruimte om je klacht bij mij kenbaar te maken of wil je hulp bij het indienen
                         van een klacht? Neem dan contact op met de klachtenfunctionaris van het CBKZ: Centraal Bureau Klachtenmanagement
                         in de Zorg. Zij zijn onpartijdig, werken onafhankelijk en helpen je graag verder met ondersteuning en advies.

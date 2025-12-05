@@ -1,3 +1,4 @@
+@section('title', 'Lactatiekundige Chantal Mulkens: zorg, kennis en kracht voor ouders en hun baby')
 
 @extends('layouts.app')
 
@@ -11,9 +12,9 @@
             class="w-full h-[50vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
             style="background-image: url('{{ asset('assets/header-home.png') }}');">
             <div class="relative z-10 text-center px-6 pb-20 md:pb-24">
-                <h1 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">
+                <h2 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">
                     Waar zorg, kennis en kracht samenkomen
-                </h1>
+                </h2>
             </div>
         </section>
 
@@ -41,7 +42,7 @@
                     </a>
                 </div>
                 <div class="w-full md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
-                    style="background-image: url('{{ asset('assets/chantal-home.png') }}');">
+                    style="background-image: url('{{ asset('assets/chantal-zit-op-bed.jpg') }}');">
                 </div>
             </div>
         </section>
@@ -97,20 +98,20 @@
                         Ook als je gewoon even wilt checken of je goed bezig bent.<br>
                         Geen vraag is te klein.
                     </p>
-                    <a href="{{ url('/consulten') }}"
-                        class="inline-block text-white px-6 py-3 rounded-full transition"
+                    <a href="{{ url('/consulten-aanbod') }}"
+                        class="inline-block w-45 text-white px-6 py-3 my-2 rounded-full transition mr-2"
                         style="background-color: #B97D67;">
-                        Meer weten
+                        Bekijk consulten
                     </a>
                     <a href="#contact"
-                        class="inline-block text-white px-6 py-3 rounded-full transition ml-2"
+                        class="inline-block w-45 text-white px-6 py-3 my-2 rounded-full transition"
                         style="background-color: #295331;">
                         Afspraak maken
                     </a>
                 </div>
-                <div class="w-full md:w-[400px] bg-white flex flex-col">
+                <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto"
                     <div class="aspect-square w-full overflow-hidden">
-                        <img src="{{ asset('assets/homepage-consult.jpg') }}" class="w-full h-full object-cover object-center" alt="">
+                        <img src="{{ asset('assets/chantal-consult.jpg') }}" class="w-full h-full object-cover object-center" alt="">
                     </div>
                     <div class="flex-1 bg-white"></div>
                 </div>

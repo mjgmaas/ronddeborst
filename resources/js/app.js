@@ -5,7 +5,11 @@ document.addEventListener('DOMContentLoaded', function () {
 	let current  = 0;
 	function showSlide(index) {
 		slides.forEach((slide, i) => {
-			slide.classList.toggle('hidden', i !== index);
+			if (i !== index) {
+				slide.style.display = 'none';
+			} else {
+				slide.style.display = '';
+			}
 		});
 		dots.forEach((dot, i) => {
 			if (i === index) {

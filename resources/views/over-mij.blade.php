@@ -1,3 +1,4 @@
+@section('title', 'Over Chantal Mulkens: persoonlijke begeleiding en expertise')
 
 @extends('layouts.app')
 
@@ -7,7 +8,7 @@
     <main>
         <!-- HERO -->
         <section id="hero"
-            class="w-full h-[30vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
+            class="w-full h-[35vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
             style="background-image: url('{{ asset('assets/header-home.png') }}');">
             <div class="relative z-10 text-center px-6 pb-20 md:pb-24">
                 <h1 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">Over mij</h1>
@@ -26,7 +27,7 @@
                         van voeding en ouderschap.</p>
                 </div>
                 <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
-                    style="background-image: url('{{ asset('assets/chantal-blauw.png') }}');">
+                    style="background-image: url('{{ asset('assets/chantal-zit-buiten.png') }}');">
                 </div>
             </div>
         </section>
@@ -122,6 +123,6 @@
         @include('components.contact-form-section')
 
         @include('components.footer')
-         
+
     </main>
 @endsection

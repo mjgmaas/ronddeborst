@@ -1,3 +1,4 @@
+@section('title', 'Consulten aanbod: alle vormen van lactatiekundige begeleiding')
 
 @extends('layouts.app')
 

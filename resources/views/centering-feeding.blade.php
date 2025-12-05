@@ -1,3 +1,4 @@
+@section('title', 'Centering Feeding: voorbereiding op ontspannen borstvoeding')
 
 @extends('layouts.app')
 
