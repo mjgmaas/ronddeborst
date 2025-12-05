@@ -6,10 +6,10 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
     plugins: [
-        laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js'],
-            refresh: true,
-        }),
+            laravel({
+                input: ['resources/css/app.css', 'resources/css/custom-styles.css', 'resources/js/app.js'],
+                refresh: true,
+            }),
         tailwindcss(),
     ],
     ...(process.env.NODE_ENV === 'development' ? {

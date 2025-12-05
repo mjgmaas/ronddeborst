@@ -16,7 +16,7 @@
         <div class="container">
             <h1>Je bericht is ontvangen</h1>
             <p>Hoi {{ $submission->name }},</p>
-            <p>Bedankt voor je bericht. We nemen binnenkort contact met je op.</p>
+            <p>Bedankt voor je bericht. Ik neem binnenkort contact met je op.</p>
 
             <p>Met zorgzame groet,</p>
             <p>
