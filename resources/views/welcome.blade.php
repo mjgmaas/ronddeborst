@@ -98,12 +98,12 @@
                         Geen vraag is te klein.
                     </p>
                     <a href="{{ url('/consulten') }}"
-                        class="inline-block text-white px-6 py-3 rounded-full transition"
+                        class="inline-block w-45 text-white px-6 py-3 my-2 rounded-full transition mr-2"
                         style="background-color: #B97D67;">
                         Meer weten
                     </a>
                     <a href="#contact"
-                        class="inline-block text-white px-6 py-3 rounded-full transition ml-2"
+                        class="inline-block w-45 text-white px-6 py-3 my-2 rounded-full transition"
                         style="background-color: #295331;">
                         Afspraak maken
                     </a>
