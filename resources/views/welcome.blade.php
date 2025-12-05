@@ -1,3 +1,4 @@
+@section('title', 'Lactatiekundige Chantal Mulkens: zorg, kennis en kracht voor ouders en hun baby')
 
 @extends('layouts.app')
 
@@ -11,9 +12,9 @@
             class="w-full h-[50vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
             style="background-image: url('{{ asset('assets/header-home.png') }}');">
             <div class="relative z-10 text-center px-6 pb-20 md:pb-24">
-                <h1 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">
+                <h2 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">
                     Waar zorg, kennis en kracht samenkomen
-                </h1>
+                </h2>
             </div>
         </section>
 

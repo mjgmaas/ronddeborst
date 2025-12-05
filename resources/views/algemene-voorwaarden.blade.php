@@ -1,3 +1,4 @@
+@section('title', 'Algemene voorwaarden voor lactatiekundige zorg en consulten')
 @extends('layouts.app')
 
 @section('content')

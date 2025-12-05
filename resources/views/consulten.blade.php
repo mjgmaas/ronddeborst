@@ -1,3 +1,4 @@
+@section('title', 'Consulten: praktische hulp en advies bij borstvoeding')
 
 @extends('layouts.app')
 

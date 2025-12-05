@@ -1,3 +1,4 @@
+@section('title', 'Kwaliteit: professionele lactatiekundige zorg en begeleiding')
 @extends('layouts.app')
 
 @section('content')

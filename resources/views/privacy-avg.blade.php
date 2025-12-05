@@ -1,3 +1,4 @@
+@section('title', 'Privacyverklaring: bescherming van jouw gegevens en AVG')
 
 @extends('layouts.app')
 

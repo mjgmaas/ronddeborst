@@ -1,3 +1,4 @@
+@section('title', 'Over Chantal Mulkens: persoonlijke begeleiding en expertise')
 
 @extends('layouts.app')
 
