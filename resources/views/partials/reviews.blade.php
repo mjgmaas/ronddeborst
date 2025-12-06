@@ -1,4 +1,4 @@
-<section id="ervaringen" class="py-20" style="background-color: #EDF2EE;">
+<section id="ervaringen" class="py-10 md:py-20" style="background-color: #EDF2EE;">
   <div class="max-w-[1000px] mx-auto px-4">
     <h2 class="text-4xl font-semibold text-center mb-10" style="color:#295331;">
       Lieve woordjes

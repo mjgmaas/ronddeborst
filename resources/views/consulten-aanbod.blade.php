@@ -10,13 +10,13 @@
         <section id="hero"
             class="w-full h-[35vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
             style="background-image: url('{{ asset('assets/header-home.png') }}');">
-            <div class="relative z-10 text-center px-6 pb-20 md:pb-24">
+            <div class="relative z-10 text-center px-2 pb-10 md:px-6 md:pb-24">
                 <h1 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">Consulten aanbod</h1>
             </div>
         </section>
 
-        <section class="py-20" style="background-color: #EAEEEB;">
-            <div class="max-w-5xl mx-auto px-4 md:px-0">
+        <section class="py-10" style="background-color: #EAEEEB;">
+            <div class="max-w-5xl mx-auto px-2 md:px-0">
                 <!-- Centering feeding 1 -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
                     <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
