@@ -14,9 +14,9 @@
             </div>
         </section>
 
-        <section class="py-20" style="background-color: #FAFAFA;" id="who-code">
+        <section class="py-10 md:py-20" style="background-color: #FAFAFA;" id="who-code">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
-                <div class="w-full bg-white p-10">
+                <div class="w-full bg-white p-4 md:p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">De WHO-code</h2>
                     <p class="text-chantal leading-relaxed mb-6">
                         De WHO-code is de internationale gedragscode voor het op de markt brengen van vervangingsmiddelen voor moedermelk. Het doel is dat ouders zélf, zonder commerciële beïnvloeding, kunnen kiezen hoe ze hun baby voeden.<br>
@@ -39,7 +39,7 @@
 
         <section class="py-20" style="background-color: #EAEEEB;" id="klachtenregeling">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
-                <div class="w-full bg-white p-10">
+                <div class="w-full bg-white p-4 md:p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Klachtenregeling</h2>
                     <p class="text-chantal leading-relaxed mb-6">
                         Ben je ergens niet tevreden over? Laat het me vooral weten; we zoeken samen naar een passende oplossing.<br>

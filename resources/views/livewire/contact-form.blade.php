@@ -1,5 +1,5 @@
 
-<section id="contact" class="py-20" style="background-color:#F7F7F7;">
+<section id="contact" class="py-10 md:py-20" style="background-color:#F7F7F7;">
     <div class="max-w-[1000px] mx-auto px-4">
         <div class="bg-white rounded-2xl shadow-sm px-6 md:px-12 py-12 md:py-16">
             @if ($status ?? false)
