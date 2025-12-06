@@ -15,9 +15,9 @@
             </div>
         </section>
 
-        <section class="py-20" style="background-color: #FAFAFA;" id="over-mij">
-            <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
-                <div class="w-full bg-white p-10">
+        <section class="py-10 md:py-20" style="background-color: #FAFAFA;" id="over-mij">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-2 md:px-0">
+                <div class="w-full bg-white p-4 md:p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Chantal Mulkens</h2>
                     <p class="text-chantal leading-relaxed mb-6">
                         Ik ben Chantal Mulkens, lactatiekundige met een achtergrond als verloskundige. Na jaren
@@ -26,29 +26,29 @@
                         zonder oordeel. Ik combineer medische kennis met aandacht voor de emotionele kant
                         van voeding en ouderschap.</p>
                 </div>
-                <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
+                <div class="w-full h-100 md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
                     style="background-image: url('{{ asset('assets/chantal-zit-buiten.png') }}');">
                 </div>
             </div>
         </section>
 
-        <section class="py-20" style="background-color: #EAEEEB;" id="persoonlijk">
+        <section class="py-10 md:py-20" style="background-color: #EAEEEB;" id="persoonlijk">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
-                <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
+                <div class="w-full h-100 md:w-[500px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
                     style="background-image: url('{{ asset('assets/petruskerk.jpg') }}');">
                 </div>
-                <div class="w-full bg-white p-10">
+                <div class="w-full bg-white">
 
                 {{-- <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Chantal Mulkens</h2> --}}
-                    <p class="text-chantal leading-relaxed">Ik ben getrouwd met Maurice en woon in Sittard. We zijn de trotse ouders van inmiddels 3 puberende dochters: Jikke, Gitte en Isis. Na 24 jaar een eigen verloskundige praktijk in Sittard te hebben gerund met mijn collega’s heb ik de opleiding tot lactatiekundige gedaan. Naast mijn werk als lactatiekundige begeleid ik ook Centering Pregnancy groepen in de verloskundige praktijk. Ik ben erg blij met deze leuke uitdagingen. In mijn vrije tijd ontspan ik graag met wandelen, een bezoekje aan de sauna of met een goed boek. "Deze liefde” voor lezen inspireerde mij om een selectie aan waardevolle boekentips te verzamelen voor aanstaande en jonge ouders, en natuurlijk over borstvoeding."</p>
+                    <p class="text-chantal leading-relaxed p-4 md:p-10">Ik ben getrouwd met Maurice en woon in Sittard. We zijn de trotse ouders van inmiddels 3 puberende dochters: Jikke, Gitte en Isis. Na 24 jaar een eigen verloskundigen praktijk in Sittard te hebben gerund met mijn collega’s heb ik de opleiding tot lactatiekundige gedaan. Naast mijn werk als lactatiekundige begeleid ik ook Centering Pregnancy groepen in de verloskundige praktijk. Ik ben erg blij met deze leuke uitdagingen. In mijn vrije tijd ontspan ik graag met wandelen, een bezoekje aan de sauna of met een goed boek. "Deze liefde” voor lezen inspireerde mij om een selectie aan waardevolle boekentips te verzamelen voor aanstaande en jonge ouders, en natuurlijk over borstvoeding."</p>
                 </div>
             </div>
         </section>
 
-        <section class="py-20" style="background-color: #FAFAFA;" id="boeken-tips">
+        <section class="py-10 md:py-20" style="background-color: #FAFAFA;" id="boeken-tips">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
-                <div class="w-full bg-white p-10">
-                    <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Boeken tips</h2>
+                <div class="w-full bg-white p-4 md:p-20">
+                    <h2 class="text-4xl font-semibold" style="color: #B97D67">Boeken tips</h2>
                     <ul>
                         <li>
                             <strong>Borstvoeding handboek voor ouders</strong><br>
@@ -87,9 +87,9 @@
             </div>
         </section>
 
-        <section class="py-20" style="background-color: #EAEEEB;" id="podcast-borstvoedingsbabbel">
+        <section class="py-10 md:py-20" style="background-color: #EAEEEB;" id="podcast-borstvoedingsbabbel">
             <div class="max-w-5xl mx-auto flex flex-col px-4 md:px-0">
-                <div class="w-full bg-white pl-10 pt-10 pr-10">
+                <div class="w-full bg-white p-4 md:pl-10 md:pt-10 md:pr-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Podcast</h2>
                     <h3 class="text-4xl font-semibold mb-4" >Borstvoedingsbabbel</h3>
                     <p class="text-chantal leading-relaxed mb-6">
@@ -104,7 +104,7 @@
                         Beluister de podcast
                     </a>
                 </div>
-                <div class="w-full bg-white p-10">
+                <div class="w-full bg-white p-4 mb:p-10">
                     <h3 class="text-4xl font-semibold mb-4" >Machtige Melk</h3>
                     <p class="text-chantal leading-relaxed mb-6">
                         Machtige Melk is een inspirerende podcast voor (aanstaande) ouders én professionals die meer willen begrijpen

@@ -10,15 +10,15 @@
         <section id="hero"
             class="w-full h-[40vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
             style="background-image: url('{{ asset('assets/cf-banner.png') }}');">
-            <div class="relative z-10 text-center px-6 pb-20 md:pb-24">
+            <div class="relative z-10 text-center px-2 pb-10 md:px-6 md:pb-24">
                 <h1 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">Centering feeding</h1>
             </div>
         </section>
 
         <!-- Intro -->
-        <section class="py-20" style="background-color: #FAFAFA;" id="centering-feeding-intro">
-            <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
-                <div class="w-full md:w-[600px] bg-white p-10">
+        <section class="py-10 md:py-20" style="background-color: #FAFAFA;" id="centering-feeding-intro">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-2 md:px-0">
+                <div class="w-full md:w-[600px] bg-white p-4 md:p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Centering feeding</h2>
                     <p class="text-chantal leading-relaxed mb-6">Door al tijdens de zwangerschap een goede basiskennis te krijgen over het voeden, houd je na de geboorte meer tijd en energie over om te genieten van je baby. Een goede voorbereiding voorkomt zorgen, stress en problemen.</p>
                     <ul class="default-list mb-2">
@@ -34,9 +34,9 @@
         </section>
 
         <!-- Workshop -->
-        <section class="py-20" style="background-color: #EAEEEB;" id="centering-feeding-workshop">
-            <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-4 md:px-0">
-                <div class="w-full md:w-[600px] bg-white p-10">
+        <section class="py-10 md:py-20" style="background-color: #EAEEEB;" id="centering-feeding-workshop">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-2 md:px-0">
+                <div class="w-full md:w-[600px] bg-white p-4 md:p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Workshop</h2>
                     <p class="text-chantal leading-relaxed mb-4">
                             De workshops Centering Feeding zijn er om jullie hierbij te helpen. In 3 fysieke workshops, van ongeveer 2 uur, krijgen jullie kennis en vaardigheden die helpend zijn voor een succesvolle (borst)voedingsperiode. De eerste twee workshops zijn tijdens de zwangerschap en de derde en laatste workshop is na de bevalling samen met jullie kindje.
@@ -52,14 +52,14 @@
         </section>
 
         <!-- Ontdek -->
-        <section class="py-20" style="background-color: #FAFAFA;" id="centering-feeding-ontdek">
-            <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-4 md:px-0">
+        <section class="py-10 md:py-20" style="background-color: #FAFAFA;" id="centering-feeding-ontdek">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-2 md:px-0">
                 <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto"
                     style="background-image: url('{{ asset('assets/cf-ontdek.jpg') }}');">
                 </div>
-                <div class="w-full md:w-[600px] bg-white p-10">
+                <div class="w-full md:w-[600px] bg-white p-4 md:p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Ontdek</h2>
-                    <ul class="default-list mb-4">
+                    <ul class="mb-4">
                         <li>Hoe moet ik mijn baby voeden? Basisprincipes voor borst- en flesvoeding</li>
                         <li>Hoe vaak en hoelang moet ik voeden? Hoeveel drinkt een baby dan?</li>
                         <li>Hoe weet ik of mijn borsten genoeg melk produceren?</li>
@@ -75,12 +75,12 @@
             </div>
         </section>
 
-        <!-- Voordelen.. -->
-        <section class="py-20" style="background-color: #EAEEEB;" id="centering-feeding-voordelen">
+        <!-- Je weet.. -->
+        <section class="py-10 md:py-20" style="background-color: #EAEEEB;" id="centering-feeding-voordelen">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-4 md:px-0">
-                <div class="w-full md:w-[600px] bg-white p-10">
+                <div class="w-full md:w-[600px] bg-white p-4 md:p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Je weet...</h2>
-                    <ul class="default-list mb-4">
+                    <ul class="mb-4">
                         <li>Wat je te wachten staat</li>
                         <li>Hoe je met uitdagingen om moet gaan</li>
                         <li>Hoe je onnodige struikelpunten voor kunt zijn</li>
@@ -97,7 +97,7 @@
         </section>
 
         <!-- Inschrijven -->
-        <section class="py-20" style="background-color: #EAEEEB;" id="centering-feeding-inschrijven">
+        <section class="py-10 md:py-20" style="background-color: #FAFAFA;" id="centering-feeding-inschrijven">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-2 sm:px-4 md:px-0">
                 <div class="w-full md:w-[1000px] bg-white p-4 sm:p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Inschrijven</h2>

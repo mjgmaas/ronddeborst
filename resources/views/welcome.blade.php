@@ -11,16 +11,16 @@
         <section id="hero"
             class="w-full h-[50vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
             style="background-image: url('{{ asset('assets/header-home.png') }}');">
-            <div class="relative z-10 text-center px-6 pb-20 md:pb-24">
+            <div class="relative z-10 text-center px-6 pb-10 md:px-6 md:pb-24">
                 <h2 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">
                     Waar zorg, kennis en kracht samenkomen
                 </h2>
             </div>
         </section>
 
-        <section class="py-20 bg-[#FAFAFA]" id="over-mij">
-            <div class="max-w-5xl mx-auto px-4 md:px-0 flex flex-col md:flex-row md:items-stretch">
-                <div class="w-full md:w-[600px] bg-white p-10">
+        <section class="py-10 md:py-20 bg-[#FAFAFA]" id="over-mij">
+            <div class="max-w-5xl mx-auto px-2 md:px-0 flex flex-col md:flex-row md:items-stretch">
+                <div class="w-full md:w-[600px] bg-white p-4 md:p-20">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Chantal Mulkens</h2>
                     <p class="text-chantal leading-relaxed mb-6">
                         Als lactatiekundige begeleid ik ouders in de bijzondere periode van voeding,
@@ -47,9 +47,9 @@
             </div>
         </section>
 
-        <section class="py-20" style="background-color: #EAEEEB;" id="centering-feeding">
-            <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-4 md:px-0">
-                <div class="w-full md:w-[600px] bg-white p-10">
+        <section class="py-10 md:py-20" style="background-color: #EAEEEB;" id="centering-feeding">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-2 md:px-0">
+                <div class="w-full md:w-[600px] bg-white p-4 md:p-10">
                     <h2 class="header-dark-green text-4xl font-semibold mb-4">Centering feeding</h2>
                         <p class="text-chantal leading-relaxed mb-2">
                             Door al tijdens de zwangerschap een goede basiskennis te krijgen over het voeden,
@@ -73,9 +73,9 @@
             </div>
         </section>
 
-        <section class="py-20" style="background-color: #FAFAFA;" id="consulten">
-            <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-4 md:px-0">
-                <div class="w-full md:w-[600px] bg-white p-10">
+        <section class="py-10" style="background-color: #FAFAFA;" id="consulten">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-2 md:px-0">
+                <div class="w-full md:w-[600px] bg-white p-4 md:p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Consulten</h2>
                     <p class="text-chantal leading-relaxed mb-6">
                         Borstvoeding verloopt niet altijd vanzelf. Soms heb je vragen, twijfels of praktische hulp nodig om verder te kunnen. Je kunt bij mij terecht tijdens de zwangerschap, in de kraamtijd of op elk moment daarna.
