@@ -104,7 +104,7 @@
                         Beluister de podcast
                     </a>
                 </div>
-                <div class="w-full bg-white p-4 mb:p-10">
+                <div class="w-full bg-white p-4 md:p-10">
                     <h3 class="text-4xl font-semibold mb-4" >Machtige Melk</h3>
                     <p class="text-chantal leading-relaxed mb-6">
                         Machtige Melk is een inspirerende podcast voor (aanstaande) ouders én professionals die meer willen begrijpen
