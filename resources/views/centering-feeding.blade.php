@@ -106,44 +106,44 @@
                         wordt nader bepaald na je bevalling.</p>
                     {{-- Maak een tabel van 4 kolommen en 4 rijen met als headers: Groep, Lokatie, Datums, Beschikbaarheid  --}}
                     <div class="overflow-x-auto mb-6">
-                        <table class="min-w-[600px] w-full text-left mb-6 text-sm">
+                        <table class="text-chantal min-w-[600px] w-full text-left mb-6 text-sm">
                         <thead>
                             <tr>
-                                <th class="border-b-2 border-gray-300 pb-2">Groep</th>
-                                <th class="border-b-2 border-gray-300 pb-2">Datums</th>
-                                <th class="border-b-2 border-gray-300 pb-2">Beschikbaarheid</th>
-                                <th class="border-b-2 border-gray-300 pb-2">Tijd</th>
-                                <th class="border-b-2 border-gray-300 pb-2">Lokatie</th>
+                                <th class="border-b-2 border-gray-300 pb-2 px-1 sm:px-4">Groep</th>
+                                <th class="border-b-2 border-gray-300 pb-2 px-1 sm:px-4">Datums</th>
+                                <th class="border-b-2 border-gray-300 pb-2 px-1 sm:px-4">Beschikbaarheid</th>
+                                <th class="border-b-2 border-gray-300 pb-2 px-1 sm:px-4">Tijd</th>
+                                <th class="border-b-2 border-gray-300 pb-2 px-1 sm:px-4">Lokatie</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="border-b border-gray-300 py-2">Groep 2</td>
-                                <td class="border-b border-gray-300 py-2">9 okt, 6 nov</td>
-                                <td class="border-b border-gray-300 py-2">Volgeboekt</td>
-                                <td class="border-b border-gray-300 py-2">18:30</td>
-                                <td class="border-b border-gray-300 py-2">Baexem</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Groep 2</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">9 okt, 6 nov</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Volgeboekt</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Baexem</td>
                             </tr>
                             <tr>
-                                <td class="border-b border-gray-300 py-2">Groep 3</td>
-                                <td class="border-b border-gray-300 py-2">11 dec, 8 jan</td>
-                                <td class="border-b border-gray-300 py-2">Volgeboekt</td>
-                                <td class="border-b border-gray-300 py-2">18:30</td>
-                                <td class="border-b border-gray-300 py-2">Baexem</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Groep 3</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">11 dec, 8 jan</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Volgeboekt</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Baexem</td>
                             </tr>
                             <tr>
-                                <td class="border-b border-gray-300 py-2">Groep 4</td>
-                                <td class="border-b border-gray-300 py-2">12 jan, 5 feb</td>
-                                <td class="border-b border-gray-300 py-2">Plaatsen beschikbaar</td>
-                                <td class="border-b border-gray-300 py-2">18:30</td>
-                                <td class="border-b border-gray-300 py-2">Baexem</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Groep 4</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">12 jan, 5 feb</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Plaatsen beschikbaar</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Baexem</td>
                             </tr>
                             <tr>
-                                <td class="border-b border-gray-300 py-2">Groep 5</td>
-                                <td class="border-b border-gray-300 py-2">9 feb, 2 maart</td>
-                                <td class="border-b border-gray-300 py-2">Plaatsen beschikbaar</td>
-                                <td class="border-b border-gray-300 py-2">18:30</td>
-                                <td class="border-b border-gray-300 py-2">Baexem</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Groep 5</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">9 feb, 2 maart</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Plaatsen beschikbaar</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Baexem</td>
                             </tr>
                         </tbody>
                         </table>

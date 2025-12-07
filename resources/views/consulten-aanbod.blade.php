@@ -187,7 +187,7 @@
                                 <td>€ 15,- (tot 10 minuten), daarna € 1,- per minuut</td>
                             </tr>
                         </table>
-                        <div class="mb-2 font-semibold">Denk bijvoorbeeld aan vragen over:</div>
+                        <div class="mb-2 font-semibold text-chantal">Denk bijvoorbeeld aan vragen over:</div>
                         <ul class="list-disc pl-6 mb-4">
                             <li>Kolven en het opbouwen of beheren van een melkvoorraad</li>
                             <li>Het gebruik of kiezen van een bepaalde kolf</li>
@@ -220,7 +220,7 @@
                                 <td>€ 20,-</td>
                             </tr>
                         </table>
-                        <div class="mb-2 font-semibold">Denk bijvoorbeeld aan:</div>
+                        <p class="mb-2">Denk bijvoorbeeld aan:</p>
                         <ul class="list-disc pl-6 mb-4">
                             <li>Vragen over medicatie en borstvoeding</li>
                             <li>Praktische vragen waarbij geen beeld of onderzoek nodig is</li>
@@ -234,7 +234,7 @@
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
                     <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
                         <div>
-                            <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Behandeling met ultrasound</h2>
+                            <h2 class="text-3xl md:text-4xl mb-2" style="color:#295331;">Behandeling met ultrasound</h2>
                             <p class="text-chantal leading-relaxed mb-2">
                                 Bij pijnlijke, verharde borsten of een (beginnende) ontsteking kan een behandeling met ultrageluid helpen om de stuwing sneller te verlichten en de doorstroming te verbeteren.
                             </p>
@@ -308,7 +308,7 @@
                                 <td>€ 45,-</td>
                             </tr>
                         </table>
-                        <div class="mb-2 font-semibold">Bijvoorbeeld bij:</div>
+                        <p class="mb-2 font-semibold">Bijvoorbeeld bij:</p>
                         <ul class="list-disc pl-6 mb-4">
                             <li>Kolven</li>
                             <li>Flesvoeding combineren met borstvoeding</li>

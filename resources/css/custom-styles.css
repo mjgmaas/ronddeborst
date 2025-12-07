@@ -282,10 +282,10 @@ header:has(#mobile-menu:not(.hidden)) .logo-ronddeborst {
 }
 
 p{
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 300;
+    color: #606074;
     font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
     font-family: "Lato", sans-serif;
 }
 
