@@ -27,8 +27,12 @@
                 Valerie Quekel
               </h3>
               <p class="text-sm leading-relaxed text-gray-700">
-                We konden altijd op Chantal terugvallen met haar grote ervaring
-                en dat stelde ons echt gerust. Dankzij haar kan ik nu fijn borstvoeding geven.
+                Chantal is een aantal keer bij ons op huisbezoek geweest om mee te
+                kijken tijdens een voeding en nam alle tijd voor ons. Dankzij haar
+                grote kennis lukte het met een paar aanpassingen om mijn baby goed
+                aan te leggen. De nazorg via WhatsApp is ook heel fijn. Geen vraag
+                is te veel en je krijgt snel en deskundig antwoord. Ik zou Chantal
+                bij iedereen aanbevelen!
               </p>
             </article>
           </div>
