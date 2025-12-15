@@ -8,7 +8,7 @@
     <main>
         <!-- HERO -->
         <section id="hero"
-            class="w-full h-[40vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
+            class="hero-cf w-full h-[40vh] bg-cover bg-no-repeat relative flex items-end justify-center text-white mt-[30px] md:mt-0"
             style="background-image: url('{{ asset('assets/cf-banner.png') }}');">
             <div class="relative z-10 text-center px-2 pb-10 md:px-6 md:pb-24">
                 <h1 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">Centering feeding</h1>
@@ -126,14 +126,14 @@
                             </tr>
                             <tr>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Groep 3</td>
-                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">11 dec, 8 jan</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">22 dec, 12 jan</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Volgeboekt</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Baexem</td>
                             </tr>
                             <tr>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Groep 4</td>
-                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">12 jan, 5 feb</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">22 jan, 12 feb</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Plaatsen beschikbaar</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Baexem</td>
@@ -141,7 +141,7 @@
                             <tr>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Groep 5</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">9 feb, 2 maart</td>
-                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Plaatsen beschikbaar</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Volgeboekt</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Baexem</td>
                             </tr>
