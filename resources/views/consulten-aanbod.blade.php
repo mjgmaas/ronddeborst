@@ -19,7 +19,7 @@
             <div class="max-w-5xl mx-auto px-2 md:px-0">
                 <!-- Centering feeding 1 -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div class="max-w-2xl">
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Centering Feeding (zwangerschapscursus)</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -50,7 +50,7 @@
                 </div>
                 <!-- Oberservatie voedingsmoment -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Observatie voedingsmoment</h2>
                             <p class="text-chantal leading-relaxed">
@@ -90,7 +90,7 @@
                 </div>
                 <!-- Zwangerschapsconsult -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Zwangerschapsconsult</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -127,7 +127,7 @@
 
                 <!-- Kolf consult -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Kolf consult</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -171,7 +171,7 @@
                 </div>
                 <!-- Telefonisch consult -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Telefonisch consult</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -199,7 +199,7 @@
                 </div>
                 <!-- Mail consult -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Mail consult</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -232,7 +232,7 @@
                 </div>
                 <!-- Behandeling met ultrasound -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl mb-2" style="color:#295331;">Behandeling met ultrasound</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -260,7 +260,7 @@
                 </div>
                 <!-- Vervolgconsult -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Vervolgconsult</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -288,7 +288,7 @@
                 </div>
                 <!-- Spreekuur -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Spreekuur</h2>
                             <p class="text-chantal leading-relaxed mb-2">
