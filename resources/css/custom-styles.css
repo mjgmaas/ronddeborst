@@ -437,3 +437,14 @@ a[class*="px-"][class*="py-"][class*="rounded"]:hover {
 .consult-table td {
     padding-right: 20px;
 }
+
+@media (min-width: 768px) {
+    .hero-cf {
+        background-position: center !important;
+    }
+}
+@media (max-width: 767px) {
+    .hero-cf {
+        background-position: -150px -20px !important;
+    }
+}
