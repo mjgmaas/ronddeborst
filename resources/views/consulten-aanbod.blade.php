@@ -27,7 +27,7 @@
                             </p>
                             <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-1" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
-                        <div class="flex-shrink-0 md:w-1/4">
+                        <div class="flex-shrink-0 md:w-1/4 thumbnail">
                             <div class="aspect-square w-full rounded-full overflow-hidden">
                                 <img src="{{ asset('assets/boekje-cf.png') }}" alt="Centering Feeding" class="w-full h-full object-cover object-center">
                             </div>
@@ -59,7 +59,7 @@
                             </p>
                             <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-2" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
-                        <div class="flex-shrink-0 md:w-1/4">
+                        <div class="flex-shrink-0 md:w-1/4 thumbnail">
                             <div class="aspect-square w-full rounded-full overflow-hidden">
                                 <img src="{{ asset('assets/koppel-met-baby.png') }}" alt="Centering Feeding" class="w-full h-full object-cover object-center">
                             </div>
@@ -135,7 +135,7 @@
                             </p>
                             <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-kolf" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
-                        <div class="flex-shrink-0 md:w-1/4">
+                        <div class="flex-shrink-0 md:w-1/4 thumbnail">
                             <div class="aspect-square w-full rounded-full overflow-hidden">
                                 <img src="{{ asset('assets/kolf-consult.png') }}" alt="Kolf consult" class="w-full h-full object-cover object-center">
                             </div>
@@ -207,7 +207,7 @@
                             </p>
                             <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-mail" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
-                        <div class="flex-shrink-0 md:w-1/4">
+                        <div class="flex-shrink-0 md:w-1/4 thumbnail">
                             <div class="aspect-square w-full rounded-full overflow-hidden">
                                 <img src="{{ asset('assets/mailconsult.jpg') }}" alt="Kolf consult" class="w-full h-full object-cover object-center">
                             </div>
@@ -334,7 +334,13 @@
         @include('components.contact-form-section')
         @include('components.footer')
 
+        
+
+        
         <script>
+
+
+
         document.addEventListener('DOMContentLoaded', function() {
             // Definieer consulttypes en bijbehorende tekst
             var consults = {
@@ -369,6 +375,41 @@
                 }
             });
         });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Selecteer alle "Meer hierover" knoppen
+    const toggleButtons = document.querySelectorAll('[data-toggle-panel]');
+
+    toggleButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Zoek de dichtstbijzijnde witte kaart (de container van het consult)
+            const card = this.closest('.bg-white');
+            const panelId = this.getAttribute('data-toggle-panel');
+            const panel = document.getElementById(panelId);
+
+            // Wacht heel even totdat de toggle-logica van je framework/andere script klaar is
+            setTimeout(() => {
+                if (!panel.classList.contains('hidden')) {
+                    card.classList.add('is-open');
+                } else {
+                    card.classList.remove('is-open');
+                }
+            }, 10);
+        });
+    });
+});
+
+
+
+
         </script>
+
+        
+
+
+
+
+
     </main>
 @endsection

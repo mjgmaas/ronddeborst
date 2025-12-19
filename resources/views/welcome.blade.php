@@ -98,18 +98,22 @@
                         Ook als je gewoon even wilt checken of je goed bezig bent.<br>
                         Geen vraag is te klein.
                     </p>
-                    <a href="{{ url('/consulten-aanbod') }}"
-                        class="inline-block w-45 text-white px-6 py-3 my-2 rounded-full transition mr-2"
-                        style="background-color: #B97D67;">
-                        Bekijk consulten
-                    </a>
-                    <a href="#contact"
-                        class="inline-block w-45 text-white px-6 py-3 my-2 rounded-full transition"
-                        style="background-color: #295331;">
-                        Afspraak maken
-                    </a>
+                    <div class="flex gap-2">
+                        <a href="{{ url('/consulten-aanbod') }}"
+                            class="text-white px-6 py-3 rounded-full transition"
+                            style="background-color:#B97D67;">
+                            Bekijk consulten
+                        </a>
+
+                        <a href="#contact"
+                            class="text-white px-6 py-3 rounded-full transition"
+                            style="background-color:#295331;">
+                            Afspraak maken
+                        </a>
+                        </div>
+
                 </div>
-                <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto"
+                <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto">
                     <div class="aspect-square w-full overflow-hidden">
                         <img src="{{ asset('assets/chantal-consult.jpg') }}" class="w-full h-full object-cover object-center" alt="">
                     </div>
