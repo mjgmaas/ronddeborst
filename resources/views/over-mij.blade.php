@@ -20,7 +20,7 @@
                 <div class="w-full bg-white p-4 md:p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Chantal Mulkens</h2>
                     <p class="text-chantal leading-relaxed mb-6">
-                        Ik ben Chantal Mulkens, lactatiekundige met een achtergrond als verloskundige. Na jaren
+                        Ik ben Chantal Mulkens, lactatiekundige (IBCLC) met een achtergrond als verloskundige. Na jaren
                         in de verloskunde ontdekte ik dat mijn hart vooral ligt bij het ondersteunen van ouders
                         en in het bijzonder tijdens de borstvoedingsperiode. Mijn werkwijze is warm, open en
                         zonder oordeel. Ik combineer medische kennis met aandacht voor de emotionele kant

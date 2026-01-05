@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Lactatiekundige Chantal Mulkens begeleidt ouders bij borstvoeding, hechting en groei. Persoonlijke consulten, Centering Feeding workshops en deskundig advies voor een ontspannen start met voeden.">
+    <meta name="description" content="IBCLC Lactatiekundige Chantal Mulkens begeleidt ouders bij borstvoeding, hechting en groei. Persoonlijke consulten, Centering Feeding workshops en deskundig advies voor een ontspannen start met voeden.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', $title ?? 'Rond de Borst - Lactatiekundige Chantal Mulkens')</title>
     @vite(['resources/css/app.css', 'resources/css/custom-styles.css', 'resources/js/app.js'])

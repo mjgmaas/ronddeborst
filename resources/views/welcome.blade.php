@@ -23,7 +23,7 @@
                 <div class="w-full md:w-[600px] bg-white p-4 md:p-20">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Chantal Mulkens</h2>
                     <p class="text-chantal leading-relaxed mb-6">
-                        Als lactatiekundige begeleid ik ouders in de bijzondere periode van voeding,
+                        Als IBCLC lactatiekundige begeleid ik ouders in de bijzondere periode van voeding,
                         hechting en groei. Of het nu gaat om de eerste weken na de bevalling,
                         terugkerende vragen over borstvoeding of onzekerheid bij het combineren van
                         werk en voeden.

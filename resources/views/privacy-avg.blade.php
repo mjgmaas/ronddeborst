@@ -47,7 +47,7 @@
                     <p class="text-chantal leading-relaxed">
                         Alle informatie die je met mij deelt valt onder het medisch beroepsgeheim. Ik
                         verstrek nooit gegevens aan derden zonder jouw toestemming — ook niet aan familie.
-                        Lactatiekundigen zijn volgens de Code of Personal Conduct verplicht dit beroepsgeheim
+                        Lactatiekundigen IBCLC zijn volgens de Code of Personal Conduct verplicht dit beroepsgeheim
                         te respecteren. Alleen in uitzonderlijke situaties, of wanneer de veiligheid in het
                         geding is, kan overwogen worden om het beroepsgeheim deels op te heffen. Dit gebeurt
                         altijd zorgvuldig en pas nadat andere opties zijn bekeken.
