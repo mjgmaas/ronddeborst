@@ -98,10 +98,10 @@
                         Ook als je gewoon even wilt checken of je goed bezig bent.<br>
                         Geen vraag is te klein.
                     </p>
-                    <a href="{{ url('/consulten-aanbod') }}"
+                    <a href="{{ url('/consulten') }}"
                         class="inline-block w-45 text-white px-6 py-3 my-2 rounded-full transition mr-2"
                         style="background-color: #B97D67;">
-                        Bekijk consulten
+                        Meer weten
                     </a>
                     <a href="#contact"
                         class="inline-block w-45 text-white px-6 py-3 my-2 rounded-full transition"
