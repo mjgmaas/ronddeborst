@@ -96,8 +96,29 @@
             </div>
         </section>
 
+        <!-- Kosten -->
+        <section class="py-5 md:py-10" style="background-color: #FAFAFA;" id="centering-feeding-kosten">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-2 sm:px-4 md:px-0">
+                <div class="w-full md:w-[1000px] bg-white p-4 sm:p-10">
+
+                    <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Kosten</h2>
+                    <ul class="default-list mb-4">
+                        <li>€172,-</li>
+                        <li>Drie interactieve sessies van 2 uur</li>
+                        <li>Samen met je partner en 4 andere koppels die in dezelfde fase zitten</li>
+                        <li>Met cursusboek en toegang tot e-learning modules</li>
+                    </ul>
+                    <p class="text-chantal leading-relaxed">
+                        Bij de meeste aanvullende verzekeringen zal de vergoeding onder zwangerschap en lactatiekundige zorg
+                        komen te vallen. De factuur krijg je per mail voorafgaand aan de cursus. Na betaling is je plaats
+                        gegarandeerd en kun je de factuur indienen bij je eigen verzekering.
+                    </p>
+                </div>
+            </div>
+        </section>
+
         <!-- Inschrijven -->
-        <section class="py-10 md:py-20" style="background-color: #FAFAFA;" id="centering-feeding-inschrijven">
+        <section class="pb-10 md:pb-20" style="background-color: #FAFAFA;" id="centering-feeding-inschrijven">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-2 sm:px-4 md:px-0">
                 <div class="w-full md:w-[1000px] bg-white p-4 sm:p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Inschrijven</h2>
