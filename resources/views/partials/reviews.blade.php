@@ -54,6 +54,24 @@
                 We zijn enorm dankbaar voor de hulp en het vertrouwen van Chantal, want daardoor hielden wij dat ook.
               </p>
             </article>
+            <article class="bg-white rounded-2xl shadow-sm px-10 py-12 text-center">
+              <div class="w-20 h-20 mx-auto mb-6 rounded-full flex items-center justify-center" style="background-color:#F3F5F3;">
+                <img src="{{ asset('assets/thema/heart.svg') }}" class="w-8 h-8" alt="">
+              </div>
+              <h3 class="text-xl font-semibold mb-3">
+                Romy van Dongen
+              </h3>
+              <p class="text-sm leading-relaxed text-gray-700">
+                Het advies van Chantal is voor ons onmisbaar en heel waardevol geweest. Met de geboorte van onze dochter
+                is het mooist denkbare uitgekomen. Als verse ouders komt er met een rotgang heel veel info, indrukken en advies naar je toe.
+                Met behulp van de expertise, kundigheid en rust van Chantal op het gebied van borstvoeding voelde ik mij prettig en krachtig.
+                Iets wat in mijn ogen heel erg belangrijk is in de eerste nieuwe periode van je leven samen met je kindje.
+                <br><br>
+                Chantal heeft verstand van haar vak, stelt je op je gemak en heeft de gave om precies aan te voelen wat nodig is. Wij zijn erg blij
+                dat Chantal ons bij de start van de zorg voor onze mooie dochter heeft kunnen begeleiden en ik zou iedereen een moment met Chantal gunnen!
+              </p>
+            </article>
+
           </div>
     </div>
       <div class="flex justify-center gap-3 mt-8">

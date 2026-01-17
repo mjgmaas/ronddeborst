@@ -29,7 +29,9 @@ document.addEventListener('DOMContentLoaded', function () {
 		});
 	});
 	if (slides.length && dots.length) {
-		showSlide(0);
+		const maxIndex   = Math.min(slides.length, dots.length);
+		const randomIndex = Math.floor(Math.random() * maxIndex);
+		showSlide(randomIndex);
 	}
 });
 
