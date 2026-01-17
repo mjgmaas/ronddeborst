@@ -81,3 +81,53 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+// Contact form autofill
+document.addEventListener('DOMContentLoaded', function () {
+	const buttons = document.querySelectorAll('.contact-form-action');
+	if (!buttons.length) return;
+
+	const decodeContent = (value) => {
+		if (!value) return '';
+		const textarea = document.createElement('textarea');
+		textarea.innerHTML = value;
+		return textarea.value;
+	};
+
+	const waitForContactForm = (onReady) => {
+		let tries = 0;
+		const maxTries = 20;
+		const interval = setInterval(() => {
+			const remarksField = document.querySelector('#contact textarea[name="remarks"]');
+			if (remarksField) {
+				onReady(remarksField);
+				clearInterval(interval);
+				return;
+			}
+			tries += 1;
+			if (tries > maxTries) {
+				clearInterval(interval);
+			}
+		}, 150);
+	};
+
+	buttons.forEach((button) => {
+		button.addEventListener('click', () => {
+			const source = button.hasAttribute('data-contact-body')
+				? button
+				: button.closest('[data-contact-body]');
+			const rawBody = source ? source.getAttribute('data-contact-body') : '';
+			const message = decodeContent(rawBody);
+			if (!message) return;
+
+			waitForContactForm((remarksField) => {
+				remarksField.value = message;
+				remarksField.dispatchEvent(new Event('input', { bubbles: true }));
+				const nameField = document.querySelector('#contact input[name="name"]');
+				if (nameField) {
+					nameField.focus();
+				}
+			});
+		});
+	});
+});

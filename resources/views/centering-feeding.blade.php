@@ -190,8 +190,8 @@
                         </tbody>
                         </table>
                     </div>
-                    <p class="mb-4">
-                        <a href="#contact" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Inschrijven</a>
+                    <p class="mb-4" data-contact-body="Hoi Chantal,&#10;&#10;Ik wil graag inschrijven voor de cursus Centering Feeding.">
+                        <a href="#contact" class="inline-block text-white px-6 py-3 rounded-full transition contact-form-action" style="background-color: #B97D67;">Inschrijven</a>
                     </p>
                 </div>
             </div>
