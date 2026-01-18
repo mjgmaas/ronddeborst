@@ -19,6 +19,7 @@
             <p><span class="label">Naam:</span> {{ $submission->name }}</p>
             <p><span class="label">E-mail:</span> {{ $submission->email }}</p>
             <p><span class="label">Telefoon:</span> {{ $submission->phone ?? '—' }}</p>
+            <p><span class="label">Uitgerekende datum:</span> {{ $submission->due_date?->format('d-m-Y') ?? 'niet ingevuld' }}</p>
             <p class="muted"><span class="label">IP-adres:</span> {{ $submission->ip_address }}</p>
             <p class="muted"><span class="label">Ingediend op:</span> {{ $submission->submitted_at->format('Y-m-d H:i') }}</p>
 

@@ -13,6 +13,7 @@ class ContactSubmission extends Model
         'name',
         'email',
         'phone',
+        'due_date',
         'remarks',
         'ip_address',
         'submitted_at',
@@ -21,6 +22,7 @@ class ContactSubmission extends Model
     protected function casts(): array
     {
         return [
+            'due_date' => 'date',
             'submitted_at' => 'datetime',
         ];
     }

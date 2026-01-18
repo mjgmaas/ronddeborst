@@ -15,7 +15,7 @@
       <a href="/over-mij" class="px-3 py-2 rounded-full nav-item-chantal text-green-900 transition">Over mij</a>
       <a href="/consulten" class="px-3 py-2 rounded-full nav-item-chantal text-green-900 transition">Consulten</a>
       <a href="/centering-feeding" class="px-3 py-2 rounded-full nav-item-chantal text-green-900 transition whitespace-nowrap">Centering Feeding</a>
-      <a href="#contact" class="px-3 py-2 rounded-full text-white transition" style="background-color: #B97D67;">Contact</a>
+      <a href="#contact" class="px-3 py-2 rounded-full text-white transition contact-form-action" data-contact-body="Hoi Chantal,&#10;&#10;Ik wil graag contact opnemen." style="background-color: #B97D67;">Contact</a>
       <a href="https://wa.me/31634816926" class="flex items-center gap-2 px-3 py-2 rounded-full nav-item-chantal text-green-900 transition">
         <img src="{{ asset('assets/thema/whatsapp-icon.svg') }}" class="w-5 h-5" alt="">
         <span>WhatsApp</span>
@@ -33,7 +33,7 @@
       <a href="/over-mij" class="block px-4 py-2 rounded-full text-green-900 hover:bg-gray-100 transition">Over mij</a>
       <a href="/consulten" class="block px-4 py-2 rounded-full text-green-900 hover:bg-gray-100 transition">Consulten</a>
       <a href="/centering-feeding" class="block px-4 py-2 rounded-full text-green-900 hover:bg-gray-100 transition">Centering Feeding</a>
-      <a href="#contact" class="block px-4 py-2 rounded-full text-white" style="background-color: #B97D67;">Contact</a>
+      <a href="#contact" class="block px-4 py-2 rounded-full text-white contact-form-action" data-contact-body="Hoi Chantal,&#10;&#10;Ik wil graag contact opnemen." style="background-color: #B97D67;">Contact</a>
       <a href="https://wa.me/31634816926" class="flex items-center gap-2 px-4 py-2 rounded-full text-green-900 hover:bg-gray-100 transition">
         <img src="{{ asset('assets/thema/whatsapp-icon.svg') }}" class="w-5 h-5" alt="">
         <span>WhatsApp</span>

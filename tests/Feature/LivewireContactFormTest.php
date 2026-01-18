@@ -19,17 +19,22 @@ it('submits the Livewire contact form, stores it and sends both emails when reci
         ->set('email', 'jane@example.com')
         ->set('phone', '1234567890')
         ->set('remarks', 'Hello, I would like to know more about your services.')
+        ->set('due_date', '2025-06-01')
         ->call('submit')
         ->assertSet('status', 'Bedankt! Jouw bericht is verstuurd.');
 
-    expect(ContactSubmission::query()->where('email', 'jane@example.com')->exists())->toBeTrue();
+    $stored = ContactSubmission::query()->where('email', 'jane@example.com')->first();
+    expect($stored)->not->toBeNull();
+    expect(optional($stored->due_date)->toDateString())->toBe('2025-06-01');
 
     Mail::assertSent(ContactSubmissionReceived::class, function (ContactSubmissionReceived $mail) {
-        return $mail->submission->email === 'jane@example.com';
+        return $mail->submission->email === 'jane@example.com'
+            && optional($mail->submission->due_date)->isSameDay('2025-06-01');
     });
 
     Mail::assertSent(ContactSubmissionConfirmation::class, function (ContactSubmissionConfirmation $mail) {
         return $mail->submission->email === 'jane@example.com'
+            && optional($mail->submission->due_date)->isSameDay('2025-06-01')
             && $mail->hasTo('jane@example.com');
     });
 });
@@ -65,4 +70,12 @@ it('validates input for Livewire contact form', function () {
         ->set('remarks', 'Test')
         ->call('submit')
         ->assertHasErrors(['email' => 'email']);
+
+    Livewire::test(ContactForm::class)
+        ->set('name', 'Valid User')
+        ->set('email', 'valid@example.com')
+        ->set('remarks', 'Test')
+        ->set('due_date', 'not-a-date')
+        ->call('submit')
+        ->assertHasErrors(['due_date' => 'date']);
 });
