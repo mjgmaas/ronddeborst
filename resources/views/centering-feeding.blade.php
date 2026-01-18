@@ -124,7 +124,7 @@
                     <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Inschrijven</h2>
                     <p class="pb-8">Momenteel kun je je inschrijven voor de onderstaande workshop series. De
                         eerste 2 sessies vinden doorgaans plaats voor je 30e zwangerschapsweek. De 3e sessie
-                        wordt nader bepaald na je bevalling.</p>
+                        vindt plaats na je bevalling. Soms wordt deze datum nader bepaald.</p>
                     {{-- Maak een tabel van 4 kolommen en 4 rijen met als headers: Groep, Lokatie, Datums, Beschikbaarheid  --}}
                     <div class="overflow-x-auto mb-6">
                         <table class="text-chantal min-w-[600px] w-full text-left mb-6 text-sm">
@@ -154,35 +154,35 @@
                             </tr>
                             <tr>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Groep 4</td>
-                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">22 jan, 12 feb</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">28 jan, 25 feb, 17 juni</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Plaatsen beschikbaar</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Baexem</td>
                             </tr>
                             <tr>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Groep 5</td>
-                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">9 feb, 2 maart</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">9 feb, 2 maart, 22 juni</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Volgeboekt</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Baexem</td>
                             </tr>
                             <tr>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Groep 6</td>
-                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">17 maart, 14 april</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">17 maart, 14 april, 21 juni</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Plaatsen beschikbaar</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Baexem</td>
                             </tr>
                             <tr>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Groep 7</td>
-                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">9 april, 7 mei</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">9 april, 7 mei, 20 aug</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Plaatsen beschikbaar</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Baexem</td>
                             </tr>
                             <tr>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Groep 8</td>
-                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">12 mei, 2 juni</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">12 mei, 2 juni, 22 sept</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Plaatsen beschikbaar</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Baexem</td>
@@ -190,7 +190,7 @@
                         </tbody>
                         </table>
                     </div>
-                    <p class="mb-4" data-contact-body="Hoi Chantal,&#10;&#10;Ik wil graag inschrijven voor de cursus Centering Feeding.">
+                    <p class="mb-4" data-contact-body="Hoi Chantal,&#10;&#10;Ik wil graag inschrijven voor workshop Centering Feeding.">
                         <a href="#contact" class="inline-block text-white px-6 py-3 rounded-full transition contact-form-action" style="background-color: #B97D67;">Inschrijven</a>
                     </p>
                 </div>
