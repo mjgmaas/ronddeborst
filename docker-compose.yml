@@ -1,5 +1,5 @@
 services:
-    app:
+    laravel.test:
         build:
             context: ./vendor/laravel/sail/runtimes/8.4
             dockerfile: Dockerfile
@@ -15,6 +15,7 @@ services:
             LARAVEL_SAIL: 1
             XDEBUG_MODE: '${SAIL_XDEBUG_MODE:-off}'
             XDEBUG_CONFIG: '${SAIL_XDEBUG_CONFIG:-client_host=host.docker.internal}'
+            NODE_ENV: development
         volumes:
             - './:/var/www/html/'
         networks:
@@ -39,7 +40,7 @@ services:
         networks:
             - sail
         depends_on:
-            - app
+            - laravel.test
 
     mailpit:
         image: 'axllent/mailpit:latest'

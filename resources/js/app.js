@@ -29,7 +29,9 @@ document.addEventListener('DOMContentLoaded', function () {
 		});
 	});
 	if (slides.length && dots.length) {
-		showSlide(0);
+		const maxIndex   = Math.min(slides.length, dots.length);
+		const randomIndex = Math.floor(Math.random() * maxIndex);
+		showSlide(randomIndex);
 	}
 });
 
@@ -78,4 +80,77 @@ document.addEventListener('DOMContentLoaded', function () {
             btn.textContent = isOpen ? closedLabel : openLabel;
         });
     });
+});
+
+// Contact form autofill
+document.addEventListener('DOMContentLoaded', function () {
+	const buttons = document.querySelectorAll('.contact-form-action');
+	if (!buttons.length) return;
+
+	const decodeContent = (value) => {
+		if (!value) return '';
+		const textarea = document.createElement('textarea');
+		textarea.innerHTML = value;
+		return textarea.value;
+	};
+
+	const waitForContactForm = (onReady) => {
+		let tries = 0;
+		const maxTries = 20;
+		const interval = setInterval(() => {
+			const remarksField = document.querySelector('#contact textarea[name="remarks"]');
+			if (remarksField) {
+				onReady(remarksField);
+				clearInterval(interval);
+				return;
+			}
+			tries += 1;
+			if (tries > maxTries) {
+				clearInterval(interval);
+			}
+		}, 150);
+	};
+
+	buttons.forEach((button) => {
+		button.addEventListener('click', () => {
+			const source = button.hasAttribute('data-contact-body')
+				? button
+				: button.closest('[data-contact-body]');
+			const rawBody = source ? source.getAttribute('data-contact-body') : '';
+			const message = decodeContent(rawBody);
+			if (!message) return;
+
+			waitForContactForm((remarksField) => {
+				remarksField.value = message;
+				remarksField.dispatchEvent(new Event('input', { bubbles: true }));
+				const nameField = document.querySelector('#contact input[name="name"]');
+				if (nameField) {
+					nameField.focus();
+				}
+			});
+		});
+	});
+});
+
+// Contact form status auto-scroll
+document.addEventListener('DOMContentLoaded', function () {
+	const scrollStatusIntoView = () => {
+		const statusEl = document.getElementById('contact-status-message');
+		if (!statusEl) return false;
+		statusEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+		return true;
+	};
+
+	window.addEventListener('contact-form-submitted', () => {
+		let attempts = 0;
+		const maxAttempts = 10;
+		const tryScroll = () => {
+			attempts += 1;
+			const didScroll = scrollStatusIntoView();
+			if (!didScroll && attempts < maxAttempts) {
+				requestAnimationFrame(tryScroll);
+			}
+		};
+		tryScroll();
+	});
 });

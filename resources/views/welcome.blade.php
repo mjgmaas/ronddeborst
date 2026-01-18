@@ -104,7 +104,8 @@
                         Meer weten
                     </a>
                     <a href="#contact"
-                        class="inline-block w-45 text-white px-6 py-3 my-2 rounded-full transition"
+                        class="inline-block w-45 text-white px-6 py-3 my-2 rounded-full transition contact-form-action"
+                        data-contact-body="Hoi Chantal,&#10;&#10;Ik wil graag een afspraak plannen."
                         style="background-color: #295331;">
                         Afspraak maken
                     </a>
