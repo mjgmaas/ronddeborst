@@ -18,6 +18,7 @@
             <p>Hoi {{ $submission->name }},</p>
             <p>Bedankt voor je bericht. Ik neem binnenkort contact met je op.</p>
 
+
             <p>Met zorgzame groet,</p>
             <p>
                 Chantal Mulkens<br>
@@ -33,6 +34,15 @@
             <hr class="divider" />
 
             <p class="muted">Kopie van je bericht:</p>
+
+            <p>
+                Uitgerekende datum:&nbsp;
+                @if ($submission->due_date)
+                    {{ $submission->due_date->format('d-m-Y') }}
+                @else
+                    niet ingevuld
+                @endif
+            </p>
             <p>{!! nl2br(e($submission->remarks)) !!}</p>
 
             <hr class="divider" />

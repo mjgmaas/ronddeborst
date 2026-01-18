@@ -3,11 +3,11 @@
     <div class="max-w-[1000px] mx-auto px-4">
         <div class="bg-white rounded-2xl shadow-sm px-6 md:px-12 py-12 md:py-16">
             @if ($status ?? false)
-                <div class="mb-4 rounded-lg bg-green-50 text-green-800 px-4 py-3 text-center">
+                <div id="contact-status-message" class="mb-4 rounded-lg bg-green-50 text-green-800 px-4 py-3 text-center">
                     {{ $status }}
                 </div>
             @elseif (session('status'))
-                <div class="mb-4 rounded-lg bg-green-50 text-green-800 px-4 py-3 text-center">
+                <div id="contact-status-message" class="mb-4 rounded-lg bg-green-50 text-green-800 px-4 py-3 text-center">
                     {{ session('status') }}
                 </div>
             @endif
@@ -33,6 +33,10 @@
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <input id="email" name="email" type="email" wire:model.defer="email" required placeholder="E-mailadres" class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-300" />
+                    <div class="flex flex-col">
+                        <label for="due_date" class="text-sm text-gray-600 mb-1">Uitgerekende datum</label>
+                        <input id="due_date" name="due_date" type="date" wire:model.defer="due_date" class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-300" />
+                    </div>
                 </div>
                 <textarea id="remarks" name="remarks" rows="6" wire:model.defer="remarks" required placeholder="Omschrijving" class="w-full border border-gray-300 rounded-md px-4 py-3 h-32 focus:outline-none focus:ring-2 focus:ring-green-300"></textarea>
                 <div class="flex justify-center">
@@ -48,6 +52,9 @@
                     <p class="mt-1 text-sm text-red-600 text-center">{{ $message }}</p>
                 @enderror
                 @error('remarks')
+                    <p class="mt-1 text-sm text-red-600 text-center">{{ $message }}</p>
+                @enderror
+                @error('due_date')
                     <p class="mt-1 text-sm text-red-600 text-center">{{ $message }}</p>
                 @enderror
             </form>

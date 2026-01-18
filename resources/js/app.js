@@ -131,3 +131,26 @@ document.addEventListener('DOMContentLoaded', function () {
 		});
 	});
 });
+
+// Contact form status auto-scroll
+document.addEventListener('DOMContentLoaded', function () {
+	const scrollStatusIntoView = () => {
+		const statusEl = document.getElementById('contact-status-message');
+		if (!statusEl) return false;
+		statusEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+		return true;
+	};
+
+	window.addEventListener('contact-form-submitted', () => {
+		let attempts = 0;
+		const maxAttempts = 10;
+		const tryScroll = () => {
+			attempts += 1;
+			const didScroll = scrollStatusIntoView();
+			if (!didScroll && attempts < maxAttempts) {
+				requestAnimationFrame(tryScroll);
+			}
+		};
+		tryScroll();
+	});
+});
