@@ -8,7 +8,7 @@
     <main>
         <!-- HERO -->
         <section id="hero"
-            class="hero-cf w-full h-[40vh] bg-cover bg-no-repeat relative flex items-end justify-center text-white mt-[30px] md:mt-0"
+            class="hero-cf w-full h-[40vh] bg-cover bg-no-repeat relative flex items-end justify-center text-white md:mt-0"
             style="background-image: url('{{ asset('assets/cf-banner-full-v2.jpg') }}');">
             <div class="relative z-10 text-center px-2 pb-10 md:px-6 md:pb-24">
                 <h1 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">Centering feeding</h1>

@@ -197,7 +197,8 @@ a[class*="px-"][class*="py-"][class*="rounded"]:hover{
 @media (max-width: 1280px){
   .logo-ronddeborst{
     top: 125px;
-    left: 20px;
+    left: auto;
+    right: 20px;
     width: 125px;
     height: 125px;
     margin: 0px;
@@ -521,7 +522,8 @@ button.primary{
   .hero-cf{ background-position: center !important; }
 }
 @media (max-width: 767px){
-  .hero-cf{ background-position: -150px -20px !important; }
+  .hero-cf{ background-position: center !important; 
+  background-size: cover;}
 
 .is-open .thumbnail{
   display: none;
