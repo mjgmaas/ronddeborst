@@ -531,3 +531,7 @@ button.primary{
 
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
