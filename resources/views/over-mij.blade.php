@@ -87,36 +87,46 @@
             </div>
         </section>
 
-        <section class="py-10 md:py-20" style="background-color: #EAEEEB;" id="podcast-borstvoedingsbabbel">
+        <section id="podcast-borstvoedingsbabbel" class="py-10 md:py-20 bg-[#EAEEEB]">
             <div class="max-w-5xl mx-auto flex flex-col px-4 md:px-0">
-                <div class="w-full bg-white p-4 md:pl-10 md:pt-10 md:pr-10">
-                    <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Podcast</h2>
-                    <h3 class="text-4xl font-semibold mb-4" >Borstvoedingsbabbel</h3>
-                    <p class="text-chantal leading-relaxed mb-6">
-                        Borstvoedingsbabbel is een toegankelijke en gezellige podcast over borstvoeding en alles wat daarbij komt kijken.
-                        In elke aflevering delen ervaringsdeskundigen en professionals hun kennis, tips en verhalen, zodat luisteraars
-                        praktische handvatten krijgen en zich gesteund voelen tijdens hun borstvoedingsreis.
-                        Perfect voor ouders én zorgverleners die meer willen weten, geïnspireerd willen raken of gewoon graag luisteren naar herkenbare ervaringen.
-                    </p>
-                    <a href="https://centeringfeeding.com/podcast" target="_blank"
-                        class="inline-block text-white px-6 py-3 rounded-full transition ml-2"
-                        style="background-color: #295331;">
-                        Beluister de podcast
-                    </a>
+                
+                <div class="w-full bg-white p-4 md:p-10 md:pb-0">
+                    <h2 class="text-4xl font-semibold mb-0 text-[#B97D67]">Podcast</h2>
                 </div>
-                <div class="w-full bg-white p-4 md:p-10">
-                    <h3 class="text-4xl font-semibold mb-4" >Machtige Melk</h3>
+
+                <div class="w-full bg-white p-4 md:p-10 flex flex-col md:flex-row md:items-start justify-between gap-6">
+                    <div class="flex-1">
+                        <h3 class="text-4xl font-semibold mb-4">Borstvoedingsbabbel</h3>
+                        <p class="text-chantal leading-relaxed mb-6">
+                            Borstvoedingsbabbel is een toegankelijke en gezellige podcast over borstvoeding en alles wat daarbij komt kijken.
+                            In elke aflevering delen ervaringsdeskundigen en professionals hun kennis, tips en verhalen, zodat luisteraars
+                            praktische handvatten krijgen en zich gesteund voelen tijdens hun borstvoedingsreis.
+                            Perfect voor ouders én zorgverleners die meer willen weten, geïnspireerd willen raken of gewoon graag luisteren naar herkenbare ervaringen.
+                        </p>
+                        <a href="https://centeringfeeding.com/podcast" target="_blank" class="inline-block bg-[#295331] text-white px-6 py-3 rounded-full transition hover:opacity-90">
+                            Beluister de podcast
+                        </a>
+                    </div>
+
+                    <div class="flex-shrink-0 mx-auto">
+                        <div class="w-36 h-36 rounded-full overflow-hidden border-2 border-gray-100 shadow-sm">
+                            <img src="{{ asset('assets/podcast-borstvoedingsbabbel.jpg') }}" alt="Borstvoedingsbabbel podcast" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full bg-white p-4 md:p-10 border-t border-gray-100">
+                    <h3 class="text-4xl font-semibold mb-4">Machtige Melk</h3>
                     <p class="text-chantal leading-relaxed mb-6">
                         Machtige Melk is een inspirerende podcast voor (aanstaande) ouders én professionals die meer willen begrijpen
                         over borstvoeding, moeder-kindzorg en de wetenschap erachter. In elke aflevering nemen deskundigen je mee in
                         herkenbare verhalen, actuele inzichten en praktische handvatten die je meteen kunt toepassen.
                     </p>
-                    <a href="https://centeringfeeding.com/podcast" target="_blank"
-                        class="inline-block text-white px-6 py-3 rounded-full transition ml-2"
-                        style="background-color: #295331;">
+                    <a href="https://centeringfeeding.com/podcast" target="_blank" class="inline-block bg-[#295331] text-white px-6 py-3 rounded-full transition hover:opacity-90">
                         Beluister de podcast
                     </a>
                 </div>
+
             </div>
         </section>
 
