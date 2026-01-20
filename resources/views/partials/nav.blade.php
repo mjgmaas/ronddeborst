@@ -6,7 +6,7 @@
           <h1>Rond de Borst</h1>
         </a>
         <p>
-          Lactatiekundige<br>Chantal Mulkens
+          Lactatiekundige <br>Chantal Mulkens
         </p>
       </div>
     </div>
