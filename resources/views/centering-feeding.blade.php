@@ -87,7 +87,7 @@
                     </ul>
                     <p>Je krijgt volledige ondersteuning van een lactatiekundige en medecursisten.</p>
                     <p class="mb-4 pt-5">
-                        <a href="https://www.centeringfeeding.com/ouders" target="_blank" rel="noopener" class="underline text-[#295331]">Meer informatie over Centering Feeding</a>
+                        <a href="https://www.centeringfeeding.com/ouders" target="_blank" rel="noopener" class="external underline text-[#295331]">Meer informatie over Centering Feeding</a>
                     </p>
                 </div>
                 <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto"
