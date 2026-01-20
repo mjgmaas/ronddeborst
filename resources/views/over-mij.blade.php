@@ -108,7 +108,7 @@
                         </a>
                     </div>
 
-                    <div class="flex-shrink-0 mx-auto">
+                    <div class="shrink-0 mx-auto">
                         <div class="w-36 h-36 rounded-full overflow-hidden border-2 border-gray-100 shadow-sm">
                             <img src="{{ asset('assets/podcast-borstvoedingsbabbel.jpg') }}" alt="Borstvoedingsbabbel podcast" class="w-full h-full object-cover">
                         </div>
