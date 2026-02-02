@@ -168,7 +168,7 @@
                             </tr>
                             <tr>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Groep 6</td>
-                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">17 maart, 14 april, 21 juni</td>
+                                <td class="border-b border-gray-300 py-2 px-1 sm:px-4">17 maart, 14 april, 21 juli</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Plaatsen beschikbaar</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
                                 <td class="border-b border-gray-300 py-2 px-1 sm:px-4">Baexem</td>
