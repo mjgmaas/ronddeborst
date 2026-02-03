@@ -31,7 +31,7 @@
                         <li>Het reguleren van verkoop en reclame van babyvoeding</li>
                     </ul>
                     <p>
-                        <a href="https://iris.who.int/server/api/core/bitstreams/081bd93c-6f5b-4930-903e-3e955afbcb72/content" target="_blank" rel="noopener" class="underline text-[#295331]">Lees de WHO-code (PDF)</a>
+                        <a href="https://iris.who.int/server/api/core/bitstreams/081bd93c-6f5b-4930-903e-3e955afbcb72/content" target="_blank" rel="noopener" class="external underline text-[#295331]">Lees de WHO-code (PDF)</a>
                     </p>
                 </div>
             </div>
@@ -46,11 +46,11 @@
                         Voel je niet de ruimte om je klacht bij mij kenbaar te maken of wil je hulp bij het indienen
                         van een klacht? Neem dan contact op met de klachtenfunctionaris van het CBKZ: Centraal Bureau Klachtenmanagement
                         in de Zorg. Zij zijn onpartijdig, werken onafhankelijk en helpen je graag verder met ondersteuning en advies.
-                        Meer informatie?<br> Kijk op <a href="https://www.klachtverloskunde.nl" target="_blank" rel="noopener" class="underline text-[#295331]">www.klachtverloskunde.nl</a>.<br>
+                        Meer informatie?<br><a href="https://www.klachtverloskunde.nl" target="_blank" rel="noopener" class="external underline text-[#295331]">www.klachtverloskunde.nl</a>.<br>
                     </p>
                     <p class="text-chantal leading-relaxed mb-6">
                         Ook de NVL biedt informatie over de klachtenprocedure.<br>
-                        <a href="https://www.nvlborstvoeding.nl/ouders/klachtenprocedure" target="_blank" rel="noopener" class="underline text-[#295331]">https://www.nvlborstvoeding.nl</a>
+                        <a href="https://www.nvlborstvoeding.nl/ouders/klachtenprocedure" target="_blank" rel="noopener" class="external underline text-[#295331]">https://www.nvlborstvoeding.nl</a>
                     </p>
                 </div>
             </div>

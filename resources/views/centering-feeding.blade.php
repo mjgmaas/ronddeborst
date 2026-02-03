@@ -8,8 +8,8 @@
     <main>
         <!-- HERO -->
         <section id="hero"
-            class="hero-cf w-full h-[40vh] bg-cover bg-no-repeat relative flex items-end justify-center text-white mt-[30px] md:mt-0"
-            style="background-image: url('{{ asset('assets/cf-banner.png') }}');">
+            class="hero-cf w-full h-[40vh] bg-cover bg-no-repeat relative flex items-end justify-center text-white md:mt-0"
+            style="background-image: url('{{ asset('assets/cf-banner-full-v2.jpg') }}');">
             <div class="relative z-10 text-center px-2 pb-10 md:px-6 md:pb-24">
                 <h1 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">Centering feeding</h1>
             </div>
@@ -87,7 +87,7 @@
                     </ul>
                     <p>Je krijgt volledige ondersteuning van een lactatiekundige en medecursisten.</p>
                     <p class="mb-4 pt-5">
-                        <a href="https://www.centeringfeeding.com/ouders" target="_blank" rel="noopener" class="underline text-[#295331]">Meer informatie over Centering Feeding</a>
+                        <a href="https://www.centeringfeeding.com/ouders" target="_blank" rel="noopener" class="external underline text-[#295331]">Meer informatie over Centering Feeding</a>
                     </p>
                 </div>
                 <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto"

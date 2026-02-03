@@ -41,7 +41,7 @@
                         Gelukkig erkennen veel zorgverzekeraars het belang van borstvoeding en de ondersteuning van een
                         IBCLC-lactatiekundige. Daarom worden consulten vaak volledig of deels vergoed wanneer je aanvullend
                         verzekerd bent. Check vooraf altijd even hoe dit bij jouw verzekering geregeld is:<br>
-                        <a href="https://www.zorgwijzer.nl/vergoeding/lactatiekundige" target="_blank" target="_blank" rel="noopener" class="underline text-[#295331]">https://zorgwijzer.nl</a>
+                        <a href="https://www.zorgwijzer.nl/vergoeding/lactatiekundige" target="_blank" rel="noopener" class="external underline text-[#295331]">https://zorgwijzer.nl</a>
                     </p>
                     <p class="mb-6">
                         Na afloop van het consult ontvang je de factuur per e-mail. Je betaalt deze rechtstreeks aan mij binnen 14 dagen. Daarna kun je de factuur zelf indienen bij jouw zorgverzekeraar.

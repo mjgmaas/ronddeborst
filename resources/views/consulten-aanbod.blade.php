@@ -19,7 +19,7 @@
             <div class="max-w-5xl mx-auto px-2 md:px-0">
                 <!-- Centering feeding 1 -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div class="max-w-2xl">
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Centering Feeding (zwangerschapscursus)</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -27,7 +27,7 @@
                             </p>
                             <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-1" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
-                        <div class="flex-shrink-0 md:w-1/4">
+                        <div class="shrink-0 md:w-1/4 thumbnail">
                             <div class="aspect-square w-full rounded-full overflow-hidden">
                                 <img src="{{ asset('assets/boekje-cf.png') }}" alt="Centering Feeding" class="w-full h-full object-cover object-center">
                             </div>
@@ -50,7 +50,7 @@
                 </div>
                 <!-- Oberservatie voedingsmoment -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Observatie voedingsmoment</h2>
                             <p class="text-chantal leading-relaxed">
@@ -59,7 +59,7 @@
                             </p>
                             <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-2" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
-                        <div class="flex-shrink-0 md:w-1/4">
+                        <div class="shrink-0 md:w-1/4 thumbnail">
                             <div class="aspect-square w-full rounded-full overflow-hidden">
                                 <img src="{{ asset('assets/koppel-met-baby.png') }}" alt="Centering Feeding" class="w-full h-full object-cover object-center">
                             </div>
@@ -90,7 +90,7 @@
                 </div>
                 <!-- Zwangerschapsconsult -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Zwangerschapsconsult</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -127,7 +127,7 @@
 
                 <!-- Kolf consult -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Kolf consult</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -135,7 +135,7 @@
                             </p>
                             <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-kolf" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
-                        <div class="flex-shrink-0 md:w-1/4">
+                        <div class="shrink-0 md:w-1/4 thumbnail">
                             <div class="aspect-square w-full rounded-full overflow-hidden">
                                 <img src="{{ asset('assets/kolf-consult.png') }}" alt="Kolf consult" class="w-full h-full object-cover object-center">
                             </div>
@@ -171,7 +171,7 @@
                 </div>
                 <!-- Telefonisch consult -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Telefonisch consult</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -199,7 +199,7 @@
                 </div>
                 <!-- Mail consult -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Mail consult</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -207,7 +207,7 @@
                             </p>
                             <button type="button" class="mt-4 inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition text-white" style="background-color:#295331;" data-toggle-panel="panel-mail" data-toggle-label-open="Dichtklappen" data-toggle-label-closed="Meer hierover">Meer hierover</button>
                         </div>
-                        <div class="flex-shrink-0 md:w-1/4">
+                        <div class="shrink-0 md:w-1/4 thumbnail">
                             <div class="aspect-square w-full rounded-full overflow-hidden">
                                 <img src="{{ asset('assets/mailconsult.jpg') }}" alt="Kolf consult" class="w-full h-full object-cover object-center">
                             </div>
@@ -232,7 +232,7 @@
                 </div>
                 <!-- Behandeling met ultrasound -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl mb-2" style="color:#295331;">Behandeling met ultrasound</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -260,7 +260,7 @@
                 </div>
                 <!-- Vervolgconsult -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Vervolgconsult</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -288,7 +288,7 @@
                 </div>
                 <!-- Spreekuur -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div>
                             <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Spreekuur</h2>
                             <p class="text-chantal leading-relaxed mb-2">
@@ -333,6 +333,17 @@
         </section>
         @include('components.contact-form-section')
         @include('components.footer')
+
+        
+
+        
+       
+
+        
+
+
+
+
 
     </main>
 @endsection

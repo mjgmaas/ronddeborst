@@ -26,21 +26,15 @@
                         de zorg de WGBO, met extra regels voor vertrouwelijkheid en dossierbeheer.
                     </p>
                     <p>
-                        <a href="https://www.nvlborstvoeding.nl/privacyverklaring" target="_blank" rel="noopener" class="underline text-[#295331] hidden md:inline">https://www.nvlborstvoeding.nl/privacyverklaring</a>
-                        <a href="https://www.nvlborstvoeding.nl/privacyverklaring" target="_blank" rel="noopener" class="underline text-[#295331] block md:hidden">nvlborstvoeding.nl/privacyverklaring</a>
+                        <a href="https://www.nvlborstvoeding.nl/privacyverklaring" target="_blank" rel="noopener" class="external underline text-[#295331] hidden md:inline">https://www.nvlborstvoeding.nl/privacyverklaring</a>
+                        <a href="https://www.nvlborstvoeding.nl/privacyverklaring" target="_blank" rel="noopener" class="external underline text-[#295331] block md:hidden">nvlborstvoeding.nl/privacyverklaring</a>
                     </p>
                 </div>
-                {{-- <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
-                    style="background-image: url('{{ asset('assets/chantal-blauw.png') }}');">
-                </div> --}}
             </div>
         </section>
 
         <section class="py-10 md:py-20" style="background-color: #EAEEEB;" id="persoonlijk">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch p-4 md:p-10">
-                {{-- <div class="w-full h-64 md:w-[400px] aspect-square md:aspect-auto md:h-auto bg-cover bg-center"
-                    style="background-image: url('{{ asset('assets/chantal-home.png') }}');">
-                </div> --}}
                 <div class="w-full bg-white p-4 md:p-10">
 
                 <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Beroepsgeheim</h2>
