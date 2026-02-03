@@ -44,7 +44,10 @@ html{
 body{
   background-color: var(--color-bg);
   font-family: "Lato", sans-serif;
+  min-width: 300px;
+  overflow-x: auto;
 }
+
 
 /* =========================
    LAYOUT HELPERS

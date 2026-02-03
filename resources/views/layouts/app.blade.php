@@ -21,7 +21,7 @@
     <!-- Google Fonts: Sansita & Lato -->
     <link href="https://fonts.googleapis.com/css2?family=Sansita:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-gray-200 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+<body class="bg-gray-200 text-gray-900 dark:bg-gray-900 dark:text-gray-100 min-w-[300px] overflow-x-auto">
     @include('components.nav')
     <main>
         @yield('content')
