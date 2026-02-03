@@ -92,7 +92,7 @@ h3{
   font-family: 'Sansita';
   color: var(--color-green-100);
   font-weight: 500;
-  margin: 0px;
+  /* margin: 0px; */
 }
 
 section#consulten h3{ font-size: 26px; }

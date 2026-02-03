@@ -87,7 +87,7 @@
             </div>
         </section>
 
-        <section id="podcast-borstvoedingsbabbel" class="py-10 md:py-20 bg-[#EAEEEB]">
+<section id="podcast-borstvoedingsbabbel" class="py-10 md:py-20 bg-[#EAEEEB]">
             <div class="max-w-5xl mx-auto flex flex-col px-4 md:px-0">
                 
                 <div class="w-full bg-white p-4 md:p-10 md:pb-0">
@@ -95,7 +95,7 @@
                 </div>
 
                 <div class="w-full bg-white p-4 md:p-10 flex flex-col md:flex-row md:items-start justify-between gap-6">
-                    <div class="flex-1">
+                    <div class="flex-1 flex flex-col order-1">
                         <h3 class="text-4xl font-semibold mb-4">Borstvoedingsbabbel</h3>
                         <p class="text-chantal leading-relaxed mb-6">
                             Borstvoedingsbabbel is een toegankelijke en gezellige podcast over borstvoeding en alles wat daarbij komt kijken.
@@ -103,17 +103,26 @@
                             praktische handvatten krijgen en zich gesteund voelen tijdens hun borstvoedingsreis.
                             Perfect voor ouders én zorgverleners die meer willen weten, geïnspireerd willen raken of gewoon graag luisteren naar herkenbare ervaringen.
                         </p>
-                        <a href="https://centeringfeeding.com/podcast" target="_blank" class="inline-block bg-[#295331] text-white px-6 py-3 rounded-full transition hover:opacity-90">
+
+                        <div class="md:hidden w-36 h-36 rounded-full overflow-hidden border-2 border-gray-100 shadow-sm mb-10">
+                            <img src="{{ asset('assets/podcast-borstvoedingsbabbel.jpg') }}" alt="Borstvoedingsbabbel podcast" class="w-full h-full object-cover">
+                        </div>
+                        
+                        <a href="https://centeringfeeding.com/podcast" target="_blank" class="order-3 md:order-none self-start bg-[#295331] text-white px-6 py-3 rounded-full transition hover:opacity-90">
                             Beluister de podcast
                         </a>
                     </div>
 
-                    <div class="shrink-0 mx-auto">
+                    <div class="hidden md:flex shrink-0 mx-auto order-2 md:order-last mb-6 md:mb-0">
                         <div class="w-36 h-36 rounded-full overflow-hidden border-2 border-gray-100 shadow-sm">
                             <img src="{{ asset('assets/podcast-borstvoedingsbabbel.jpg') }}" alt="Borstvoedingsbabbel podcast" class="w-full h-full object-cover">
                         </div>
                     </div>
                 </div>
+
+
+                
+   
 
                 <div class="w-full bg-white p-4 md:p-10 border-t border-gray-100">
                     <h3 class="text-4xl font-semibold mb-4">Machtige Melk</h3>
