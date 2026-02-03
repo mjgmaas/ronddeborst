@@ -6,7 +6,6 @@
     {{-- Navigation --}}
     {{-- Navigation included via layout --}}
 
-    <!-- HOOFDINHOUD -->
     <main>
         <section id="hero"
             class="w-full h-[50vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
@@ -98,19 +97,21 @@
                         Ook als je gewoon even wilt checken of je goed bezig bent.<br>
                         Geen vraag is te klein.
                     </p>
+
                     <a href="{{ url('/consulten') }}"
-                        class="inline-block w-45 text-white px-6 py-3 my-2 rounded-full transition mr-2"
-                        style="background-color: #B97D67;">
+                        class="inline-block text-white px-6 py-3 my-2 rounded-full transition mr-2 bg-[#B97D67]"    >
                         Meer weten
                     </a>
                     <a href="#contact"
-                        class="inline-block w-45 text-white px-6 py-3 my-2 rounded-full transition contact-form-action"
-                        data-contact-body="Hoi Chantal,&#10;&#10;Ik wil graag een afspraak plannen."
-                        style="background-color: #295331;">
+                        class="inline-block text-white px-6 py-3 my-2 rounded-full transition contact-form-action bg-[#295331]"
+                        data-contact-body="Hoi Chantal,&#10;&#10;Ik wil graag een afspraak plannen.">
                         Afspraak maken
                     </a>
+
+
+
                 </div>
-                <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto"
+                <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto">
                     <div class="aspect-square w-full overflow-hidden">
                         <img src="{{ asset('assets/chantal-consult.jpg') }}" class="w-full h-full object-cover object-center" alt="">
                     </div>

@@ -22,7 +22,7 @@
                             Ik werk volgens de algemene voorwaarden van de NVL (Nederlandse Vereniging van Lactatiekundigen). Deze voorwaarden gelden voor elke behandelingsovereenkomst tussen mij en mijn cliënten.
                         </p>
                         <p>
-                            <a href="https://www.nvlborstvoeding.nl/" target="_blank" rel="noopener" class="underline text-[#295331]">Meer informatie over de NVL</a>
+                            <a href="https://www.nvlborstvoeding.nl/" target="_blank" rel="noopener" class="external underline text-[#295331]">Meer informatie over de NVL</a>
                         </p>
                 </div>
             </div>
