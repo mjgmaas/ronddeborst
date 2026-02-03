@@ -6,7 +6,6 @@
     {{-- Navigation --}}
     {{-- Navigation included via layout --}}
 
-    <!-- HOOFDINHOUD -->
     <main>
         <section id="hero"
             class="w-full h-[50vh] bg-cover bg-center bg-no-repeat relative flex items-end justify-center text-white"
@@ -108,8 +107,8 @@
                         data-contact-body="Hoi Chantal,&#10;&#10;Ik wil graag een afspraak plannen.">
                         Afspraak maken
                     </a>
-               
-             
+
+
 
                 </div>
                 <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto">

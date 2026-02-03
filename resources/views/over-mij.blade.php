@@ -38,8 +38,6 @@
                     style="background-image: url('{{ asset('assets/petruskerk.jpg') }}');">
                 </div>
                 <div class="w-full bg-white">
-
-                {{-- <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Chantal Mulkens</h2> --}}
                     <p class="text-chantal leading-relaxed p-4 md:p-10">Ik ben getrouwd met Maurice en woon in Sittard. We zijn de trotse ouders van inmiddels 3 puberende dochters: Jikke, Gitte en Isis. Na 24 jaar een eigen verloskundigen praktijk in Sittard te hebben gerund met mijn collega’s heb ik de opleiding tot lactatiekundige gedaan. Naast mijn werk als lactatiekundige begeleid ik ook Centering Pregnancy groepen in de verloskundige praktijk. Ik ben erg blij met deze leuke uitdagingen. In mijn vrije tijd ontspan ik graag met wandelen, een bezoekje aan de sauna of met een goed boek. "Deze liefde” voor lezen inspireerde mij om een selectie aan waardevolle boekentips te verzamelen voor aanstaande en jonge ouders, en natuurlijk over borstvoeding."</p>
                 </div>
             </div>
@@ -87,9 +85,9 @@
             </div>
         </section>
 
-<section id="podcast-borstvoedingsbabbel" class="py-10 md:py-20 bg-[#EAEEEB]">
+        <section id="podcast-borstvoedingsbabbel" class="py-10 md:py-20 bg-[#EAEEEB]">
             <div class="max-w-5xl mx-auto flex flex-col px-4 md:px-0">
-                
+
                 <div class="w-full bg-white p-4 md:p-10 md:pb-0">
                     <h2 class="text-4xl font-semibold mb-0 text-[#B97D67]">Podcast</h2>
                 </div>
@@ -107,7 +105,7 @@
                         <div class="md:hidden w-36 h-36 rounded-full overflow-hidden border-2 border-gray-100 shadow-sm mb-10">
                             <img src="{{ asset('assets/podcast-borstvoedingsbabbel.jpg') }}" alt="Borstvoedingsbabbel podcast" class="w-full h-full object-cover">
                         </div>
-                        
+
                         <a href="https://centeringfeeding.com/podcast" target="_blank" class="order-3 md:order-none self-start bg-[#295331] text-white px-6 py-3 rounded-full transition hover:opacity-90">
                             Beluister de podcast
                         </a>
@@ -121,8 +119,8 @@
                 </div>
 
 
-                
-   
+
+
 
                 <div class="w-full bg-white p-4 md:p-10 border-t border-gray-100">
                     <h3 class="text-4xl font-semibold mb-4">Machtige Melk</h3>
