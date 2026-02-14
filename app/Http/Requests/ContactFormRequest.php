@@ -25,6 +25,7 @@ class ContactFormRequest extends FormRequest
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email:rfc', 'max:255'],
             'phone' => ['nullable', 'string', 'max:50'],
+            'city' => ['required', 'string', 'max:255'],
             'remarks' => ['required', 'string', 'max:5000'],
         ];
     }

@@ -55,6 +55,7 @@ body{
 .max-1440{ max-width: 1440px; }
 .max-1920{ max-width: 1920px; }
 .max-500{ max-width: 500px; margin: 0 auto; }
+.max-650{ max-width: 650px; margin: 0 auto; }
 .max-1420{ max-width: 1200px; }
 .max-1000{ max-width: 1000px; }
 .margin-0{ margin: 0 auto; }
@@ -525,7 +526,7 @@ button.primary{
   .hero-cf{ background-position: center !important; }
 }
 @media (max-width: 767px){
-  .hero-cf{ background-position: center !important; 
+  .hero-cf{ background-position: center !important;
   background-size: cover;}
 
 .is-open .thumbnail{
