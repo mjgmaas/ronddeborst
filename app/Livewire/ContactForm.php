@@ -9,6 +9,7 @@ class ContactForm extends Component
     public $name = '';
     public $email = '';
     public $phone = '';
+    public $city = '';
     public $remarks = '';
     public $due_date = null;
     public $status = null;
@@ -17,6 +18,7 @@ class ContactForm extends Component
         'name' => 'required|string|max:255',
         'email' => 'required|email|max:255',
         'phone' => 'nullable|string|max:30',
+        'city' => 'required|string|max:255',
         'remarks' => 'required|string|max:2000',
         'due_date' => 'nullable|date',
     ];
@@ -26,7 +28,7 @@ class ContactForm extends Component
         $validated = $this->validate();
         app(\App\Services\ContactSubmissionService::class)->handle($validated);
         $this->status = 'Bedankt! Jouw bericht is verstuurd.';
-        $this->reset(['name', 'email', 'phone', 'remarks', 'due_date']);
+        $this->reset(['name', 'email', 'phone', 'city', 'remarks', 'due_date']);
         $this->dispatch('contact-form-submitted');
     }
 

@@ -34,9 +34,9 @@
             <hr class="divider" />
 
             <p class="muted">Kopie van je bericht:</p>
-
+            <p>Plaats: {{ $submission->city }}</p>
             <p>
-                Uitgerekende datum:&nbsp;
+                Uitgerekende/Geboorte-datum:&nbsp;
                 @if ($submission->due_date)
                     {{ $submission->due_date->format('d-m-Y') }}
                 @else

@@ -32,9 +32,12 @@
                     <input id="phone" name="phone" type="text" wire:model.defer="phone" placeholder="Telefoonnummer" class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-300" />
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <input id="city" name="city" type="text" wire:model.defer="city" required placeholder="Plaats" class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-300" />
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <input id="email" name="email" type="email" wire:model.defer="email" required placeholder="E-mailadres" class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-300" />
                     <div class="flex flex-col">
-                        <label for="due_date" class="text-sm text-gray-600 mb-1">Uitgerekende datum</label>
+                        <label for="due_date" class="text-sm text-gray-600 mb-1">Uitgerekende/Geboorte-datum</label>
                         <input id="due_date" name="due_date" type="date" wire:model.defer="due_date" class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-300" />
                     </div>
                 </div>
@@ -52,6 +55,9 @@
                     <p class="mt-1 text-sm text-red-600 text-center">{{ $message }}</p>
                 @enderror
                 @error('remarks')
+                    <p class="mt-1 text-sm text-red-600 text-center">{{ $message }}</p>
+                @enderror
+                @error('city')
                     <p class="mt-1 text-sm text-red-600 text-center">{{ $message }}</p>
                 @enderror
                 @error('due_date')
