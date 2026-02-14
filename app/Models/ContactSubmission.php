@@ -13,6 +13,7 @@ class ContactSubmission extends Model
         'name',
         'email',
         'phone',
+        'city',
         'due_date',
         'remarks',
         'ip_address',

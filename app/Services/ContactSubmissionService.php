@@ -15,6 +15,7 @@ class ContactSubmissionService
             'name' => $validated['name'],
             'email' => $validated['email'],
             'phone' => $validated['phone'] ?? null,
+            'city' => $validated['city'],
             'due_date' => $validated['due_date'] ?? null,
             'remarks' => $validated['remarks'],
             'ip_address' => (string) ($_SERVER['REMOTE_ADDR'] ?? ''),
