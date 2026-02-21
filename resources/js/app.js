@@ -155,47 +155,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	});
 });
 
-
-
-/*
-
-        document.addEventListener('DOMContentLoaded', function() {
-            // Definieer consulttypes en bijbehorende tekst
-            var consults = {
-                'panel-1': "Hallo Chantal,\n\nIk wil graag een consult afspraak maken voor 'Centering Feeding (zwangerschapscursus)'.",
-                'panel-2': "Hallo Chantal,\n\nIk wil graag een consult afspraak maken voor een 'Observatie voedingsmoment'.",
-                'panel-3': "Hallo Chantal,\n\nIk wil graag een consult afspraak maken voor een 'Zwangerschapsconsult'."
-            };
-
-            // Selecteer alle Afspraak maken knoppen binnen panels
-            ['panel-1','panel-2','panel-3'].forEach(function(panelId) {
-                var btn = document.querySelector('#'+panelId+' a[href="#contact"]');
-                if (btn) {
-                    btn.addEventListener('click', function() {
-                        // Start een interval om te wachten tot het veld zichtbaar is
-                        var tries = 0;
-                        var maxTries = 20;
-                        var interval = setInterval(function() {
-                            var omschrijving = document.querySelector('#contact textarea[name="remarks"]');
-                            if (omschrijving) {
-                                omschrijving.value = consults[panelId];
-                                // Focus op het name veld
-                                var nameField = document.querySelector('#contact input[name="name"]');
-                                if (nameField) {
-                                    nameField.focus();
-                                }
-                                clearInterval(interval);
-                            }
-                            tries++;
-                            if (tries > maxTries) clearInterval(interval);
-                        }, 150);
-                    });
-                }
-            });
-        });
-
-*/ 
-
 document.addEventListener('DOMContentLoaded', function() {
     // Selecteer alle "Meer hierover" knoppen
     const toggleButtons = document.querySelectorAll('[data-toggle-panel]');
@@ -222,4 +181,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-     

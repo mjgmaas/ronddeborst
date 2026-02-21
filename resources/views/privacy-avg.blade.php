@@ -16,7 +16,7 @@
         </section>
 
         <section class="py-10 md:py-20" style="background-color: #FAFAFA;" id="over-mij">
-            <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch px-2 md:px-0">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-stretch p-4 md:px-10">
                 <div class="w-full bg-white p-4 md:p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Privacy & AVG</h2>
                     <p class="text-chantal leading-relaxed mb-6">
@@ -38,7 +38,7 @@
                 <div class="w-full bg-white p-4 md:p-10">
 
                 <h2 class="text-4xl font-semibold mb-4" style="color: #B97D67">Beroepsgeheim</h2>
-                    <p class="text-chantal leading-relaxed">
+                    <p class="text-chantal leading-relaxed mb-6">
                         Alle informatie die je met mij deelt valt onder het medisch beroepsgeheim. Ik
                         verstrek nooit gegevens aan derden zonder jouw toestemming — ook niet aan familie.
                         Lactatiekundigen IBCLC zijn volgens de Code of Personal Conduct verplicht dit beroepsgeheim
