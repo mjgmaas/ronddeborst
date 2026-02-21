@@ -106,7 +106,7 @@
                             <img src="{{ asset('assets/podcast-borstvoedingsbabbel.jpg') }}" alt="Borstvoedingsbabbel podcast" class="w-full h-full object-cover">
                         </div>
 
-                        <a href="https://centeringfeeding.com/podcast" target="_blank" class="order-3 md:order-none self-start bg-[#295331] text-white px-6 py-3 rounded-full transition hover:opacity-90">
+                        <a href="https://babyfeeding.nl/podcast" target="_blank" class="order-3 md:order-none self-start bg-[#295331] text-white px-6 py-3 rounded-full transition hover:opacity-90">
                             Beluister de podcast
                         </a>
                     </div>
@@ -129,7 +129,7 @@
                         over borstvoeding, moeder-kindzorg en de wetenschap erachter. In elke aflevering nemen deskundigen je mee in
                         herkenbare verhalen, actuele inzichten en praktische handvatten die je meteen kunt toepassen.
                     </p>
-                    <a href="https://centeringfeeding.com/podcast" target="_blank" class="inline-block bg-[#295331] text-white px-6 py-3 rounded-full transition hover:opacity-90">
+                    <a href="https://babyfeeding.nl/podcast" target="_blank" class="inline-block bg-[#295331] text-white px-6 py-3 rounded-full transition hover:opacity-90">
                         Beluister de podcast
                     </a>
                 </div>

@@ -18,6 +18,7 @@ it('submits the Livewire contact form, stores it and sends both emails when reci
         ->set('name', 'Jane Doe')
         ->set('email', 'jane@example.com')
         ->set('phone', '1234567890')
+        ->set('city', 'Utrecht')
         ->set('remarks', 'Hello, I would like to know more about your services.')
         ->set('due_date', '2025-06-01')
         ->call('submit')
@@ -46,6 +47,7 @@ it('submits Livewire form and only sends confirmation when recipient is not conf
     Livewire::test(ContactForm::class)
         ->set('name', 'John Smith')
         ->set('email', 'john@example.com')
+        ->set('city', 'Amsterdam')
         ->set('remarks', 'No recipient configured test.')
         ->call('submit')
         ->assertSet('status', 'Bedankt! Jouw bericht is verstuurd.');

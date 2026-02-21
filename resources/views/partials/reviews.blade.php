@@ -14,7 +14,7 @@
                 Yvette Beurskens
               </h3>
               <p class="text-sm leading-relaxed text-gray-700">
-                We zijn heel blij en dankbaar voor de Centering Feeding die we bij
+                We zijn heel blij en dankbaar voor de workshop NOLIA BabyFeeding die we bij
                 Chantal mochten volgen om er wat zelfverzekerder in te kunnen
                 staan. De borstvoeding loopt als een tiet.
               </p>
