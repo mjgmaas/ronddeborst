@@ -20,7 +20,7 @@ class ContactSubmissionConfirmation extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Je bericht is ontvangen',
+            subject: 'Rond de Borst: Je bericht is ontvangen',
         );
     }
 

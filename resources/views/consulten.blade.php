@@ -33,7 +33,7 @@
             </div>
         </section>
 
-        <section class="py-20" style="background-color: #EAEEEB;" id="centering-feeding">
+        <section class="py-20" style="background-color: #EAEEEB;" id="babyfeeding">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-4 md:px-0">
                 <div class="w-full md:w-[600px] bg-white p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Praktisch</h2>

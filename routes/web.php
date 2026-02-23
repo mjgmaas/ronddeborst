@@ -7,7 +7,10 @@ Route::get('/', function () {
 })->name('home');
 
 
-Route::view('/centering-feeding', 'centering-feeding')->name('centering-feeding');
+Route::view('/nolia-babyfeeding', 'babyfeeding')->name('nolia-babyfeeding');
+Route::permanentRedirect('/centering-feeding', '/nolia-babyfeeding');
+Route::permanentRedirect('/centring-feeding', '/nolia-babyfeeding');
+Route::permanentRedirect('/babyfeeding', '/nolia-babyfeeding');
 Route::view('/consulten-aanbod', 'consulten-aanbod')->name('consulten-aanbod');
 Route::view('/consulten', 'consulten')->name('consulten');
 Route::view('/over-mij', 'over-mij')->name('over-mij');

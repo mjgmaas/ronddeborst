@@ -17,11 +17,11 @@
 
         <section class="py-10" style="background-color: #EAEEEB;">
             <div class="max-w-5xl mx-auto px-2 md:px-0">
-                <!-- Centering feeding 1 -->
+                <!-- NOLIA BabyFeeding 1 -->
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
                     <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 px-6 md:px-10 py-6 border-b border-b-gray-300">
                         <div class="max-w-2xl">
-                            <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">Centering Feeding (zwangerschapscursus)</h2>
+                            <h2 class="text-3xl md:text-4xl font-semibold mb-2" style="color:#295331;">NOLIA BabyFeeding (zwangerschapscursus)</h2>
                             <p class="text-chantal leading-relaxed mb-2">
                                 Door al tijdens de zwangerschap een goede basiskennis te krijgen over het voeden, houd je na de geboorte meer tijd en energie over om te genieten van je baby. Een goede voorbereiding voorkomt zorgen, stress en problemen.
                             </p>
@@ -29,7 +29,7 @@
                         </div>
                         <div class="shrink-0 md:w-1/4 thumbnail">
                             <div class="aspect-square w-full rounded-full overflow-hidden">
-                                <img src="{{ asset('assets/boekje-cf.png') }}" alt="Centering Feeding" class="w-full h-full object-cover object-center">
+                                <img src="{{ asset('assets/bf-boekje.png') }}" alt="NOLIA BabyFeeding" class="w-full h-full object-cover object-center">
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                             <li>Samen met je partner en 4 andere koppels die in dezelfde fase zitten</li>
                             <li>Met cursusboek en toegang tot e-learning modules</li>
                         </ul>
-                        <a href="{{ url('/centering-feeding#centering-feeding-inschrijven') }}" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Inschrijven</a>
+                        <a href="{{ url('/nolia-babyfeeding#babyfeeding-inschrijven') }}" class="inline-block text-white px-6 py-3 rounded-full transition" style="background-color: #B97D67;">Inschrijven</a>
                     </div>
                 </div>
                 <!-- Oberservatie voedingsmoment -->
@@ -61,7 +61,7 @@
                         </div>
                         <div class="shrink-0 md:w-1/4 thumbnail">
                             <div class="aspect-square w-full rounded-full overflow-hidden">
-                                <img src="{{ asset('assets/koppel-met-baby.png') }}" alt="Centering Feeding" class="w-full h-full object-cover object-center">
+                                <img src="{{ asset('assets/koppel-met-baby.png') }}" alt="NOLIA BabyFeeding" class="w-full h-full object-cover object-center">
                             </div>
                         </div>
                     </div>
@@ -334,12 +334,12 @@
         @include('components.contact-form-section')
         @include('components.footer')
 
-        
 
-        
-       
 
-        
+
+
+
+
 
 
 

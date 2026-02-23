@@ -9,7 +9,7 @@
         <!-- HERO -->
         <section id="hero"
             class="hero-bf w-full h-[40vh] bg-cover bg-no-repeat relative flex items-end justify-center text-white md:mt-0"
-            style="background-image: url('{{ asset('assets/cf-banner-full-v2.jpg') }}');">
+            style="background-image: url('{{ asset('assets/bf-banner-full-v2.jpg') }}');">
             <div class="relative z-10 text-center px-2 pb-10 md:px-6 md:pb-24">
                 <h1 class="text-4xl md:text-6xl font-semibold mb-4 drop-shadow-lg">NOLIA BabyFeeding</h1>
             </div>
@@ -28,7 +28,7 @@
                     </ul>
                 </div>
                 <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto"
-                    style="background-image: url('{{ asset('assets/centering-feeding-boekje.png') }}');">
+                    style="background-image: url('{{ asset('assets/bf-boekje.png') }}');">
                 </div>
             </div>
         </section>
@@ -39,14 +39,21 @@
                 <div class="w-full md:w-[600px] bg-white p-4 md:p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Workshop</h2>
                     <p class="text-chantal leading-relaxed mb-4">
-                            De workshops NOLIA BabyFeeding zijn er om jullie hierbij te helpen. In 3 fysieke workshops, van ongeveer 2 uur, krijgen jullie kennis en vaardigheden die helpend zijn voor een succesvolle (borst)voedingsperiode. De eerste twee workshops zijn tijdens de zwangerschap en de derde en laatste workshop is na de bevalling samen met jullie kindje.
-                        </p>
-                        <p class="text-chantal leading-relaxed mb-4">
-                            Verwacht geen saaie presentaties, want de workshops zijn interactief. Op deze manier kunnen jullie de nieuwe informatie beter onthouden en is het ook nog eens gezellig!
-                        </p>
+                        De workshop NOLIA BabyFeeding is er om jullie te helpen.
+                        In 3 fysieke sessies, van ongeveer 2 uur, krijgen jullie kennis
+                        en vaardigheden aangeleerd die helpend zijn voor een succesvolle
+                        (borst)voedingsperiode. De eerste twee bijeenkomsten zijn tijdens de
+                        zwangerschap en de derde en laatste sessie is na de bevalling
+                        samen met jullie kindje.
+                    </p>
+                    <p class="text-chantal leading-relaxed mb-4">
+                        Verwacht geen saaie presentaties, want de workshops zijn interactief.
+                        Op deze manier kunnen jullie de nieuwe informatie beter onthouden en
+                        is het ook nog eens gezellig!
+                    </p>
                 </div>
                 <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto"
-                    style="background-image: url('{{ asset('assets/cf-bordjes.jpg') }}');">
+                    style="background-image: url('{{ asset('assets/bf-bordjes.jpg') }}');">
                 </div>
             </div>
         </section>
@@ -55,7 +62,7 @@
         <section class="py-10 md:py-20" style="background-color: #FAFAFA;" id="babyfeeding-ontdek">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse md:items-stretch px-2 md:px-0">
                 <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto"
-                    style="background-image: url('{{ asset('assets/cf-ontdek.jpg') }}');">
+                    style="background-image: url('{{ asset('assets/bf-ontdek.jpg') }}');">
                 </div>
                 <div class="w-full md:w-[600px] bg-white p-4 md:p-10">
                     <h2 class="text-4xl font-semibold mb-4" style="color: #295331">Ontdek</h2>
@@ -91,7 +98,7 @@
                     </p>
                 </div>
                 <div class="w-full md:w-[400px] aspect-square md:aspect-auto bg-cover bg-center md:h-auto"
-                    style="background-image: url('{{ asset('assets/cf-je-weet.jpg') }}');">
+                    style="background-image: url('{{ asset('assets/bf-je-weet.jpg') }}');">
                 </div>
             </div>
         </section>
