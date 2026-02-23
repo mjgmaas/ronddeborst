@@ -490,13 +490,13 @@ button.primary{
 /* =========================
    LIST STYLES
 ========================= */
-/* Centering Feeding custom list style */
-.cf-list{
+/* NOLIA BabyFeeding custom list style */
+.bf-list{
   padding-left: 2em;
   padding-top: 0;
   margin-bottom: 1em;
 }
-.cf-list li{ border-bottom: none; }
+.bf-list li{ border-bottom: none; }
 
 /* Default list */
 .default-list{
@@ -520,13 +520,13 @@ button.primary{
 }
 
 /* =========================
-   HERO CF BG POSITION
+   HERO BF BG POSITION
 ========================= */
 @media (min-width: 768px){
-  .hero-cf{ background-position: center !important; }
+  .hero-bf{ background-position: center !important; }
 }
 @media (max-width: 767px){
-  .hero-cf{ background-position: center !important;
+  .hero-bf{ background-position: center !important;
   background-size: cover;}
 
 .is-open .thumbnail{
