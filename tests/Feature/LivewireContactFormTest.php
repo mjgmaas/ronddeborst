@@ -30,7 +30,9 @@ it('submits the Livewire contact form, stores it and sends both emails when reci
 
     Mail::assertSent(ContactSubmissionReceived::class, function (ContactSubmissionReceived $mail) {
         return $mail->submission->email === 'jane@example.com'
-            && optional($mail->submission->due_date)->isSameDay('2025-06-01');
+            && optional($mail->submission->due_date)->isSameDay('2025-06-01')
+            && $mail->hasTo('owner@example.com')
+            && $mail->hasReplyTo('jane@example.com', 'Jane Doe');
     });
 
     Mail::assertSent(ContactSubmissionConfirmation::class, function (ContactSubmissionConfirmation $mail) {
