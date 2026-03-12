@@ -3,11 +3,16 @@
     <div class="max-w-[1000px] mx-auto px-4">
         <div class="bg-white rounded-2xl shadow-sm px-6 md:px-12 py-12 md:py-16">
             @if ($status ?? false)
-                <div id="contact-status-message" class="mb-4 rounded-lg bg-green-50 text-green-800 px-4 py-3 text-center">
+                <div
+                    id="contact-status-message"
+                    role="status"
+                    aria-live="polite"
+                    class="mb-4 rounded-lg px-4 py-3 text-center {{ $statusType === 'error' ? 'bg-red-50 text-red-800' : 'bg-green-50 text-green-800' }}"
+                >
                     {{ $status }}
                 </div>
             @elseif (session('status'))
-                <div id="contact-status-message" class="mb-4 rounded-lg bg-green-50 text-green-800 px-4 py-3 text-center">
+                <div id="contact-status-message" role="status" aria-live="polite" class="mb-4 rounded-lg bg-green-50 text-green-800 px-4 py-3 text-center">
                     {{ session('status') }}
                 </div>
             @endif
@@ -42,8 +47,24 @@
                     </div>
                 </div>
                 <textarea id="remarks" name="remarks" rows="6" wire:model.defer="remarks" required placeholder="Omschrijving" class="w-full border border-gray-300 rounded-md px-4 py-3 h-32 focus:outline-none focus:ring-2 focus:ring-green-300"></textarea>
-                <div class="flex justify-center">
-                    <button type="submit" class="bg-green-700 text-white px-8 py-3 rounded-full text-lg hover:bg-green-800 transition">Versturen</button>
+                <div class="flex flex-col items-center gap-3">
+                    <button
+                        type="submit"
+                        wire:loading.attr="disabled"
+                        wire:target="submit"
+                        class="rounded-full bg-green-700 px-8 py-3 text-lg text-white transition hover:bg-green-800"
+                    >
+                        Versturen
+                    </button>
+
+                    <div wire:loading.flex wire:target="submit" class="items-center gap-2 text-sm text-gray-600">
+                        <span class="sr-only">Bezig met versturen</span>
+                        <svg class="h-5 w-5 animate-spin text-green-700" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                            <path class="opacity-90" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
+                        </svg>
+                        Even geduld, je bericht wordt verzonden.
+                    </div>
                 </div>
                 @error('name')
                     <p class="mt-1 text-sm text-red-600 text-center">{{ $message }}</p>

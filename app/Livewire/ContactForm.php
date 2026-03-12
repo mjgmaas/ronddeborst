@@ -2,6 +2,8 @@
 
 namespace App\Livewire;
 
+use Illuminate\Validation\ValidationException;
+use Throwable;
 use Livewire\Component;
 
 class ContactForm extends Component
@@ -13,6 +15,7 @@ class ContactForm extends Component
     public $remarks = '';
     public $due_date = null;
     public $status = null;
+    public $statusType = null;
 
     protected $rules = [
         'name' => 'required|string|max:255',
@@ -25,11 +28,30 @@ class ContactForm extends Component
 
     public function submit()
     {
+        $this->reset('status', 'statusType');
+
         $validated = $this->validate();
+
         app(\App\Services\ContactSubmissionService::class)->handle($validated);
+
+        $this->statusType = 'success';
         $this->status = 'Bedankt! Jouw bericht is verstuurd.';
         $this->reset(['name', 'email', 'phone', 'city', 'remarks', 'due_date']);
         $this->dispatch('contact-form-submitted');
+    }
+
+    public function exception(Throwable $exception, callable $stopPropagation): void
+    {
+        if ($exception instanceof ValidationException) {
+            return;
+        }
+
+        report($exception);
+
+        $this->statusType = 'error';
+        $this->status = 'Er ging iets mis bij het versturen van je bericht. Probeer het later opnieuw.';
+
+        $stopPropagation();
     }
 
     public function render()

@@ -6,6 +6,8 @@ use App\Livewire\ContactForm;
 use App\Mail\ContactSubmissionReceived;
 use App\Mail\ContactSubmissionConfirmation;
 use App\Models\ContactSubmission;
+use App\Services\ContactSubmissionService;
+use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Livewire;
@@ -82,4 +84,41 @@ it('validates input for Livewire contact form', function () {
         ->set('due_date', 'not-a-date')
         ->call('submit')
         ->assertHasErrors(['due_date' => 'date']);
+});
+
+it('shows loading feedback in the Livewire contact form markup', function () {
+    Livewire::test(ContactForm::class)
+        ->assertSeeHtml('wire:loading.attr="disabled"')
+        ->assertSeeHtml('wire:loading.flex')
+        ->assertSeeHtml('animate-spin')
+        ->assertSee('Versturen')
+        ->assertSee('Even geduld, je bericht wordt verzonden.');
+});
+
+it('shows an error status when the Livewire contact form submission fails', function () {
+    $originalService = app(ContactSubmissionService::class);
+
+    app()->instance(ContactSubmissionService::class, new class extends ContactSubmissionService
+    {
+        public function handle(array $validated): ContactSubmission
+        {
+            throw new \RuntimeException('Mail transport failure');
+        }
+    });
+
+    try {
+        $email = Str::uuid().'@example.com';
+
+        Livewire::test(ContactForm::class)
+            ->set('name', 'Jane Doe')
+            ->set('email', $email)
+            ->set('city', 'Utrecht')
+            ->set('remarks', 'Please get back to me.')
+            ->call('submit')
+            ->assertSet('statusType', 'error')
+            ->assertSet('status', 'Er ging iets mis bij het versturen van je bericht. Probeer het later opnieuw.')
+            ->assertSet('email', $email);
+    } finally {
+        app()->instance(ContactSubmissionService::class, $originalService);
+    }
 });
