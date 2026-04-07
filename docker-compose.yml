@@ -4,6 +4,7 @@ services:
             context: ./vendor/laravel/sail/runtimes/8.4
             dockerfile: Dockerfile
             args:
+                NODE_VERSION: '${NODE_VERSION-20}'
                 WWWGROUP: '${WWWGROUP-1000}'
         image: sail-8.4/app
         extra_hosts:
