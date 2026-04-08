@@ -14,6 +14,7 @@ abstract class TestCase extends BaseTestCase
         /** @var Repository $config */
         $config = $this->app->make('config');
 
+        $config->set('cache.default', 'array');
         $config->set('session.driver', 'array');
         $config->set('session.connection', null);
         $config->set('session.store', null);
