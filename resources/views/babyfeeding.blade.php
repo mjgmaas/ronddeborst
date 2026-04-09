@@ -155,7 +155,7 @@
                             <tr>
                                 <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Groep 8</td>
                                 <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Augustus</td>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">1 mei, 2 juni, 22 sept</td>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">19 mei, 2 juni, 22 sept</td>
                                 <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
                                 <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Ittervoort</td>
                             </tr>
