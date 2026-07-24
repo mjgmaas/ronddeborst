@@ -146,27 +146,6 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Groep 7</td>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Juli</td>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">20 april, 7 mei, 20 aug</td>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Ittervoort</td>
-                            </tr>
-                            <tr>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Groep 8</td>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Augustus</td>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">19 mei, 2 juni, 22 sept</td>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Ittervoort</td>
-                            </tr>
-                            <tr>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Groep 9</td>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">September</td>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">15 juni, 6 juli, 26 okt</td>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
-                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Ittervoort</td>
-                            </tr>
-                            <tr>
                                 <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Groep 10</td>
                                 <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Oktober</td>
                                 <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">14 juli, 18 aug, 24 nov</td>
@@ -184,6 +163,27 @@
                                 <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Groep 12</td>
                                 <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">December</td>
                                 <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">5 okt, 2 nov, 15 feb</td>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Ittervoort</td>
+                            </tr>
+                            <tr>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Groep 13</td>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Januari</td>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">17 nov, 1 dec, 23 maart</td>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Ittervoort</td>
+                            </tr>
+                            <tr>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Groep 14</td>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Februari</td>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">15 dec, 12 jan, 20 april</td>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Ittervoort</td>
+                            </tr>
+                            <tr>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Groep 15</td>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Maart</td>
+                                <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">18 jan, 15 feb, 31 mei</td>
                                 <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">18:30</td>
                                 <td class="align-top border-b border-gray-300 py-2 px-1 sm:px-4">Ittervoort</td>
                             </tr>
