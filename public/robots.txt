@@ -1,2 +1,11 @@
+
+# robots.txt for production
 User-agent: *
-Disallow: /
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /dashboard/
+Allow: /
+
+# Sitemap reference
+Sitemap: https://ronddeborst.nl/sitemap.txt
